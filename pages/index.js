@@ -19,11 +19,11 @@ import { Typewriter } from 'react-simple-typewriter'
 const Page = () => {
     return (
         <Layout>
-        <Container maxW="container.lg" align="center">
+        <Container maxW="container.md" align="center">
             <br />
             <br />
             <Container maxW="container.md" align="center">
-                <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={4} mb={6} align="center">
+                <Box borderRadius="md" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={4} mb={6} align="center">
                         <Text fontSize="xl">
                             <Typewriter
                                 words={[String.fromCodePoint(0x1F44B) + " Hi, I'm a really tired person."]}
