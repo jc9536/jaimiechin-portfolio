@@ -1,16 +1,10 @@
 import {
-    Button,
     Container,
     Text,
     Box,
-    Heading,
-    Image,
-    Link,
-    useColorModeValue} from '@chakra-ui/react'
-import { ChevronRightIcon } from '@chakra-ui/icons'
+    Heading} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 
 const About = () => {

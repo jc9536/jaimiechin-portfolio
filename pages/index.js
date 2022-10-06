@@ -12,7 +12,6 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
-import { BioSection, BioYear } from '../components/bio'
 import NoSsr from '../components/no-ssr.js'
 import JaimieCharacter from '../components/jaimie-character'
 import React from 'react'
@@ -87,29 +86,6 @@ const Page = () => {
                 </Container>
 
             </Section>
-            
-            <div>
-                {/*
-                    <Section delay={0.2}>
-                        <Heading as="h3" variant="section-title">
-                            Bio
-                        </Heading>
-                        <br />
-                        <BioSection>
-                            <BioYear>2001</BioYear>
-                            Born in New York City, New York.
-                        </BioSection>
-                        <BioSection>
-                            <BioYear>2019</BioYear>
-                            Graduated from Townsend Harris High School.
-                        </BioSection>
-                        <BioSection>
-                            <BioYear>2023</BioYear>
-                            Graduated from New York University with a B.S in Applied Psycholgy & B.A in Data Science.
-                        </BioSection>
-                    </Section>
-                */}
-            </div>
 
         </Container>
         </Layout>
