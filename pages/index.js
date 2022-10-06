@@ -19,12 +19,12 @@ import { Typewriter } from 'react-simple-typewriter'
 const Page = () => {
     return (
         <Layout>
-        <Container maxW="container.lg" align="center">
+        <Container maxW="container.xl" align="center">
             <br />
             <br />
-            <Container maxW="container.md" align="center">
+            <Container maxW="container.lg" align="center">
                 <Box borderRadius="md" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={4} mb={6} align="center">
-                        <Text fontSize="xl">
+                        <Text fontSize="2xl">
                             <Typewriter
                                 words={[String.fromCodePoint(0x1F44B) + " Hi, I'm a really tired person."]}
                                 cursor
@@ -35,32 +35,35 @@ const Page = () => {
                 </Box>
             </Container>
 
-            <Box display={{ lg: 'flex'}} align="center">
-                <Box flexGrow={1} align="center">
-                    <Heading as="h1" variant="page-title" size="3xl" mb={4} align="left">
-                        Jaimie Chin
-                    </Heading>
-                    <Text fontSize="lg" align="left">
-                        Some sort of description about how tired I am on a daily basis.
-                        I need more words in this description to see how the layout looks. 
-                        So I&apos;m going to start documenting the total hours of sleep I have had for an entire week.
-                        Starting from Oct. 2nd 2022 - Oct. 5th 2022: about 12 hours total. 
-                    </Text>
+            <Container maxW="container.xl" centerContent>
+
+                <Box display={{ lg: 'flex'}} align="center">
+                    <Box flexGrow={1} align="center">
+                        <Heading as="h1" variant="page-title" size="4xl" mb={4} align="left">
+                            Jaimie Chin
+                        </Heading>
+                        <Text fontSize="xl" align="left">
+                            Some sort of description about how tired I am on a daily basis.
+                            I need more words in this description to see how the layout looks. 
+                            So I&apos;m going to start documenting the total hours of sleep I have had for an entire week.
+                            Starting from Oct. 2nd 2022 - Oct. 5th 2022: about 12 hours total. 
+                        </Text>
+                    </Box>
+                    <Box align="center"> 
+                        <NoSsr>
+                            <JaimieCharacter />
+                        </NoSsr>
+                    </Box>
                 </Box>
-                <Box align="center"> 
-                    <NoSsr>
-                        <JaimieCharacter />
-                    </NoSsr>
-                </Box>
-            </Box>
+            </Container>
 
             <Section delay={0.1}>
-                <Container maxW="container.md">
+                <Container maxW="container.lg">
                     <Heading as="h3" variant="section-title" align="left">
                         UX Work
                     </Heading>
                     <br />
-                    <Text fontSize="lg" align="left">
+                    <Text fontSize="xl" align="left">
                             Some sort of paragraph that explains who I am as a person 
                         -- I&apos;m honestly way too lazy to type it out at this point so this
                         is just going to be some filler fluff stuff until I can formulate better words
