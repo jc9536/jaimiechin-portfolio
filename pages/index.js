@@ -5,7 +5,6 @@ import {
     Text,
     Box,
     Heading,
-    Image,
     Link,
     useColorModeValue} from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'

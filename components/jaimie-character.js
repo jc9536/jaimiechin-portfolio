@@ -3,7 +3,6 @@ import {Box, Spinner } from '@chakra-ui/react'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { loadGLTFModel } from '../lib/model'
-import { AttachmentIcon } from '@chakra-ui/icons'
 
 function easeOutCirc(x) {
     return Math.sqrt(1 - Math.pow(x - 1, 4))
@@ -13,19 +12,9 @@ const JaimieCharacter = () => {
     const refContainer = useRef()
     const [loading, setLoading] = useState(true)
     const refRenderer = useRef()
-    const [renderer, setRenderer] = useState()
-    const [_camera, setCamera] = useState()
-    const [target] = useState(new THREE.Vector3(0, 0, 0))  
-    const [initialCameraPosition] = useState(
-        new THREE.Vector3(
-            10 * Math.sin(0.2 * Math.PI),
-            5,
-            10 * Math.cos(0.2 * Math.PI)
-        )
-    )
+    const [renderer] = useState()
+    const [_camera] = useState()
 
-    const [scene] = useState(new THREE.Scene())
-    const [_controls, setControls] = useState()
 
     const handleWindowResize = useCallback(() => {
         const { current: renderer } = refRenderer
