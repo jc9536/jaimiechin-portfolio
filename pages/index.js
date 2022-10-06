@@ -37,7 +37,7 @@ const Page = () => {
 
             <Box display={{ lg: 'flex'}} align="center">
                 <Box flexGrow={1} align="center">
-                    <Heading as="h1" variant="page-title" size="3xl" mb={4}>
+                    <Heading as="h1" variant="page-title" size="3xl" mb={4} align="left">
                         Jaimie Chin
                     </Heading>
                     <Text fontSize="lg" align="left">
@@ -56,7 +56,7 @@ const Page = () => {
 
             <Section delay={0.1}>
                 <Container maxW="container.md">
-                    <Heading as="h3" variant="section-title">
+                    <Heading as="h3" variant="section-title" align="left">
                         UX Work
                     </Heading>
                     <br />
