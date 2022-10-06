@@ -24,7 +24,7 @@ const Page = () => {
             <br />
             <Container maxW="container.md">
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={4} mb={6} align="center">
-                        <Text fontSize="2xl">
+                        <Text fontSize="xl">
                             <Typewriter
                                 words={[String.fromCodePoint(0x1F44B) + " Hi, I'm a really tired person."]}
                                 cursor
@@ -35,19 +35,19 @@ const Page = () => {
                 </Box>
             </Container>
 
-            <Box display={{ lg: 'flex'}}>
-                <Box flexGrow={1}>
-                    <Heading as="h1" variant="page-title" size="4xl" mb={4}>
+            <Box display={{ lg: 'flex'}} align="center">
+                <Box flexGrow={1} align="left">
+                    <Heading as="h1" variant="page-title" size="3xl" mb={4}>
                         Jaimie Chin
                     </Heading>
-                    <Text fontSize="xl">
+                    <Text fontSize="lg">
                         Some sort of description about how tired I am on a daily basis.
                         I need more words in this description to see how the layout looks. 
                         So I&apos;m going to start documenting the total hours of sleep I have had for an entire week.
                         Starting from Oct. 2nd 2022 - Oct. 5th 2022: about 12 hours total. 
                     </Text>
                 </Box>
-                <Box> 
+                <Box align="right"> 
                     <NoSsr>
                         <JaimieCharacter />
                     </NoSsr>
@@ -60,7 +60,7 @@ const Page = () => {
                         UX Work
                     </Heading>
                     <br />
-                    <Text fontSize="xl">
+                    <Text fontSize="lg">
                             Some sort of paragraph that explains who I am as a person 
                         -- I&apos;m honestly way too lazy to type it out at this point so this
                         is just going to be some filler fluff stuff until I can formulate better words
