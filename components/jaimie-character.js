@@ -134,17 +134,15 @@ const JaimieCharacter = () => {
             m='auto'
             mt={['20px', '20px', '40px']}
             mb={['20px', '20px', '20px']}
-            w={[450, 450, 450]}
-            h={[450, 450, 450]}
+            w={[400, 400, 400]}
+            h={[400, 400, 400]}
             position="relative"
             >
                 {loading && (
                     <Spinner 
                         size="sm"
                         position="absolute"
-                        left="50%"
                         top="50%"
-                        ml="calc(0px - var(--spinner-size) / 2)"
                         mt="calc(0px - var(--spinner-size))" />
                 )}
         </Box>
