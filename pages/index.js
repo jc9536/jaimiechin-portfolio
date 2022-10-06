@@ -40,7 +40,7 @@ const Page = () => {
                     <Heading as="h1" variant="page-title" size="3xl" mb={4}>
                         Jaimie Chin
                     </Heading>
-                    <Text fontSize="lg">
+                    <Text fontSize="lg" align="left">
                         Some sort of description about how tired I am on a daily basis.
                         I need more words in this description to see how the layout looks. 
                         So I&apos;m going to start documenting the total hours of sleep I have had for an entire week.
@@ -60,7 +60,7 @@ const Page = () => {
                         UX Work
                     </Heading>
                     <br />
-                    <Text fontSize="lg">
+                    <Text fontSize="lg" align="left">
                             Some sort of paragraph that explains who I am as a person 
                         -- I&apos;m honestly way too lazy to type it out at this point so this
                         is just going to be some filler fluff stuff until I can formulate better words
