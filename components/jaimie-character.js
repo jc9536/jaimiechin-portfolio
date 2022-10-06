@@ -135,7 +135,7 @@ const JaimieCharacter = () => {
             mt={['20px', '20px', '40px']}
             mb={['20px', '20px', '20px']}
             w={[500, 500, 500]}
-            h={[450, 450, 450]}
+            h={[500, 500, 500]}
             position="relative"
             >
                 {loading && (
