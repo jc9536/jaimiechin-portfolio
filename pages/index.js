@@ -10,7 +10,6 @@ import {
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import Paragraph from '../components/paragraph'
 import NoSsr from '../components/no-ssr.js'
 import JaimieCharacter from '../components/jaimie-character'
 import React from 'react'
@@ -61,7 +60,7 @@ const Page = () => {
                         UX Work
                     </Heading>
                     <br />
-                    <Paragraph>
+                    <Text fontSize="xl">
                             Some sort of paragraph that explains who I am as a person 
                         -- I&apos;m honestly way too lazy to type it out at this point so this
                         is just going to be some filler fluff stuff until I can formulate better words
@@ -70,7 +69,7 @@ const Page = () => {
                             <Link>Sheepy</Link>
                         </NextLink>
                         .
-                    </Paragraph>
+                    </Text>
 
                     <br />
                 
