@@ -19,10 +19,10 @@ import { Typewriter } from 'react-simple-typewriter'
 const Page = () => {
     return (
         <Layout>
-        <Container maxW="container.lg">
+        <Container maxW="container.lg" align="center">
             <br />
             <br />
-            <Container maxW="container.md">
+            <Container maxW="container.md" align="center">
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={4} mb={6} align="center">
                         <Text fontSize="xl">
                             <Typewriter
@@ -36,7 +36,7 @@ const Page = () => {
             </Container>
 
             <Box display={{ lg: 'flex'}} align="center">
-                <Box flexGrow={1} align="left">
+                <Box flexGrow={1} align="center">
                     <Heading as="h1" variant="page-title" size="3xl" mb={4}>
                         Jaimie Chin
                     </Heading>
@@ -47,7 +47,7 @@ const Page = () => {
                         Starting from Oct. 2nd 2022 - Oct. 5th 2022: about 12 hours total. 
                     </Text>
                 </Box>
-                <Box align="right"> 
+                <Box align="center"> 
                     <NoSsr>
                         <JaimieCharacter />
                     </NoSsr>
