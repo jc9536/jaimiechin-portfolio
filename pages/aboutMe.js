@@ -20,7 +20,7 @@ const About = () => {
                     <Text fontSize="xl">
                         Some sort of description about how tired I am on a daily basis.
                         I need more words in this description to see how the layout looks. 
-                        So I'm going to start documenting the total hours of sleep I have had for an entire week.
+                        So I&apos;m going to start documenting the total hours of sleep I have had for an entire week.
                         Starting from Oct. 2nd 2022 - Oct. 5th 2022: about 12 hours total. 
                     </Text>
                 </Box>

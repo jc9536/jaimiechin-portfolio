@@ -44,7 +44,7 @@ const Page = () => {
                     <Text fontSize="xl">
                         Some sort of description about how tired I am on a daily basis.
                         I need more words in this description to see how the layout looks. 
-                        So I'm going to start documenting the total hours of sleep I have had for an entire week.
+                        So I&apos;m going to start documenting the total hours of sleep I have had for an entire week.
                         Starting from Oct. 2nd 2022 - Oct. 5th 2022: about 12 hours total. 
                     </Text>
                 </Box>
@@ -63,7 +63,7 @@ const Page = () => {
                     <br />
                     <Paragraph>
                             Some sort of paragraph that explains who I am as a person 
-                        -- I'm honestly way too lazy to type it out at this point so this
+                        -- I&apos;m honestly way too lazy to type it out at this point so this
                         is just going to be some filler fluff stuff until I can formulate better words
                         and descriptions. Sample of adding a link {''}
                         <NextLink href="/uxWorks/Sheepy">
