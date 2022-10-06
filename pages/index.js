@@ -19,10 +19,10 @@ import { Typewriter } from 'react-simple-typewriter'
 const Page = () => {
     return (
         <Layout>
-        <Container maxW="container.md" align="center">
+        <Container maxW="container.xl" align="center">
             <br />
             <br />
-            <Container maxW="container.md" align="center">
+            <Container maxW="container.lg" align="center">
                 <Box borderRadius="md" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={4} mb={6} align="center">
                         <Text fontSize="xl">
                             <Typewriter
@@ -55,7 +55,7 @@ const Page = () => {
             </Box>
 
             <Section delay={0.1}>
-                <Container maxW="container.md">
+                <Container maxW="container.lg">
                     <Heading as="h3" variant="section-title" align="left">
                         UX Work
                     </Heading>
