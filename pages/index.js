@@ -38,7 +38,7 @@ const Page = () => {
             <Container maxW="container.xl" centerContent>
 
                 <Box display={{ lg: 'flex'}} align="center">
-                    <Box flexGrow={1} align="center">
+                    <Box flexShrink={1} align="center">
                         <Heading as="h1" variant="page-title" size="4xl" mb={4} align="left">
                             Jaimie Chin
                         </Heading>
@@ -49,7 +49,7 @@ const Page = () => {
                             Starting from Oct. 2nd 2022 - Oct. 5th 2022: about 12 hours total. 
                         </Text>
                     </Box>
-                    <Box align="center"> 
+                    <Box flexShrink={1} align="center"> 
                         <NoSsr>
                             <JaimieCharacter />
                         </NoSsr>
@@ -76,7 +76,7 @@ const Page = () => {
 
                     <br />
                 
-                    <Box align="center" my={4}>
+                    <Box flexShrink={1} align="center" my={4}>
                         <NextLink href="/uxWorks">
                             <Button rightIcon={<ChevronRightIcon />} colorScheme="yellow">
                                 My UX/UI Work
