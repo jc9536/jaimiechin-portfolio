@@ -10,6 +10,8 @@ import {
 const NotFound = () => {
     return (
         <Container> 
+            <br/>
+            <br/>
             <Heading as="h1">Not Found</Heading>
             <br />
             <Box 
