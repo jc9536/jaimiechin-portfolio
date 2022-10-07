@@ -68,11 +68,11 @@ const JaimieCharacter = () => {
             camera.position.copy(initialCameraPosition)
             camera.lookAt(target)
 
-            const ambientLight = new THREE.AmbientLight(0xcccccc, 0.85)
+            const ambientLight = new THREE.AmbientLight(0xcccccc, 0.5)
             scene.add(ambientLight)
 
-            const spotlight = new THREE.SpotLight(15042877, 1, 100, Math.PI*2, 0.25, 0.1)
-            spotlight.position.set(0.5, 5, 5)
+            const spotlight = new THREE.SpotLight(0xcccccc, 0.8, 100, Math.PI*2, 0.1, 0.1)
+            spotlight.position.set(0, 2.5, 4.5)
             spotlight.castShadow = true
             scene.add(spotlight)
 
