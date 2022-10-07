@@ -23,7 +23,7 @@ const Page = () => {
             <br />
             <br />
             <Container maxW="container.lg" justify="center">
-                <Box borderRadius="md" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={4} mb={6} align="center">
+                <Box borderRadius="md" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={4} mb={6} maxW="full" align="center">
                         <Text fontSize="2xl">
                             <Typewriter
                                 words={[String.fromCodePoint(0x1F44B) + " Hi, I'm a really tired person."]}
@@ -37,7 +37,7 @@ const Page = () => {
 
             <Container maxW="container.xl" centerContent>
                 <Box display={{ lg: 'flex'}} centerContent>
-                    <Box flexGrow={1} align="center">
+                    <Box flexGrow={1} maxW="full" align="center">
                         <Heading as="h1" variant="page-title" size="4xl" mb={4} align="left">
                             Jaimie Chin
                         </Heading>
@@ -48,7 +48,7 @@ const Page = () => {
                             Starting from Oct. 2nd 2022 - Oct. 5th 2022: about 12 hours total. 
                         </Text>
                     </Box>
-                    <Box align="center"> 
+                    <Box maxW="full" align="center"> 
                         <NoSsr>
                             <JaimieCharacter />
                         </NoSsr>
@@ -57,7 +57,7 @@ const Page = () => {
             </Container>
 
             <Section delay={0.1}>
-                <Container maxW="container.lg">
+                <Container maxW="container.lg" centerContent>
                     <Heading as="h3" variant="section-title" align="left">
                         UX Work
                     </Heading>
@@ -75,7 +75,7 @@ const Page = () => {
 
                     <br />
                 
-                    <Box align="center" my={4}>
+                    <Box centerContent my={4}>
                         <NextLink href="/uxWorks">
                             <Button rightIcon={<ChevronRightIcon />} colorScheme="yellow">
                                 My UX/UI Work
