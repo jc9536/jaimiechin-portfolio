@@ -17,7 +17,7 @@ const Works = () => {
 
         <br />
 
-        <SimpleGrid columns ={[1, 1, 2]} spacing="128px">
+        <SimpleGrid columns ={[1, 1, 2]} spacing="65px">
             <Section>
                 <WorkGridItem id="WIP_1" title="Work In Progress..." thumbnail={underConstructionThumb}>
                 This project is under construction, please visit some of my other works in the meantime!

@@ -16,7 +16,7 @@ const Works = () => {
 
             <br />
 
-            <SimpleGrid columns ={[1, 1, 2]} spacing="110px">
+            <SimpleGrid columns ={[1, 1, 2]} spacing="65px">
                 <Section>
                     <WorkGridItem id="Sheepy" title="Sheepy" thumbnail={thumbSheepy}>
                         A bedtime routine app for parents who lack information about the best child development practices
