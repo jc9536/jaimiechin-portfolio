@@ -36,7 +36,7 @@ const Page = () => {
             </Container>
 
             <Container maxW="container.xl" centerContent>
-                <Box display={{ lg: 'flex'}} maxW="full" centerContent>
+                <Box display={{ lg: 'flex'}} maxW="full">
                     <Box flexGrow={1} maxW="full" align="center">
                         <Heading as="h1" variant="page-title" size="3xl" mb={4} align="left">
                             Jaimie Chin
