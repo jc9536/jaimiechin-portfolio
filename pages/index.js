@@ -22,8 +22,8 @@ const Page = () => {
         <Container maxW="container.xl" centerContent>
             <br />
             <br />
-            <Box borderRadius="md" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={4} mb={6} w="md">
-                    <Text fontSize="2xl" align="center">
+            <Box borderRadius="md" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={4} mb={6} maxW="md" textAlign="center">
+                    <Text fontSize="2xl">
                         <Typewriter
                             words={[String.fromCodePoint(0x1F44B) + " Hi, I'm a really tired person."]}
                             cursor
@@ -34,7 +34,7 @@ const Page = () => {
             </Box>
 
 
-            <Box display={{ lg: 'flex'}}>
+            <Box display={{ md: 'flex'}}>
                 <Box flexGrow={1}>
                     <Heading as="h1" variant="page-title" size="3xl" mb={4}>
                         Jaimie Chin
@@ -49,7 +49,7 @@ const Page = () => {
                 <Box
                     flexShrink={0}
                     mt={{ base: 4, md: 0 }}
-                    ml={{ md: 6 }}
+                    ml={{ md: 10 }}
                     textAlign="center"
                 >
                     <Box display="inline-block" overflow="hidden"> 
@@ -63,7 +63,7 @@ const Page = () => {
 
             <Section delay={0.1}>
 
-                <Box display={{sm: 'flex'}} maxW="4xl">
+                <Box display={{md: 'flex'}} maxW="4xl">
                     <Box flexGrow={1}>
                         <Heading as="h3" variant="section-title">
                             UX Work
