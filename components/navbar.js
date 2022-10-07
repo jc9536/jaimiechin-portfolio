@@ -40,7 +40,7 @@ const Navbar = props => {
         <Box
         position="fixed"
         as="nav"
-        w="100%"
+        w="full"
         bg={useColorModeValue('#ffffff40', '#20202380')}
         style={{backdropFilter:'blur(10px'}}
         zIndex={1}
