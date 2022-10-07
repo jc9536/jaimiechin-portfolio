@@ -20,7 +20,8 @@ import Paragraph from '../components/paragraph'
 const Page = () => {
     return (
         <Layout>
-        <Container maxW="container.xl" p="5%" centerContent>
+        <Container maxW="container.xl" centerContent>
+            <br />
             <br />
             <Box
                 borderRadius="md"
@@ -40,7 +41,7 @@ const Page = () => {
 
 
             <Box display={{ md: 'flex'}}>
-                <Box flexGrow={1}>
+                <Box flexGrow={1} p="2.5%">
                     <Heading as="h1" variant="page-title" size="3xl" mb={4}>
                         Jaimie Chin
                     </Heading>
@@ -54,10 +55,11 @@ const Page = () => {
                 <Box
                     flexShrink={0}
                     mt={{ base: 4, md: 0 }}
-                    ml={{ md: 10 }}
+                    ml={{ md: 6 }}
                     textAlign="center"
+                    p="2.5%"
                 >
-                    <Box display="inline-block"> 
+                    <Box display="inline-block" overflow="hidden" p="1%"> 
                         <NoSsr>
                             <JaimieCharacter />
                         </NoSsr>
