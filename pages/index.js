@@ -58,21 +58,22 @@ const Page = () => {
 
             <Section delay={0.1}>
                 <Container maxW="container.lg" centerContent>
-                    <Heading as="h3" variant="section-title" align="left">
-                        UX Work
-                    </Heading>
-                    <br />
-                    <Text fontSize="xl" align="left">
-                            Some sort of paragraph that explains who I am as a person 
-                        -- I&apos;m honestly way too lazy to type it out at this point so this
-                        is just going to be some filler fluff stuff until I can formulate better words
-                        and descriptions. Sample of adding a link {''}
-                        <NextLink href="/uxWorks/Sheepy">
-                            <Link>Sheepy</Link>
-                        </NextLink>
-                        .
-                    </Text>
-
+                    <Box flexGrow={1} maxW="full" align="left">
+                        <Heading as="h3" variant="section-title" align="left">
+                            UX Work
+                        </Heading>
+                        <br />
+                        <Text fontSize="xl" align="left">
+                                Some sort of paragraph that explains who I am as a person 
+                            -- I&apos;m honestly way too lazy to type it out at this point so this
+                            is just going to be some filler fluff stuff until I can formulate better words
+                            and descriptions. Sample of adding a link {''}
+                            <NextLink href="/uxWorks/Sheepy">
+                                <Link>Sheepy</Link>
+                            </NextLink>
+                            .
+                        </Text>
+                    </Box>
                     <br />
                 
                     <Box centerContent my={4}>
