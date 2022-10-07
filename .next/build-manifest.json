@@ -30,11 +30,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/uxWorks": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/uxWorks.js"
-    ],
     "/uxWorks/Sheepy": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

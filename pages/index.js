@@ -41,7 +41,7 @@ const Page = () => {
 
 
             <Box display={{ md: 'flex'}}>
-                <Box flexGrow={1} p="2.5%">
+                <Box flexGrow={1}>
                     <Heading as="h1" variant="page-title" size="3xl" mb={4}>
                         Jaimie Chin
                     </Heading>
