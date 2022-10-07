@@ -57,7 +57,7 @@ const Page = () => {
                     mt={{ base: 4, md: 0 }}
                     ml={{ md: 6 }}
                     textAlign="center"
-                    p="2.5%"
+                    p="1%"
                 >
                     <Box display="inline-block" overflow="hidden" p="1%"> 
                         <NoSsr>
