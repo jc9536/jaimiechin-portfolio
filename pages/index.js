@@ -19,20 +19,21 @@ import { Typewriter } from 'react-simple-typewriter'
 const Page = () => {
     return (
         <Layout>
-        <Container maxW="container.xl" centerContent>
+        <Container maxW="container.xl" mx="auto" centerContent={true}>
             <br />
             <br />
-
-            <Box borderRadius="md" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={4} mb={6} maxW="md" align="center">
-                    <Text fontSize="2xl" align="center">
-                        <Typewriter
-                            words={[String.fromCodePoint(0x1F44B) + " Hi, I'm a really tired person."]}
-                            cursor
-                            cursorColor="#fccb35"
-                            typeSpeed={125}
-                        />
-                    </Text>
-            </Box>
+            <Container maxW="container.lg" centerContent={true}>
+                <Box borderRadius="md" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={4} mb={6} w="full">
+                        <Text fontSize="2xl" align="center">
+                            <Typewriter
+                                words={[String.fromCodePoint(0x1F44B) + " Hi, I'm a really tired person."]}
+                                cursor
+                                cursorColor="#fccb35"
+                                typeSpeed={100}
+                            />
+                        </Text>
+                </Box>
+            </Container>
 
             <Container maxW="container.xl" centerContent>
                 <Box display={{ lg: 'flex'}} maxW="full" centerContent>
