@@ -22,7 +22,7 @@ const Page = () => {
         <Container maxW="container.xl" align="center">
             <br />
             <br />
-            <Container maxW="container.lg" align="center">
+            <Container maxW="container.lg" centerContent>
                 <Box borderRadius="md" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={4} mb={6} align="center">
                         <Text fontSize="2xl">
                             <Typewriter
@@ -35,8 +35,8 @@ const Page = () => {
                 </Box>
             </Container>
 
-            <Container maxW="container.xl" justify="center">
-                <Box display={{ lg: 'flex'}} align="center">
+            <Container maxW="container.xl" centerContent>
+                <Box display={{ lg: 'flex'}} centerContent>
                     <Box flexGrow={1} align="center">
                         <Heading as="h1" variant="page-title" size="4xl" mb={4} align="left">
                             Jaimie Chin
