@@ -19,10 +19,10 @@ import { Typewriter } from 'react-simple-typewriter'
 const Page = () => {
     return (
         <Layout>
-        <Container maxW="container.xl" mx="auto" centerContent={true}>
+        <Container maxW="container.xl" mx="auto" centerContent>
             <br />
             <br />
-            <Container maxW="container.lg" centerContent={true}>
+            <Container maxW="container.lg" centerContent>
                 <Box borderRadius="md" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={4} mb={6} w="full">
                         <Text fontSize="2xl" align="center">
                             <Typewriter
