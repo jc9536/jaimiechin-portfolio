@@ -22,23 +22,22 @@ const Page = () => {
         <Container maxW="container.xl" centerContent>
             <br />
             <br />
-            <Container maxW="container.lg" justify="center">
-                <Box borderRadius="md" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={4} mb={6} maxW="full" align="center">
-                        <Text fontSize="2xl">
-                            <Typewriter
-                                words={[String.fromCodePoint(0x1F44B) + " Hi, I'm a really tired person."]}
-                                cursor
-                                cursorColor="#fccb35"
-                                typeSpeed={125}
-                            />
-                        </Text>
-                </Box>
-            </Container>
+
+            <Box borderRadius="md" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={4} mb={6} maxW="md" align="center">
+                    <Text fontSize="2xl" align="center">
+                        <Typewriter
+                            words={[String.fromCodePoint(0x1F44B) + " Hi, I'm a really tired person."]}
+                            cursor
+                            cursorColor="#fccb35"
+                            typeSpeed={125}
+                        />
+                    </Text>
+            </Box>
 
             <Container maxW="container.xl" centerContent>
                 <Box display={{ lg: 'flex'}} maxW="full" centerContent>
                     <Box flexGrow={1} maxW="full" align="center">
-                        <Heading as="h1" variant="page-title" size="4xl" mb={4} align="left">
+                        <Heading as="h1" variant="page-title" size="3xl" mb={4} align="left">
                             Jaimie Chin
                         </Heading>
                         <Text fontSize="xl" align="left">
