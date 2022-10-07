@@ -132,8 +132,8 @@ const JaimieCharacter = () => {
             ref={refContainer}
             className='jaimie-character'
             m='auto'
-            w={[300, 300, 300]}
-            h={[300, 300, 300]}
+            w={[350, 350, 350]}
+            h={[350, 350, 350]}
             position="relative"
             display="flex"
             >
