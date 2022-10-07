@@ -132,9 +132,10 @@ const JaimieCharacter = () => {
             ref={refContainer}
             className='jaimie-character'
             m='auto'
-            w={[300, 300, 300]}
-            h={[300, 300, 300]}
+            w={[400, 400, 400]}
+            h={[400, 400, 400]}
             position="relative"
+            display="flex"
             >
                 {loading && (
                     <Spinner 
