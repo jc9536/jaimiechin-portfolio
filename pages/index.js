@@ -59,7 +59,7 @@ const Page = () => {
                     textAlign="center"
                     p="2%"
                 >
-                    <Box display="inline-block" overflow="hidden"> 
+                    <Box display="inline-block" overflow="hidden" p="1%"> 
                         <NoSsr>
                             <JaimieCharacter />
                         </NoSsr>
