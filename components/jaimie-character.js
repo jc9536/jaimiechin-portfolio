@@ -55,7 +55,7 @@ const JaimieCharacter = () => {
 
             // 640 -> 240
             // 8   -> 6
-            const scale = scH * 0.0075 + 2.25
+            const scale = scH * 0.006 + 2.2
             const camera = new THREE.OrthographicCamera(
                 -scale,
                 scale,
@@ -133,7 +133,7 @@ const JaimieCharacter = () => {
             className='jaimie-character'
             m='auto'
             w={[400, 400, 400]}
-            h={[400, 400, 400]}
+            h={[375, 375, 375]}
             position="relative"
             display="flex"
             >
