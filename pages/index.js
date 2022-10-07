@@ -19,10 +19,17 @@ import { Typewriter } from 'react-simple-typewriter'
 const Page = () => {
     return (
         <Layout>
-        <Container maxW="container.xl" centerContent>
+        <Container maxW="container.xl" p="1%">
             <br />
             <br />
-            <Box borderRadius="md" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={4} mb={6} maxW="md" textAlign="center">
+            <Box 
+                borderRadius="md"
+                bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+                p={4}
+                mb={6}
+                maxW="md"
+                textAlign="center"
+                align="center">
                     <Text fontSize="2xl">
                         <Typewriter
                             words={[String.fromCodePoint(0x1F44B) + " Hi, I'm a really tired person."]}
@@ -35,7 +42,7 @@ const Page = () => {
 
 
             <Box display={{ md: 'flex'}}>
-                <Box flexGrow={1} mx="auto">
+                <Box flexGrow={1}>
                     <Heading as="h1" variant="page-title" size="3xl" mb={4}>
                         Jaimie Chin
                     </Heading>
@@ -52,7 +59,7 @@ const Page = () => {
                     ml={{ md: 10 }}
                     textAlign="center"
                 >
-                    <Box display="inline-block" overflow="hidden"> 
+                    <Box display="inline-block"> 
                         <NoSsr>
                             <JaimieCharacter />
                         </NoSsr>
