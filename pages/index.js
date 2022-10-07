@@ -22,7 +22,7 @@ const Page = () => {
         <Container maxW="container.xl" align="center">
             <br />
             <br />
-            <Container maxW="container.lg" centerContent>
+            <Container maxW="container.lg" justify="center">
                 <Box borderRadius="md" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={4} mb={6} align="center">
                         <Text fontSize="2xl">
                             <Typewriter
