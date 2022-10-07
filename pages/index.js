@@ -19,7 +19,7 @@ import { Typewriter } from 'react-simple-typewriter'
 const Page = () => {
     return (
         <Layout>
-        <Container maxW="container.xl" align="center">
+        <Container maxW="container.xl" centerContent>
             <br />
             <br />
             <Container maxW="container.lg" justify="center">
