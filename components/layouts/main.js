@@ -8,8 +8,8 @@ const Main = ({ children, router}) => {
         <Box as="main" pb={8}>
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <link rel="icon" href="/public/images/favicon.ico" type="image/x-icon" />
-                <link rel="shortcut icon" href="/public/images/favicon.ico" type="image/x-icon" />
+                <link rel="icon" href="/public/images/favicon.ico?v=1" type="image/x-icon" />
+                <link rel="shortcut icon" href="/public/images/favicon.ico?v=1" type="image/x-icon" />
                 <title>Jaimie Chin - Homepage</title>
                 
             </Head>
