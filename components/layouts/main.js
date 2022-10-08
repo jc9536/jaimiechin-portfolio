@@ -8,8 +8,6 @@ const Main = ({ children, router}) => {
         <Box as="main" pb={8}>
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <meta name="description" content="Jaimie Chin's portfolio homepage"/>
-                <mata name="author" content="Jaimie Chin"/> 
                 <title>Jaimie Chin - Homepage</title>
                 
             </Head>
