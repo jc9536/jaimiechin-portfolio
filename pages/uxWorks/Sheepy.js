@@ -1,5 +1,5 @@
 import { Container, Badge, useColorModeValue} from '@chakra-ui/react'
-import { Title, WorkImage} from '../../components/UXworks'
+import { Title, WorkImage} from '../../components/uxWorks'
 import Layout from '../../components/layouts/article'
 
 const UXWork = () => {
