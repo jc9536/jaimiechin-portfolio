@@ -32,16 +32,21 @@ const Page = () => {
                     bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
                     p={4}
                     mb={6}
-                    maxW="md">
+                    maxW="750px">
                         <Text fontSize="2xl" align="center">
+                            👋
                             <Typewriter
-                                words={[String.fromCodePoint(0x1F44B) + " Hi, I'm a really tired person."]}
+                                words={[" Hello & Welcome!", " I'm an aspiring UX Designer based in New York City"]}
                                 cursor
                                 cursorColor="#fccb35"
-                                typeSpeed={100}
+                                deleteSpeed={100}
+                                delaySpeed={500}
+                                typeSpeed={85}
                             />
                         </Text>
                 </Box>
+
+                <br />
 
 
                 <Box display={{ md: 'flex'}}>
@@ -54,6 +59,7 @@ const Page = () => {
                             I need more words in this description to see how the layout looks. 
                             So I&apos;m going to start documenting the total hours of sleep I have had for an entire week.
                             Starting from Oct. 2nd 2022 - Oct. 5th 2022: about 12 hours total. 
+                            I'm a designer interested in User Research & how it affects Design
                         </Paragraph>
                     </Box>
                     <Box
@@ -96,7 +102,7 @@ const Page = () => {
 
                 </Section>
 
-                <Section delay={0.3}>
+                <Section delay={0.4}>
                     <br />
                     <SimpleGrid columns={[1, 2, 2]} gap={6}>
 
