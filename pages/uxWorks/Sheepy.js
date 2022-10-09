@@ -1,6 +1,5 @@
-import { Container, Badge, Link, List, ListItem, Divider, useColorModeValue} from '@chakra-ui/react'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/uxWorks'
+import { Container, Badge, useColorModeValue} from '@chakra-ui/react'
+import { Title, WorkImage} from '../../components/uxWorks'
 import Layout from '../../components/layouts/article'
 
 const uxWork = () => {
