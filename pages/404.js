@@ -5,9 +5,11 @@ import {
     Image,
     Container,
     Divider,
-    Button} from '@chakra-ui/react'
+    Button,
+    useColorModeValue} from '@chakra-ui/react'
 
 const NotFound = () => {
+    const notFound = `/images/404notFound${useColorModeValue('', '_dark')}.png`
     return (
         <Container> 
             <br/>
@@ -21,7 +23,7 @@ const NotFound = () => {
                     align="center">
                         <Image 
                             display="inline-block"
-                            src= "/images/404notFound.png"
+                            src= {notFound}
                             alt="Not Found"/>
                 </Box>
             <Divider my={6} />
