@@ -99,10 +99,6 @@ const Page = () => {
                         </Box>
                     </Box>
                     <br />
-
-                </Section>
-
-                <Section delay={0.4}>
                     <br />
                     <SimpleGrid columns={[1, 2, 2]} gap={6}>
 
