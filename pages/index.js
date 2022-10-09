@@ -6,7 +6,8 @@ import {
     Box,
     Heading,
     Link,
-    useColorModeValue} from '@chakra-ui/react'
+    useColorModeValue,
+    SimpleGrid} from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
@@ -15,6 +16,8 @@ import JaimieCharacter from '../components/jaimie-character'
 import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
 import Paragraph from '../components/paragraph'
+import { WorkGridItem } from '../components/ux-grid-item'
+import thumbSheepy from '../public/images/sheepyCaseStudy/sheepyThumbnail.png'
 
 
 const Page = () => {
@@ -99,7 +102,18 @@ const Page = () => {
                         </NextLink>
                     </Box>
 
+                </Section>
 
+                <Section delay={0.3}>
+                    <SimpleGrid columns={[1, 2, 2]} gap={6}>
+
+                        <Container maxW="md">
+                            <WorkGridItem id="Sheepy" title="Sheepy" thumbnail={thumbSheepy}>
+                                A bedtime routine app for parents who lack information about the best child development practices
+                            </WorkGridItem>
+                        </Container>
+                        
+                    </SimpleGrid>
                 </Section>
 
             </Container>
