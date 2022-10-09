@@ -93,18 +93,11 @@ const Page = () => {
                         </Box>
                     </Box>
                     <br />
-                
-                    <Box align="center" my={4}>
-                        <NextLink href="/uxWorks">
-                            <Button rightIcon={<ChevronRightIcon />} colorScheme="yellow">
-                                My UX/UI Work
-                            </Button>
-                        </NextLink>
-                    </Box>
 
                 </Section>
 
                 <Section delay={0.3}>
+                    <br />
                     <SimpleGrid columns={[1, 2, 2]} gap={6}>
 
                         <Container maxW="md">
@@ -112,8 +105,20 @@ const Page = () => {
                                 A bedtime routine app for parents who lack information about the best child development practices
                             </WorkGridItem>
                         </Container>
-                        
+
                     </SimpleGrid>
+
+                    <br />
+                    <br />
+
+                    <Box align="center" my={4}>
+                        <NextLink href="/uxWorks">
+                            <Button rightIcon={<ChevronRightIcon />} colorScheme="yellow">
+                                See More of My UX Projects
+                            </Button>
+                        </NextLink>
+                    </Box>
+
                 </Section>
 
             </Container>
