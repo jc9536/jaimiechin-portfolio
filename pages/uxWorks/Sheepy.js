@@ -2,7 +2,7 @@ import { Container, Badge, useColorModeValue} from '@chakra-ui/react'
 import { Title, WorkImage} from '../../components/UXworks'
 import Layout from '../../components/layouts/article'
 
-const uxWork = () => {
+const UXWork = () => {
     return (
         <Layout title="Sheepy">
             <br />
@@ -21,4 +21,4 @@ const uxWork = () => {
     )
 }
 
-export default uxWork
+export default UXWork
