@@ -59,7 +59,7 @@ const Page = () => {
                             I need more words in this description to see how the layout looks. 
                             So I&apos;m going to start documenting the total hours of sleep I have had for an entire week.
                             Starting from Oct. 2nd 2022 - Oct. 5th 2022: about 12 hours total. 
-                            I'm a designer interested in User Research & how it affects Design
+                            I&apos;m a designer interested in User Research & how it affects Design
                         </Paragraph>
                     </Box>
                     <Box
