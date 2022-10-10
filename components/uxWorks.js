@@ -19,8 +19,8 @@ export const Title = ({ children }) => (
     </Box>
 )
 
-export const WorkImage = ({ src, alt }) => (
-    <Image borderRadius="lg" w="max" align="center" src={src} alt={alt}/>
+export const WorkImage = ({ src, alt, usemap }) => (
+    <Image borderRadius="lg" w="max" align="center" src={src} alt={alt} useMap={usemap}/>
 )
 
 export const Meta = ({ children }) => (

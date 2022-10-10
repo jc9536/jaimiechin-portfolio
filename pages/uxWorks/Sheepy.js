@@ -1,5 +1,5 @@
 import { Container, Badge, useColorModeValue} from '@chakra-ui/react'
-import { Title, WorkImage} from '../../components/uxWorks'
+import { Title} from '../../components/uxWorks'
 import Layout from '../../components/layouts/article'
 
 const UXWork = () => {
@@ -11,10 +11,10 @@ const UXWork = () => {
                     Sheepy <Badge>July 2022</Badge>
                 </Title>
          
-                <WorkImage src="/images/sheepyCaseStudy/matrix.png" alt="MatrixCover" />
-                <WorkImage src={`/images/sheepyCaseStudy/ProjectInfo${useColorModeValue('', '_dark')}.png`} alt="ProjectInformation" />
-                <WorkImage src={`/images/sheepyCaseStudy/Concept${useColorModeValue('', '_dark')}.png`} alt="Concept" />
-                <WorkImage src={`/images/sheepyCaseStudy/marketNeeds${useColorModeValue('', '_dark')}.png`} alt="SheepyMarketNeeds" />
+                <img src={`/images/sheepyCaseStudy/PortfolioStack${useColorModeValue('', '_dark')}.png`} alt="MatrixCover" usemap="#mentor" width={1280} />
+                <map name="mentor">
+                    <area shape="rect" coords="120,1160,275,1195" href ="https://www.linkedin.com/in/jasbrad/"  alt="JamesBradley" target="_blank" /> 
+                </map>
 
             </Container>
         </Layout>
