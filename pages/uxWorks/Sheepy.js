@@ -1,7 +1,6 @@
-import { Container, Badge, useColorModeValue, Image, Select} from '@chakra-ui/react'
+import { Container, Badge, useColorModeValue, Image} from '@chakra-ui/react'
 import { Title} from '../../components/uxWorks'
 import Layout from '../../components/layouts/article'
-import projectInfosvg from '../../public/images/sheepyCaseStudy/ProjectInfo.svg'
 
 const UXWork = () => {
     return (
