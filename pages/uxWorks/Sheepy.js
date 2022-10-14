@@ -22,7 +22,7 @@ const UXWork = () => {
                 </Title>
 
          
-                <Image src={`/images/sheepyCaseStudy/matrix${useColorModeValue('', '_dark')}.png`} alt="MatrixCover"/>
+                <Image src={`/images/sheepyCaseStudy/matrix.png`} alt="MatrixCover"/>
                 <Image src={`/images/sheepyCaseStudy/ProjectInfo${useColorModeValue('', '_dark')}.png`} alt="ProjectInfo" useMap='#projinfolinks'/>
                 <map name='projinfolinks'>
                     <area shape="rect" coords="100,845,350,885" href ="https://www.linkedin.com/in/jasbrad/"  alt="JamesBradley" target="_blank" />
