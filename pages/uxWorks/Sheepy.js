@@ -74,7 +74,7 @@ const UXWork = () => {
                     <Image src={`/images/sheepyCaseStudy/FlowDiagram${useColorModeValue('', '_dark')}.png`} alt="FlowDiagram" id='flowdiagram'/>
 
                     <Container maxW="container.xl">
-                        <iframe style={{border: "1px"}} width="100%" height="720" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FwB7P7UgN4heOPRmiyzDcxl%2FAssignment-06---Product-Persona-%2526-Wireframes%3Fpage-id%3D0%253A1%26node-id%3D0%253A1%26viewport%3D814%252C582%252C0.5%26scaling%3Dscale-down%26starting-point-node-id%3D15%253A367" allowfullscreen></iframe>
+                        <iframe style={{border: "1px"}} width="100%" height="720" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FwB7P7UgN4heOPRmiyzDcxl%2FAssignment-06---Product-Persona-%2526-Wireframes%3Fpage-id%3D0%253A1%26node-id%3D0%253A1%26viewport%3D814%252C582%252C0.5%26scaling%3Dscale-down%26starting-point-node-id%3D15%253A367" allowFullScreen></iframe>
                     </Container>
                     
                 </Section>
