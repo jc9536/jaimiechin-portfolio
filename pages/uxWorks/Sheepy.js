@@ -71,7 +71,7 @@ const UXWork = () => {
                     <Image src={`/images/sheepyCaseStudy/Opportunity${useColorModeValue('', '_dark')}.png`} alt="Opportunity"/>
                     <Image src={`/images/sheepyCaseStudy/FlowDiagram${useColorModeValue('', '_dark')}.png`} alt="FlowDiagram" id='flowdiagram'/>
 
-                    <AspectRatio maxW="100%" ratio={16 / 9}>
+                    <AspectRatio maxW="100%" minH="450" ratio={16 / 9}>
                         <iframe style={{border: "1px"}} width="100%"  src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FwB7P7UgN4heOPRmiyzDcxl%2FAssignment-06---Product-Persona-%2526-Wireframes%3Fpage-id%3D0%253A1%26node-id%3D0%253A1%26viewport%3D814%252C582%252C0.5%26scaling%3Dscale-down%26starting-point-node-id%3D15%253A367" allowFullScreen></iframe>
                     </AspectRatio>
                     
