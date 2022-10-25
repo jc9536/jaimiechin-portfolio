@@ -1,10 +1,8 @@
-import { Container, Badge, useColorModeValue, Image} from '@chakra-ui/react'
+import { Container, Badge, useColorModeValue, Image, AspectRatio} from '@chakra-ui/react'
 import { Title} from '../../components/uxWorks'
 import Layout from '../../components/layouts/article'
 import Section from '../../components/section'
 import {useEffect} from 'react'
-
-
 
 const UXWork = () => {
 
@@ -73,9 +71,9 @@ const UXWork = () => {
                     <Image src={`/images/sheepyCaseStudy/Opportunity${useColorModeValue('', '_dark')}.png`} alt="Opportunity"/>
                     <Image src={`/images/sheepyCaseStudy/FlowDiagram${useColorModeValue('', '_dark')}.png`} alt="FlowDiagram" id='flowdiagram'/>
 
-                    <Container maxW="container.xl">
-                        <iframe style={{border: "1px"}} width="100%" height="720" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FwB7P7UgN4heOPRmiyzDcxl%2FAssignment-06---Product-Persona-%2526-Wireframes%3Fpage-id%3D0%253A1%26node-id%3D0%253A1%26viewport%3D814%252C582%252C0.5%26scaling%3Dscale-down%26starting-point-node-id%3D15%253A367" allowFullScreen></iframe>
-                    </Container>
+                    <AspectRatio maxW="100%" ratio={16 / 9}>
+                        <iframe style={{border: "1px"}} width="100%"  src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FwB7P7UgN4heOPRmiyzDcxl%2FAssignment-06---Product-Persona-%2526-Wireframes%3Fpage-id%3D0%253A1%26node-id%3D0%253A1%26viewport%3D814%252C582%252C0.5%26scaling%3Dscale-down%26starting-point-node-id%3D15%253A367" allowFullScreen></iframe>
+                    </AspectRatio>
                     
                 </Section>
             </Container>
