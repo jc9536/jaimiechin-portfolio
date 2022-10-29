@@ -76,7 +76,7 @@ const Navbar = props => {
                             Data Science Works
                         </LinkItem>
 
-                        <LinkItem href='https://drive.google.com/file/d/1myPWLixIG3AvOCIZ2_YKOWHVKUVlX60g/view?usp=sharing' path={path}>
+                        <LinkItem href='https://www.figma.com/file/x4BxTXMZrYrLVqhFnGuEgG/Resum%C3%A9---October-2022?node-id=0%3A1' path={path}>
                             Resumé
                         </LinkItem>
 
