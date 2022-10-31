@@ -89,7 +89,6 @@ const UXWork = () => {
                     <Image src={`/images/sheepyCaseStudy/Validation${useColorModeValue('', '_dark')}.png`} alt="Validation" id='validation'/>
                     <Image src={`/images/sheepyCaseStudy/Summary${useColorModeValue('', '_dark')}.png`} alt="Summary" id='summary'/>
 
-                    
                 </Section>
             </Container>
 
