@@ -32,7 +32,7 @@ export const WorkGridItem= ({children, id, title, thumbnail }) => (
 
                 <Text as='b' mt={4} fontSize={32}>
 
-                <NextLink href={`/uxWorks/${id}`}>
+                <NextLink href={`/dataScienceWorks/${id}`}>
                     <Link>{title}</Link>
                 </NextLink>
 
