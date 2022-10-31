@@ -14,7 +14,6 @@ import NoSsr from '../components/no-ssr.js'
 import JaimieCharacter from '../components/jaimie-character'
 import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
-import Paragraph from '../components/paragraph'
 import { WorkGridItem } from '../components/ux-grid-item'
 import thumbSheepy from '../public/images/sheepyCaseStudy/sheepyThumbnail.png'
 import underConstructionThumb from '../public/images/underConstruction.png'
@@ -55,10 +54,10 @@ const Page = () => {
                             Jaimie Chin
                         </Heading>
                         <Box maxW="3xl">
-                            <Paragraph>
+                            <Text align="left" fontSize="xl">
                                 I&apos;m currently an undergraduate researcher in Applied Psychology dedicated to analyzing behavioral development.
                                 Within user experience research, I&apos;m interested in creating more mindful user experiences through Qualitative Research Methods & Data Analysis.
-                            </Paragraph>
+                            </Text>
                         </Box>
                     </Box>
                     <Box
