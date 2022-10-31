@@ -35,7 +35,7 @@ const UXWork = () => {
                         <area shape="rect" coords="1555,305,1855,410" href ="#lofi"  alt="loFiJump" target="_parent" />
                         <area shape="rect" coords="130,425,435,530" href ="#aligngrid"  alt="alignGridJump" target="_parent" />
                         <area shape="rect" coords="460,425,635,530" href ="#hifi"  alt="hiFiJump" target="_parent" />
-                        <area shape="rect" coords="665,425,1010,530" href =""  alt="usabilityJump" target="_parent" />
+                        <area shape="rect" coords="665,425,1010,530" href ="#prototype"  alt="usabilityJump" target="_parent" />
                         
                     </map>
                     
@@ -80,10 +80,13 @@ const UXWork = () => {
                     <Image src={`/images/sheepyCaseStudy/Lo-Fi_2${useColorModeValue('', '_dark')}.png`} alt="LoFi2" id='lofi2'/>
                     <Image src={`/images/sheepyCaseStudy/AlignmentGrid${useColorModeValue('', '_dark')}.png`} alt="AlignmentGrid" id='aligngrid'/>
                     <Image src={`/images/sheepyCaseStudy/HiFi${useColorModeValue('', '_dark')}.png`} alt="HiFi" id='hifi'/>
+                    <Image src={`/images/sheepyCaseStudy/Prototype${useColorModeValue('', '_dark')}.png`} alt="Prototype" id='prototype'/>
 
                     <AspectRatio maxW="100%" minH="450" ratio={16 / 9}>
                         <iframe style={{border: "1px"}} width="100%"  src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FwB7P7UgN4heOPRmiyzDcxl%2FSheepy%3Fpage-id%3D57%253A618%26node-id%3D112%253A986%26viewport%3D2003%252C-1158%252C0.5%26scaling%3Dscale-down%26starting-point-node-id%3D112%253A986" allowFullScreen></iframe>
                     </AspectRatio>
+
+                    <Image src={`/images/sheepyCaseStudy/Validation${useColorModeValue('', '_dark')}.png`} alt="Validation" id='validation'/>
 
                     
                 </Section>
