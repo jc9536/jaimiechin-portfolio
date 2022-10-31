@@ -36,7 +36,7 @@ const Page = () => {
                         <Text fontSize="2xl" align="center">
                             👋
                             <Typewriter
-                                words={[" Hello & Welcome!", " I'm an aspiring UX Designer based in New York City"]}
+                                words={[" Hello & Welcome!"]}
                                 cursor
                                 cursorColor="#fccb35"
                                 deleteSpeed={100}
@@ -54,13 +54,11 @@ const Page = () => {
                         <Heading as="h1" variant="page-title" size="3xl" mb={4}>
                             Jaimie Chin
                         </Heading>
-                        <Paragraph>
-                            Some sort of description about how tired I am on a daily basis.
-                            I need more words in this description to see how the layout looks. 
-                            So I&apos;m going to start documenting the total hours of sleep I have had for an entire week.
-                            Starting from Oct. 2nd 2022 - Oct. 5th 2022: about 12 hours total. 
-                            I&apos;m a designer interested in User Research & how it affects Design
-                        </Paragraph>
+                        <Box maxW="3xl">
+                            <Paragraph>
+                                I&apos;m a UX designer interested in creating more mindful user experiences through Qualitative Research Methods & Data Analysis.
+                            </Paragraph>
+                        </Box>
                     </Box>
                     <Box
                         flexShrink={0}
@@ -87,14 +85,8 @@ const Page = () => {
                             </Heading>
                             <br />
                             <Paragraph>
-                                    Some sort of paragraph that explains who I am as a person 
-                                -- I&apos;m honestly way too lazy to type it out at this point so this
-                                is just going to be some filler fluff stuff until I can formulate better words
-                                and descriptions. Sample of adding a link {''}
-                                <NextLink href="/uxWorks/Sheepy">
-                                    <Link>Sheepy</Link>
-                                </NextLink>
-                                .
+                                Within my User Experience projects, I&apos;m passionate about applying consumer and behavioral psychology
+                                 for an interaction science-backed approach.
                             </Paragraph>
                         </Box>
                     </Box>
