@@ -18,6 +18,7 @@ import { Typewriter } from 'react-simple-typewriter'
 import Paragraph from '../components/paragraph'
 import { WorkGridItem } from '../components/ux-grid-item'
 import thumbSheepy from '../public/images/sheepyCaseStudy/sheepyThumbnail.png'
+import underConstructionThumb from '../public/images/underConstruction.png'
 
 
 const Page = () => {
@@ -84,10 +85,10 @@ const Page = () => {
                                 UX Work
                             </Heading>
                             <br />
-                            <Paragraph>
+                            <Text align="center" fontSize="xl">
                                 Within my User Experience projects, I&apos;m passionate about applying consumer and behavioral psychology
-                                 for an interaction science-backed approach.
-                            </Paragraph>
+                                for an interaction science-backed approach.
+                            </Text>
                         </Box>
                     </Box>
                     <br />
@@ -97,6 +98,12 @@ const Page = () => {
                         <Container maxW="md">
                             <WorkGridItem id="Sheepy" title="Sheepy" thumbnail={thumbSheepy}>
                                 A bedtime routine app for parents who lack information about the best child development practices
+                            </WorkGridItem>
+                        </Container>
+
+                        <Container maxW="md">
+                            <WorkGridItem id="underConstruction" title="Work In Progress..." thumbnail={underConstructionThumb}>
+                                This  case study is under construction, please visit some of my other works in the meantime!
                             </WorkGridItem>
                         </Container>
 
