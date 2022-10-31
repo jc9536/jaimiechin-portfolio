@@ -31,9 +31,9 @@ const About = () => {
                     flexShrink={0}
                     textAlign="center"
                     p="1%">
-
-                        <Image borderRadius='full' boxSize="375px" src="/images/profile.png" />
-
+                        <Box display="inline-block" overflow="hidden">
+                            <Image borderRadius='full' boxSize="375px" src="/images/profile.png" />
+                        </Box>
                 </Box>
 
                 <Box flexGrow={1}>
