@@ -81,6 +81,10 @@ const UXWork = () => {
                     <Image src={`/images/sheepyCaseStudy/AlignmentGrid${useColorModeValue('', '_dark')}.png`} alt="AlignmentGrid" id='aligngrid'/>
                     <Image src={`/images/sheepyCaseStudy/HiFi${useColorModeValue('', '_dark')}.png`} alt="HiFi" id='hifi'/>
 
+                    <AspectRatio maxW="100%" minH="450" ratio={16 / 9}>
+                        <iframe style={{border: "1px"}} width="100%"  src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FwB7P7UgN4heOPRmiyzDcxl%2FSheepy%3Fpage-id%3D57%253A618%26node-id%3D112%253A986%26viewport%3D2003%252C-1158%252C0.5%26scaling%3Dscale-down%26starting-point-node-id%3D112%253A986" allowFullScreen></iframe>
+                    </AspectRatio>
+
                     
                 </Section>
             </Container>
