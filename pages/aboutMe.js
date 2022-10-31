@@ -38,6 +38,15 @@ const About = () => {
                         <BioYear>2023</BioYear>
                         Will graduate from New York University with a B.S in Applied Psycholgy & B.A in Data Science.
                     </BioSection>  
+                    <br />
+                    <br />
+                    <Heading as="h1" variant="page-title" size="2xl" mb={4}>
+                            Who am I?
+                    </Heading>
+                    <Text fontSize="xl">
+                        I&apos;ve always been interested in solving problems by identifying common patterns and insights from history. I want to continue developing my skills in research, design and development in order to make the world a better place. 
+                        To me, learning is a lifelong journey and it never stops.
+                    </Text>
                 </Box>
                 <Box
                     flexShrink={0}
@@ -48,10 +57,18 @@ const About = () => {
 
                         <Image borderRadius='full' boxSize="400px" src="/images/profile.png" />
 
-                    
-
                 </Box>
             </Box>
+            <br />
+
+            <Heading as="h1" variant="page-title" size="2xl" mb={4}>
+                What I like to do 
+            </Heading>
+            <Text fontSize="xl">
+                My creative hobbies all stem from my initial interdisciplinary study between learning about people and technology. When I&apos;m not organizing spreadsheets and coding analyses, you can often find me gaming my favorite titles: Animal Crossing, Pokémon, and Stardew Valley
+                or exploring new creative skills like 3D modeling in Blender. 
+            </Text>
+
 
             <br/>
             <br/>
