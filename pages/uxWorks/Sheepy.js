@@ -70,10 +70,17 @@ const UXWork = () => {
                     <Image src={`/images/sheepyCaseStudy/UserJourneyMap${useColorModeValue('', '_dark')}.png`} alt="UserJourneyMap" id='userjourneymap'/>
                     <Image src={`/images/sheepyCaseStudy/Opportunity${useColorModeValue('', '_dark')}.png`} alt="Opportunity"/>
                     <Image src={`/images/sheepyCaseStudy/FlowDiagram${useColorModeValue('', '_dark')}.png`} alt="FlowDiagram" id='flowdiagram'/>
+                    <Image src={`/images/sheepyCaseStudy/Lo-Fi_1${useColorModeValue('', '_dark')}.png`} alt="LoFi1" id='lofi1'/>
+                    
 
                     <AspectRatio maxW="100%" minH="450" ratio={16 / 9}>
                         <iframe style={{border: "1px"}} width="100%"  src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FwB7P7UgN4heOPRmiyzDcxl%2FAssignment-06---Product-Persona-%2526-Wireframes%3Fpage-id%3D0%253A1%26node-id%3D0%253A1%26viewport%3D814%252C582%252C0.5%26scaling%3Dscale-down%26starting-point-node-id%3D15%253A367" allowFullScreen></iframe>
                     </AspectRatio>
+
+                    <Image src={`/images/sheepyCaseStudy/Lo-Fi_2${useColorModeValue('', '_dark')}.png`} alt="LoFi2" id='lofi2'/>
+                    <Image src={`/images/sheepyCaseStudy/AlignmentGrid${useColorModeValue('', '_dark')}.png`} alt="AlignmentGrid" id='aligngrid'/>
+                    <Image src={`/images/sheepyCaseStudy/HiFi${useColorModeValue('', '_dark')}.png`} alt="HiFi" id='hifi'/>
+
                     
                 </Section>
             </Container>
