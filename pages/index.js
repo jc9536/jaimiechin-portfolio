@@ -57,7 +57,8 @@ const Page = () => {
                         </Heading>
                         <Box maxW="3xl">
                             <Paragraph>
-                                I&apos;m a UX designer interested in creating more mindful user experiences through Qualitative Research Methods & Data Analysis.
+                                I&apos;m currently an undergraduate researcher in Applied Psychology dedicated to analyzing behavioral development.
+                                Within user experience research, I&apos;m interested in creating more mindful user experiences through Qualitative Research Methods & Data Analysis.
                             </Paragraph>
                         </Box>
                     </Box>
@@ -86,7 +87,7 @@ const Page = () => {
                             </Heading>
                             <br />
                             <Text align="center" fontSize="xl">
-                                Within my User Experience projects, I&apos;m passionate about applying consumer and behavioral psychology
+                                Within my user experience projects, I&apos;m passionate about applying consumer and behavioral psychology
                                 for an interaction science-backed approach.
                             </Text>
                         </Box>
