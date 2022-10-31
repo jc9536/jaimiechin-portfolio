@@ -8,5 +8,6 @@ export const BioSection = styled(Box)`
 
 export const BioYear = styled.span`
     font-weight: bold;
+    font-size: 16px;
     margin-right: 1em;
 `

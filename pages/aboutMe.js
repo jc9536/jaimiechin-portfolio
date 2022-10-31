@@ -2,7 +2,8 @@ import {
     Container,
     Text,
     Box,
-    Heading} from '@chakra-ui/react'
+    Heading,
+    Image} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { BioSection, BioYear } from '../components/bio'
@@ -12,25 +13,17 @@ const About = () => {
         <Layout>
             <br/>
             <br/>
+            <Heading as="h1" variant="page-title" size="4xl" mb={4}>
+                About Me
+            </Heading>
+            <br />
+            <Text align="center" fontSize="3xl">
+                My name is Jaimie and I&apos;m an aspiring UX designer and researcher studying Applied Psychology and Data Science at New York University. 
+            </Text>
+            <br />
             <Box display={{ lg: 'flex'}}>
+
                 <Box flexGrow={1}>
-                    <Heading as="h1" variant="page-title" size="4xl" mb={4}>
-                        About Me
-                    </Heading>
-                    <Text fontSize="xl">
-                        Some sort of description about how tired I am on a daily basis.
-                        I need more words in this description to see how the layout looks. 
-                        So I&apos;m going to start documenting the total hours of sleep I have had for an entire week.
-                        Starting from Oct. 2nd 2022 - Oct. 5th 2022: about 12 hours total. 
-                    </Text>
-                </Box>
-            </Box>
-
-            <br/>
-            <br/>
-
-            <Container maxW="container.md">
-                <Section delay={0.2}>
                     <Heading as="h3" variant="section-title">
                         Bio
                     </Heading>
@@ -46,9 +39,24 @@ const About = () => {
                     <BioSection>
                         <BioYear>2023</BioYear>
                         Will graduate from New York University with a B.S in Applied Psycholgy & B.A in Data Science.
-                    </BioSection>
-                </Section>
-            </Container>
+                    </BioSection>  
+                </Box>
+                <Box
+                    flexShrink={0}
+                    mt={{ base: 4, md: 0 }}
+                    ml={{ md: 6 }}
+                    textAlign="center"
+                    p="1%">
+
+                        <Image borderRadius='full' boxSize="400px" src="/images/profile.png" />
+
+                    
+
+                </Box>
+            </Box>
+
+            <br/>
+            <br/>
 
         </Layout>
     )
