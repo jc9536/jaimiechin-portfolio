@@ -1,4 +1,4 @@
-import { Container, Badge, useColorModeValue, Image, AspectRatio} from '@chakra-ui/react'
+import { Container, Badge, Image} from '@chakra-ui/react'
 import { Title} from '../../components/dataScienceWorks'
 import Layout from '../../components/layouts/article'
 import Section from '../../components/section'
