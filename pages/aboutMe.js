@@ -33,38 +33,51 @@ const About = () => {
                     textAlign="center"
                     p="1%">
                         <Center>
-                            <Image borderRadius='full' boxSize="375px" src="/images/profile.png" />
+                            <Box
+                                borderColor={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+                                borderWidth={8}
+                                bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+                                borderStyle="solid"
+                                w="375px"
+                                h="375px"
+                                display="inline-block"
+                                borderRadius="full"
+                                overflow="hidden"
+                            >
+                                <Image borderRadius='full' boxSize="375px" src="/images/profile.png" />
+                            </ Box>
                         </Center>
                 </Box>
 
-                <Box flexGrow={1}>
-                    <br />
-                    <br />
-                    <Heading as="h3" variant="section-title">
-                        Bio
-                    </Heading>
-                    <br />
-                    <BioSection>
-                        <BioYear>2001</BioYear>
-                        Born in New York City, New York.
-                    </BioSection>
-                    <BioSection>
-                        <BioYear>2019</BioYear>
-                        Graduated from Townsend Harris High School.
-                    </BioSection>
-                    <BioSection>
-                        <BioYear>2023</BioYear>
-                        Will graduate from New York University with a B.S in Applied Psycholgy & B.A in Data Science.
-                    </BioSection>  
-                    <br />
-                    <br />
-                    <Heading as="h1" variant="page-title" size="2xl" mb={4}>
-                            Who am I?
-                    </Heading>
-                    <Text fontSize="xl">
-                        I&apos;ve always been interested in solving problems by identifying common patterns and insights from history. I want to continue developing my skills in research, design and development in order to make the world a better place. 
-                        To me, learning is a lifelong journey and it never stops.
-                    </Text>
+                <Box w="250px" h="20px" display="inline=block" overflow="hidden"></Box>
+
+                <Box flexGrow={1} display="inline-block" overflow="hidden">
+                    <Box display="inline-block" overflow="hidden">
+                        <Heading as="h3" variant="section-title">
+                            Bio
+                        </Heading>
+                        <br />
+                        <BioSection>
+                            <BioYear>2001</BioYear>
+                            Born in New York City, New York.
+                        </BioSection>
+                        <BioSection>
+                            <BioYear>2019</BioYear>
+                            Graduated from Townsend Harris High School.
+                        </BioSection>
+                        <BioSection>
+                            <BioYear>2023</BioYear>
+                            Will graduate from New York University with a B.S in Applied Psycholgy & B.A in Data Science.
+                        </BioSection>  
+                        <br />
+                        <Heading as="h1" variant="page-title" size="2xl" mb={4}>
+                                Who am I?
+                        </Heading>
+                        <Text fontSize="xl">
+                            I&apos;ve always been interested in solving problems by identifying common patterns and insights from history. I want to continue developing my skills in research, design and development in order to make the world a better place. 
+                            To me, learning is a lifelong journey and it never stops.
+                        </Text>
+                    </Box>
                 </Box>
             </Box>
             <br />
