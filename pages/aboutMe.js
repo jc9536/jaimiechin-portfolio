@@ -1,11 +1,9 @@
 import {
-    Container,
     Text,
     Box,
     Heading,
     Image} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
-import Section from '../components/section'
 import { BioSection, BioYear } from '../components/bio'
 
 const About = () => {
