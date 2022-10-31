@@ -32,9 +32,9 @@ const UXWork = () => {
                         <area shape="rect" coords="750,305,960,410" href ="#persona"  alt="personaJump" target="_parent" />
                         <area shape="rect" coords="985,305,1305,410" href ="#userjourneymap"  alt="userJourneyMapJump" target="_parent" />
                         <area shape="rect" coords="1335,305,1525,410" href ="#flowdiagram"  alt="sitemapJump" target="_parent" />
-                        <area shape="rect" coords="1555,305,1855,410" href =""  alt="loFiJump" target="_parent" />
-                        <area shape="rect" coords="130,425,435,530" href =""  alt="alignGridJump" target="_parent" />
-                        <area shape="rect" coords="460,425,635,530" href =""  alt="hiFiJump" target="_parent" />
+                        <area shape="rect" coords="1555,305,1855,410" href ="#lofi"  alt="loFiJump" target="_parent" />
+                        <area shape="rect" coords="130,425,435,530" href ="#aligngrid"  alt="alignGridJump" target="_parent" />
+                        <area shape="rect" coords="460,425,635,530" href ="#hifi"  alt="hiFiJump" target="_parent" />
                         <area shape="rect" coords="665,425,1010,530" href =""  alt="usabilityJump" target="_parent" />
                         
                     </map>
@@ -70,7 +70,7 @@ const UXWork = () => {
                     <Image src={`/images/sheepyCaseStudy/UserJourneyMap${useColorModeValue('', '_dark')}.png`} alt="UserJourneyMap" id='userjourneymap'/>
                     <Image src={`/images/sheepyCaseStudy/Opportunity${useColorModeValue('', '_dark')}.png`} alt="Opportunity"/>
                     <Image src={`/images/sheepyCaseStudy/FlowDiagram${useColorModeValue('', '_dark')}.png`} alt="FlowDiagram" id='flowdiagram'/>
-                    <Image src={`/images/sheepyCaseStudy/Lo-Fi_1${useColorModeValue('', '_dark')}.png`} alt="LoFi1" id='lofi1'/>
+                    <Image src={`/images/sheepyCaseStudy/Lo-Fi_1${useColorModeValue('', '_dark')}.png`} alt="LoFi1" id='lofi'/>
                     
 
                     <AspectRatio maxW="100%" minH="450" ratio={16 / 9}>
