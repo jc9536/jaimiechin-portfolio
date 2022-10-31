@@ -45,7 +45,7 @@ const About = () => {
                     </BioSection>
                     <BioSection>
                         <BioYear>2023</BioYear>
-                        Graduated from New York University with a B.S in Applied Psycholgy & B.A in Data Science.
+                        Will graduate from New York University with a B.S in Applied Psycholgy & B.A in Data Science.
                     </BioSection>
                 </Section>
             </Container>
