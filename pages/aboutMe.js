@@ -3,6 +3,7 @@ import {
     Box,
     Heading,
     Image, 
+    Center,
     useColorModeValue} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import { BioSection, BioYear } from '../components/bio'
@@ -31,9 +32,9 @@ const About = () => {
                     flexShrink={0}
                     textAlign="center"
                     p="1%">
-                        <Box display="inline-block" overflow="hidden">
+                        <Center>
                             <Image borderRadius='full' boxSize="375px" src="/images/profile.png" />
-                        </Box>
+                        </Center>
                 </Box>
 
                 <Box flexGrow={1}>
