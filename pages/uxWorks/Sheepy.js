@@ -70,7 +70,10 @@ const UXWork = () => {
                     <Image src={`/images/sheepyCaseStudy/UserJourneyMap${useColorModeValue('', '_dark')}.png`} alt="UserJourneyMap" id='userjourneymap'/>
                     <Image src={`/images/sheepyCaseStudy/Opportunity${useColorModeValue('', '_dark')}.png`} alt="Opportunity"/>
                     <Image src={`/images/sheepyCaseStudy/FlowDiagram${useColorModeValue('', '_dark')}.png`} alt="FlowDiagram" id='flowdiagram'/>
-                    <Image src={`/images/sheepyCaseStudy/Lo-Fi_1${useColorModeValue('', '_dark')}.png`} alt="LoFi1" id='lofi'/>
+                    <Image src={`/images/sheepyCaseStudy/Lo-Fi_1${useColorModeValue('', '_dark')}.png`} alt="LoFi1" useMap="#loFiMap" id='lofi'/>
+                    <map name='loFiMap'>
+                        <area shape="rect" coords="1400,340, 1900,380" href ="https://developer.apple.com/design/human-interface-guidelines/platforms/designing-for-ios/"  alt="designGuide" target="_blank" />
+                    </map>
                     
 
                     <AspectRatio maxW="100%" minH="450" ratio={16 / 9}>
@@ -86,7 +89,12 @@ const UXWork = () => {
                         <iframe style={{border: "1px"}} width="100%"  src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FwB7P7UgN4heOPRmiyzDcxl%2FSheepy%3Fpage-id%3D57%253A618%26node-id%3D112%253A986%26viewport%3D2003%252C-1158%252C0.5%26scaling%3Dscale-down%26starting-point-node-id%3D112%253A986" allowFullScreen></iframe>
                     </AspectRatio>
 
-                    <Image src={`/images/sheepyCaseStudy/Validation${useColorModeValue('', '_dark')}.png`} alt="Validation" id='validation'/>
+                    <Image src={`/images/sheepyCaseStudy/Validation${useColorModeValue('', '_dark')}.png`} alt="Validation" useMap="#validationMap" id='validation'/>
+                    <map name='validationMap'>
+                        <area shape="rect" coords="1420,1400, 1680,1440" href ="https://digital.ahrq.gov/sites/default/files/docs/survey/systemusabilityscale%2528sus%2529_comp%255B1%255D.pdf"  alt="designGuide" target="_blank" />
+                        <area shape="rect" coords="870,1445, 1140,1485" href ="https://digital.ahrq.gov/sites/default/files/docs/survey/systemusabilityscale%2528sus%2529_comp%255B1%255D.pdf"  alt="designGuide2" target="_blank" />
+                    </map>
+
                     <Image src={`/images/sheepyCaseStudy/Summary${useColorModeValue('', '_dark')}.png`} alt="Summary" id='summary'/>
 
                 </Section>
