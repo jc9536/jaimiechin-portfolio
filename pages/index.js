@@ -54,7 +54,7 @@ const Page = () => {
                             Jaimie Chin
                         </Heading>
                         <Box maxW="3xl">
-                            <Text align="left" fontSize="xl">
+                            <Text align="left" fontSize="2xl">
                                 I&apos;m currently an undergraduate researcher in Applied Psychology focused in analyzing positive development interventions.
                             </Text>
                         </Box>
