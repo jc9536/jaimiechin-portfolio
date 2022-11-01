@@ -55,8 +55,8 @@ const Page = () => {
                         </Heading>
                         <Box maxW="3xl">
                             <Text align="left" fontSize="xl">
-                                I&apos;m currently an undergraduate researcher in Applied Psychology dedicated to analyzing behavioral development.
-                                Within user experience research, I&apos;m interested in creating more mindful user experiences through Qualitative Research Methods & Data Analysis.
+                                I&apos;m currently an undergraduate researcher in Applied Psychology focused in analyzing positive development interventions.
+                                Within user experience research, I&apos;m interested in creating more mindful user experiences by improving design decisions through Qualitative research methods & data analysis.
                             </Text>
                         </Box>
                     </Box>
