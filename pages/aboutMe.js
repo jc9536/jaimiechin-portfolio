@@ -90,6 +90,7 @@ const About = () => {
                 My creative hobbies all stem from my initial interdisciplinary study between learning about people and technology. When I&apos;m not organizing spreadsheets and coding analyses, you can often find me gaming my favorite titles: Animal Crossing, Pokémon, and Stardew Valley
                 or exploring new creative skills like 3D modeling in Blender and front-end development. 
             </Text>
+            
 
 
             <br/>
