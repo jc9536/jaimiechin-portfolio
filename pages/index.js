@@ -89,7 +89,6 @@ const Page = () => {
                         </Box>
                     </Box>
                     <br />
-                    <br />
                     <SimpleGrid columns={[1, 2, 2]} gap={6}>
 
                         <Container maxW="md">
