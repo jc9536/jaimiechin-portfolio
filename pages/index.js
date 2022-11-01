@@ -84,7 +84,7 @@ const Page = () => {
                             </Heading>
                             <br />
                             <Text align="center" fontSize="xl">
-                                Within my user experience projects, I&apos;m interested in creating more mindful user experiences by improving design decisions through Qualitative research methods & data analysis.
+                                Within my user experience projects, I&apos;m interested in creating more mindful user experiences by improving design decisions through qualitative research methods & data analysis.
                             </Text>
                         </Box>
                     </Box>
