@@ -1,5 +1,5 @@
-import { Container, Badge, Image} from '@chakra-ui/react'
-import { Title} from '../../components/dataScienceWorks'
+import { Container, Badge, useColorModeValue, Image} from '@chakra-ui/react'
+import { Title} from '../../components/uxWorks'
 import Layout from '../../components/layouts/article'
 import Section from '../../components/section'
 import {useEffect} from 'react'
@@ -21,7 +21,7 @@ const Work = () => {
                 </Title>
 
          
-                <Image src={`/images/sheepyCaseStudy/matrix.png`} alt="MatrixCover"/>
+                <Image src={`/images/accuracyFairnessProject/titleFrame${useColorModeValue('', '_dark')}.png`} alt="title"/>
 
                 <Section delay={0.2}>
 
