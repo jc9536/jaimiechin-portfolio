@@ -1,8 +1,10 @@
-import { Container, Badge, useColorModeValue, Image, AspectRatio} from '@chakra-ui/react'
+import { Container, Badge, useColorModeValue, Image, AspectRatio, Img} from '@chakra-ui/react'
 import { Title} from '../../components/uxWorks'
 import Layout from '../../components/layouts/article'
 import Section from '../../components/section'
 import {useEffect} from 'react'
+
+
 
 const UXWork = () => {
 
@@ -10,11 +12,15 @@ const UXWork = () => {
         import("image-map-resizer").then((module) => module.default());
       }, []);
     
+    
+    
+    
     return (
         
         <Layout title="Sheepy">
             <br />
-
+            
+            
             <Container maxW="max">
                 <Title>
                     Sheepy <Badge>July 2022</Badge>
@@ -24,6 +30,7 @@ const UXWork = () => {
                 <Image src={`/images/sheepyCaseStudy/matrix.png`} alt="MatrixCover"/>
 
                 <Section delay={0.2}>
+
                     <Image src={`/images/sheepyCaseStudy/ProjectInfo${useColorModeValue('', '_dark')}.png`} alt="ProjectInfo" useMap='#projinfolinks'/>
                     <map name='projinfolinks'>
                         <area shape="rect" coords="100,845,350,885" href ="https://www.linkedin.com/in/jasbrad/"  alt="JamesBradley" target="_blank" />

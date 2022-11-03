@@ -3,6 +3,7 @@ import Section from '../components/section'
 import Layout from '../components/layouts/article'
 import { WorkGridItem } from '../components/ds-grid-item'
 import underConstructionThumb from '../public/images/underConstruction.png'
+import titanicThumb from '../public//images/accuracyFairnessProject/titanicThumbnail.png'
 
 const Works = () => {
     return (
@@ -19,8 +20,8 @@ const Works = () => {
 
         <SimpleGrid columns ={[1, 1, 2]} spacing="65px">
             <Section>
-                <WorkGridItem id="accFairness" title="Accuracy & Fairness of an Automated Decision System" thumbnail={underConstructionThumb}>
-                This project is under construction, please visit some of my other works in the meantime!
+                <WorkGridItem id="accFairness" title="Accuracy & Fairness Analysis of an Automated Decision System" thumbnail={titanicThumb}>
+                    An analysis of the trade-off between accuracy and fairness in a machine learning classifier (automated decision system)
                 </WorkGridItem>
             </Section>
 

@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST={}
+self.__REACT_LOADABLE_MANIFEST={"dataScienceWorks/accFairness.js -> image-map-resizer":{"id":"dataScienceWorks/accFairness.js -> image-map-resizer","files":["static/chunks/node_modules_image-map-resizer_js_imageMapResizer_min_js.js"]}}
