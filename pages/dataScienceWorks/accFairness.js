@@ -41,7 +41,7 @@ const Work = () => {
                             <ListItem>
                             <Meta>ADS Source Code</Meta>
                                 <Link href="https://www.kaggle.com/code/akshaypawar7/roc-auc-decision-boundary-for-titanic-survival" isExternal={true}>
-                                    Pawar's Automated Decision System  <ExternalLinkIcon mx="2px" />
+                                    Pawar&apos;s Automated Decision System  <ExternalLinkIcon mx="2px" />
                                 </Link>
                             </ListItem>
                             <ListItem>
