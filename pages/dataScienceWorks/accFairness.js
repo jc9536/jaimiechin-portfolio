@@ -21,32 +21,32 @@ const Work = () => {
                     Accuracy & Fairness of an Automated Decision System <Badge>May 2022</Badge>
                 </Title>
                 <Image src={`/images/accuracyFairnessProject/titleFrame${useColorModeValue('', '_dark')}.png`} alt="title"/>
-
+                <br />
                 <Section delay={0.2}>
                     <br />
                     <Container centerContent>
                         <List spacing={4}>
                             <ListItem>
                             <Meta>Report Document</Meta>
-                                <Link href="https://docs.google.com/document/d/1nJ9Tq-DEd6lMLRWAt6ScEksPZso_DaTeHT7BRQzXzzQ/edit?usp=sharing">
+                                <Link href="https://docs.google.com/document/d/1nJ9Tq-DEd6lMLRWAt6ScEksPZso_DaTeHT7BRQzXzzQ/edit?usp=sharing" isExternal={true}>
                                     Written Report on the Analysis <ExternalLinkIcon mx="2px" />
                                 </Link>
                             </ListItem>
                             <ListItem>
                             <Meta>Analysis Source Code</Meta>
-                                <Link href="https://colab.research.google.com/drive/1r0mDtkyGYI-biOYHL9leV78jnvMQq32U?usp=sharing">
+                                <Link href="https://colab.research.google.com/drive/1r0mDtkyGYI-biOYHL9leV78jnvMQq32U?usp=sharing" isExternal={true}>
                                     Google Colab Notebook <ExternalLinkIcon mx="2px" />
                                 </Link>
                             </ListItem>
                             <ListItem>
                             <Meta>ADS Source Code</Meta>
-                                <Link href="https://www.kaggle.com/code/akshaypawar7/roc-auc-decision-boundary-for-titanic-survival">
+                                <Link href="https://www.kaggle.com/code/akshaypawar7/roc-auc-decision-boundary-for-titanic-survival" isExternal={true}>
                                     Pawar's Automated Decision System  <ExternalLinkIcon mx="2px" />
                                 </Link>
                             </ListItem>
                             <ListItem>
                             <Meta>Competition Host</Meta>
-                                <Link href="https://www.kaggle.com/c/titanic">
+                                <Link href="https://www.kaggle.com/c/titanic" isExternal={true}>
                                     Kaggle Competition  <ExternalLinkIcon mx="2px" />
                                 </Link>
                             </ListItem>
