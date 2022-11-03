@@ -44,7 +44,7 @@ const About = () => {
                                 borderRadius="full"
                                 overflow="hidden"
                             >
-                                <Image borderRadius='full' boxSize="375px" src="/images/profile.png" />
+                                <Image borderRadius='full' boxSize="375px" src="/images/profile.png" alt="profile" />
                             </ Box>
                         </Center>
                 </Box>

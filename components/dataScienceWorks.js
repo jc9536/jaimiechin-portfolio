@@ -1,5 +1,5 @@
 import NextLink from 'next/link'
-import {Heading, Box, Image, Link, Badge} from '@chakra-ui/react'
+import {Heading, Box, Image, Link, Badge } from '@chakra-ui/react'
 import {ChevronRightIcon} from '@chakra-ui/icons'
 
 export const Title = ({ children }) => (
@@ -24,7 +24,7 @@ export const WorkImage = ({ src, alt, usemap }) => (
 )
 
 export const Meta = ({ children }) => (
-    <Badge colorScheme="yellow" mr={2}>
+    <Badge colorScheme="yellow" size="xl" mr={4}>
         {children}
     </Badge>
 )
