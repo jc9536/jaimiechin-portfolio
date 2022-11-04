@@ -17,7 +17,7 @@ import {
 import {HamburgerIcon} from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
 
-const LinkItem = ({href, path, children}) => {
+const LinkItem = ({href, path, isExternal, children}) => {
     const active = path == href 
     const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
     return(
@@ -26,7 +26,8 @@ const LinkItem = ({href, path, children}) => {
                 href={href}
                 p={2}
                 bg={active ? 'gold': undefined}
-                color={active ? '#202023': inactiveColor}>
+                color={active ? '#202023': inactiveColor}
+                isExternal={isExternal}>
                     {children}
             </Link>
         </NextLink>
@@ -68,19 +69,19 @@ const Navbar = props => {
                     flexGrow={1}
                     mt={{ base: 4, nmd: 0}}>
 
-                        <LinkItem href="/uxWorks" path={path}>
+                        <LinkItem href="/uxWorks" path={path} isExternal={false}>
                             UX Work
                         </LinkItem>
 
-                        <LinkItem href="/dataScienceWorks" path={path}>
+                        <LinkItem href="/dataScienceWorks" path={path} isExternal={false}>
                             Data Science Works
                         </LinkItem>
 
-                        <LinkItem href='https://www.figma.com/proto/x4BxTXMZrYrLVqhFnGuEgG/Resum%C3%A9---Jaimie-Chin?page-id=0%3A1&node-id=1%3A2&viewport=668%2C468%2C1&scaling=min-zoom' path={path}>
+                        <LinkItem href='https://www.figma.com/proto/x4BxTXMZrYrLVqhFnGuEgG/Resum%C3%A9---Jaimie-Chin?page-id=0%3A1&node-id=1%3A2&viewport=668%2C468%2C1&scaling=min-zoom' path={path} isExternal={true}>
                             Resumé
                         </LinkItem>
 
-                        <LinkItem href="/aboutMe" path={path}>
+                        <LinkItem href="/aboutMe" path={path} isExternal={false}>
                             About Me
                         </LinkItem>
                 </Stack>
