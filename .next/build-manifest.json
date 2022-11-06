@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/aboutMe.js"
     ],
-    "/dataScienceWorks": [
+    "/dataScienceWorks/accFairness": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/dataScienceWorks.js"
+      "static/chunks/pages/dataScienceWorks/accFairness.js"
     ]
   },
   "ampFirstPages": []

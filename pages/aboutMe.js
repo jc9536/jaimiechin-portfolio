@@ -49,7 +49,7 @@ const About = () => {
                         </Center>
                 </Box>
 
-                <Box w="250px" h="20px" display="inline=block" overflow="hidden"></Box>
+                <Box w="225px" h="20px" display="inline=block" overflow="hidden"></Box>
 
                 <Box flexGrow={1} display="inline-block" overflow="hidden">
                     <Box display="inline-block" overflow="hidden">
@@ -73,7 +73,7 @@ const About = () => {
                                 Who am I?
                         </Heading>
                         <Text fontSize="xl">
-                            I&apos;ve always been interested in solving problems by identifying common patterns and insights from history. I want to continue developing my skills in research, design and development in order to make the world a better place. 
+                            I&apos;ve always been interested in solving problems by identifying common patterns in data. I want to continue developing my skills in research, design and development in order to make the world a better place. 
                             To me, learning is a lifelong journey and it never stops.
                         </Text>
                     </Box>

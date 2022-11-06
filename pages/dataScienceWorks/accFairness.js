@@ -69,6 +69,14 @@ const Work = () => {
                         <area target="_blank" alt="fair" title="fair" href="https://link.springer.com/article/10.1007/s10287-022-00425-z#citeas" coords="716,791,1284,731" shape="rect" />
                     </map>
 
+                    <Image src={`/images/accuracyFairnessProject/Tradeoff${useColorModeValue('', '_dark')}.png`} alt="tradeoff" id="tradeoff"/>
+                    <Image src={`/images/accuracyFairnessProject/Terms${useColorModeValue('', '_dark')}.png`} alt="terms" id="terms"/>
+                    <Image src={`/images/accuracyFairnessProject/Background${useColorModeValue('', '_dark')}.png`} alt="bground" id="bg" useMap='#backgroundMap'/>
+                    <map name="backgroundMap">
+                        <area target="_blank" alt="pawar" title="pawar" href="https://www.kaggle.com/code/akshaypawar7/roc-auc-decision-boundary-for-titanic-survival" coords="886,537,1437,592" shape="rect"/>
+                        <area target="_blank" alt="rocAUC" title="rocAUC" href="https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc" coords="413,1933,1584,2066" shape="rect"/>
+                    </map>
+
                 </Section>
             </Container>
 
