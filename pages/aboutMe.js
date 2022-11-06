@@ -38,8 +38,8 @@ const About = () => {
                                 borderWidth={8}
                                 bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
                                 borderStyle="solid"
-                                w="375px"
-                                h="375px"
+                                w="350px"
+                                h="350px"
                                 display="inline-block"
                                 borderRadius="full"
                                 overflow="hidden"
