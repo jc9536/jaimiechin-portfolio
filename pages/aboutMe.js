@@ -59,15 +59,15 @@ const About = () => {
                         <br />
                         <BioSection>
                             <BioYear>2001</BioYear>
-                            Born in New York City, New York.
+                            Born in New York City, New York
                         </BioSection>
                         <BioSection>
                             <BioYear>2019</BioYear>
-                            Graduated from Townsend Harris High School.
+                            Graduated from Townsend Harris High School
                         </BioSection>
                         <BioSection>
                             <BioYear>2023</BioYear>
-                            Will graduate from New York University with a B.S in Applied Psycholgy & B.A in Data Science.
+                            Will graduate from New York University with a <b>B.S in Applied Psycholgy</b> & <b>B.A in Data Science</b>
                         </BioSection>  
                         <Heading as="h1" variant="page-title" size="2xl" mt={6} mb={2}>
                                 Who am I?
@@ -86,8 +86,8 @@ const About = () => {
                 What I like to do 
             </Heading>
             <Text fontSize="xl">
-                My creative hobbies all stem from my initial interdisciplinary study between learning about people and technology. When I&apos;m not organizing spreadsheets and coding analyses, you can often find me gaming my favorite titles: Animal Crossing, Pokémon, and Stardew Valley
-                or exploring new creative skills like 3D modeling in Blender and front-end development. 
+                My creative hobbies all stem from my initial interdisciplinary study between learning about people and technology. When I&apos;m not organizing spreadsheets and coding analyses, you can often find me gaming my favorite titles: <b><i>Animal Crossing</i></b>, <b><i>Pokémon</i></b>, and <b><i>Stardew Valley</i></b> or 
+                exploring new creative skills like 3D modeling in Blender and front-end development. 
             </Text>
             
 
