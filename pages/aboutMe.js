@@ -69,8 +69,7 @@ const About = () => {
                             <BioYear>2023</BioYear>
                             Will graduate from New York University with a B.S in Applied Psycholgy & B.A in Data Science.
                         </BioSection>  
-                        <br />
-                        <Heading as="h1" variant="page-title" size="2xl" mb={4}>
+                        <Heading as="h1" variant="page-title" size="2xl" mt={6} mb={2}>
                                 Who am I?
                         </Heading>
                         <Text fontSize="xl">
@@ -83,7 +82,7 @@ const About = () => {
             <br />
             <br />
 
-            <Heading as="h1" variant="page-title" size="2xl" mb={4}>
+            <Heading as="h1" variant="page-title" size="2xl" mb={2}>
                 What I like to do 
             </Heading>
             <Text fontSize="xl">
