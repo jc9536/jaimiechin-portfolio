@@ -38,13 +38,13 @@ const About = () => {
                                 borderWidth={8}
                                 bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
                                 borderStyle="solid"
-                                w="350px"
-                                h="350px"
+                                w="325px"
+                                h="325px"
                                 display="inline-block"
                                 borderRadius="full"
                                 overflow="hidden"
                             >
-                                <Image borderRadius='full' boxSize="350px" src="/images/profile.png" alt="profile" />
+                                <Image borderRadius='full' boxSize="325px" src="/images/profile.png" alt="profile" />
                             </ Box>
                         </Center>
                 </Box>
