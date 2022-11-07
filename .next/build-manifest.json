@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/aboutMe": [
+    "/dataScienceWorks": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/aboutMe.js"
+      "static/chunks/pages/dataScienceWorks.js"
     ],
     "/dataScienceWorks/accFairness": [
       "static/chunks/webpack.js",
