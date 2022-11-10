@@ -45,8 +45,9 @@ const UXWork = () => {
                         <area shape="rect" coords="665,425,1010,530" href ="#prototype"  alt="usabilityJump" target="_parent" />
                         
                     </map>
+
+                    <Image src={`/images/sheepyCaseStudy/Concept${useColorModeValue('', '_dark')}.png`} overflow="hidden" alt="Concept"/>
                     
-                    <Image src={`/images/sheepyCaseStudy/Concept${useColorModeValue('', '_dark')}.png`} alt="Concept"/>
 
                     <Image src={`/images/sheepyCaseStudy/MarketResearch${useColorModeValue('', '_dark')}.png`} alt="MarketResearch" useMap='#marketMap' id="marketresearch"/>
                     <map name='marketMap'>
