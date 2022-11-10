@@ -67,7 +67,7 @@ const UXWork = () => {
                     <Image src={`/images/sheepyCaseStudy/CompetitiveAnalysis${useColorModeValue('', '_dark')}.png`} alt="CompetitiveAnalysis"/>
                     <Image src={`/images/sheepyCaseStudy/UserSurvey${useColorModeValue('', '_dark')}.png`} alt="UserSurvey" useMap='#surveyMap' id="usersurvey"/>
                     <map name='surveyMap'>
-                        <area shape="rect" coords="1000,200, 1225,240" href ="https://drive.google.com/file/d/1nBcsrdwAceIDJ3znjxZR-dltTwXodCjR/view?usp=sharing"  alt="Shetty" target="_blank" />
+                        <area shape="rect" coords="1000,200, 1225,240" href ="https://drive.google.com/file/d/1G7DX5DioW7yjIcwf5oistEC_U_dtOUUt/view?usp=sharing"  alt="survey" target="_blank" />
                         
                     </map>
 
