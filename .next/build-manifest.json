@@ -35,10 +35,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/dataScienceWorks.js"
     ],
-    "/dataScienceWorks/accFairness": [
+    "/uxWorks": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/dataScienceWorks/accFairness.js"
+      "static/chunks/pages/uxWorks.js"
     ]
   },
   "ampFirstPages": []
