@@ -58,10 +58,6 @@ const About = () => {
                         </Heading>
                         <br />
                         <BioSection>
-                            <BioYear>2001</BioYear>
-                            Born in New York City, New York
-                        </BioSection>
-                        <BioSection>
                             <BioYear>2019</BioYear>
                             Graduated from Townsend Harris High School
                         </BioSection>
