@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/uxWorks": "pages/uxWorks.js",
-  "/dataScienceWorks": "pages/dataScienceWorks.js"
+  "/uxWorks/Sheepy": "pages/uxWorks/Sheepy.js",
+  "/": "pages/index.js"
 }
