@@ -64,11 +64,11 @@ const Resume = () => {
                                             {error && <ErrorMessage message={error} />}
                                             <FormControl mt={6} isRequired>
                                                 <FormLabel>Password</FormLabel>
-                                                <InputGroup>
+                                                <InputGroup size="md">
 
-                                                    <Input type={showPassword ? 'text' : 'password'} placeholder="*******" size="lg" onChange={event => setPassword(event.currentTarget.value)}/>
+                                                    <Input type={showPassword ? 'text' : 'password'} placeholder="*******" pr="4.5rem" onChange={event => setPassword(event.currentTarget.value)}/>
                                                     <InputRightElement width='4.5rem'>
-                                                        <Button h='2rem' size='sm' colorScheme="yellow" onClick={handlePasswordVisibility}>
+                                                        <Button h='1.75rem' size='sm' colorScheme="yellow" onClick={handlePasswordVisibility}>
                                                             {showPassword ? 'Hide' : 'Show'} 
                                                         </Button>
                                                     </InputRightElement>
