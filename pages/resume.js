@@ -1,4 +1,4 @@
-import {Heading, Box, FormControl, Input, FormLabel, Button, CircularProgress, InputGroup, InputRightElement, Container, Link} from '@chakra-ui/react'
+import {Heading, Box, FormControl, Input, FormLabel, Button, CircularProgress, InputGroup, InputRightElement, Container, Link, useColorModeValue} from '@chakra-ui/react'
 import React, {useState} from 'react'
 import Layout from '../components/layouts/article'
 import { userLogin } from '../components/utils/mockApi';
@@ -31,9 +31,9 @@ const Resume = () => {
             <br/>
             <br/>
             <Container centerContent mt={150} mb={500}>
-                <Box p={8} maxWidth="500px" borderWidth={1} borderRadius={8} boxShadow="lg">
+                <Box p={8} borderWidth={1} borderRadius={15} bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} boxShadow="2xl">
                     {isLoggedIn ? (
-                        <Box textAlign="center" minW={425}>
+                        <Box textAlign="center">
                         <Heading>Success!</Heading>
                         <Button
                         colorScheme="yellow"
