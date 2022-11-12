@@ -42,9 +42,8 @@ const Resume = () => {
                         mt={8}
                         onClick={() => setIsLoggedIn(false)}
                         >
-                            <Link href="https://www.figma.com/proto/x4BxTXMZrYrLVqhFnGuEgG/Resum%C3%A9---Jaimie-Chin?page-id=0%3A1&node-id=1%3A2&viewport=668%2C468%2C1&scaling=min-zoom" isExternal>
-                            Resumé Link <ExternalLinkIcon mx="2px" />
-                            </Link>
+                            <a href="/JaimieChinResume.pdf" download="Jaimie Chin - Resumé.pdf">Download the pdf <ExternalLinkIcon mx="2px" /> </a>
+                            
                         </Button>
                     </Box>
 
