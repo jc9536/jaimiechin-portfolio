@@ -12,6 +12,7 @@ const Resume = () => {
     const [isLoggedIn, setIsLoggedIn] = useState(false);
     const [showPassword, setShowPassword] = useState(false);
     const handlePasswordVisibility = () => setShowPassword(!showPassword);
+    const background = useColorModeValue('whiteAlpha.500', 'whiteAlpha.200');
     const handleSubmit = async event => {
         event.preventDefault();
         setIsLoading(true);
@@ -32,7 +33,7 @@ const Resume = () => {
             <br/>
                
                     {isLoggedIn ? (
-                        <Box p={8} borderWidth={1} borderRadius={15} bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} boxShadow="2xl">
+                        <Box p={8} borderWidth={1} borderRadius={15} bg={background} boxShadow="2xl">
                             <Box textAlign="center">
                                 <Heading>Success!</Heading>
                                 <br />
@@ -55,7 +56,7 @@ const Resume = () => {
                     ) : (
                         <>
                         <Center mt={150} mb={600}>
-                            <Box p={8} borderWidth={1} borderRadius={15} bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} boxShadow="2xl" maxW="lg">
+                            <Box p={8} borderWidth={1} borderRadius={15} bg={background} boxShadow="2xl" maxW="lg">
                                 <Box textAlign="center">
                                     <Heading>Resumé Access</Heading>
                                 </Box>
