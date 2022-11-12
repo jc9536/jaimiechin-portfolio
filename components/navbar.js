@@ -77,7 +77,7 @@ const Navbar = props => {
                             Data Science Works
                         </LinkItem>
 
-                        <LinkItem href='https://www.figma.com/proto/x4BxTXMZrYrLVqhFnGuEgG/Resum%C3%A9---Jaimie-Chin?page-id=0%3A1&node-id=1%3A2&viewport=668%2C468%2C1&scaling=min-zoom' path={path} isExternal={true}>
+                        <LinkItem href='/resume' path={path} isExternal={false}>
                             Resumé
                         </LinkItem>
 
@@ -106,7 +106,7 @@ const Navbar = props => {
                                     <NextLink href="/dataScienceWorks" passHref>
                                         <MenuItem as={Link}>Data Science Works</MenuItem>
                                     </NextLink>
-                                    <NextLink href="https://drive.google.com/file/d/1myPWLixIG3AvOCIZ2_YKOWHVKUVlX60g/view?usp=sharing" passHref>
+                                    <NextLink href="/resume" passHref>
                                         <MenuItem as={Link}>Resumé</MenuItem>
                                     </NextLink>
                                     <NextLink href="/aboutMe" passHref>
