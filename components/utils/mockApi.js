@@ -1,4 +1,4 @@
-export const userLogin = async ({ email, password }) => {
+export const userLogin = async ({ password }) => {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         if (password === 'password') {

@@ -1,4 +1,4 @@
-import {Heading, Box, FormControl, Input, FormLabel, Button, CircularProgress, Text, InputGroup, InputRightElement, Container, Link} from '@chakra-ui/react'
+import {Heading, Box, FormControl, Input, FormLabel, Button, CircularProgress, InputGroup, InputRightElement, Container, Link} from '@chakra-ui/react'
 import React, {useState} from 'react'
 import Layout from '../components/layouts/article'
 import { userLogin } from '../components/utils/mockApi';
