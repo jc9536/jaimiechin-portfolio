@@ -55,7 +55,7 @@ const Resume = () => {
 
                     ) : (
                         <>
-                        <Center mt={150} mb={600}>
+                        <Center mt={150} mb={150}>
                             <Box p={8} borderWidth={1} borderRadius={15} bg={background} boxShadow="2xl" maxW="lg">
                                 <Box textAlign="center">
                                     <Heading>Resumé Access</Heading>
@@ -89,11 +89,6 @@ const Resume = () => {
                             </Center>
                         </>
                     )}
-                    
-
-            <br/>
-            <br/>
-
         </Layout>
     )
 }
