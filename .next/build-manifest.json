@@ -25,15 +25,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/resume": [
+    "/dataScienceWorks": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/resume.js"
+      "static/chunks/pages/dataScienceWorks.js"
     ],
-    "/uxWorks": [
+    "/dataScienceWorks/accFairness": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/uxWorks.js"
+      "static/chunks/pages/dataScienceWorks/accFairness.js"
     ]
   },
   "ampFirstPages": []

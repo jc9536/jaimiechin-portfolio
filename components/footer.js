@@ -1,5 +1,4 @@
-import { Box, Image, HStack, Center, useColorModeValue } from '@chakra-ui/react'
-import { ButtonGroup, Container, IconButton, Stack, Text } from '@chakra-ui/react'
+import { Box, Center, ButtonGroup, IconButton, Stack } from '@chakra-ui/react'
 import * as React from 'react'
 import { FaGithub, FaEnvelope  } from 'react-icons/fa'
 

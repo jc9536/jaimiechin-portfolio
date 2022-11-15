@@ -56,9 +56,9 @@ const Work = () => {
                     <Image src={`/images/accuracyFairnessProject/ProjectInfo${useColorModeValue('', '_dark')}.png`} alt="projinfo" useMap='#info'/>
                     <map name="info">
                         <area target="_parent" alt="fairnessInML" href="#fairness" coords="97,314,669,464" shape="rect"/>
-                        <area target="_parent" alt="" href="" coords="699,314,1296,459" shape="rect"/>
-                        <area target="_parent" alt="" href="" coords="1328,313,1690,460" shape="rect"/>
-                        <area target="_parent" alt="" href="" coords="98,493,470,642" shape="rect"/>
+                        <area target="_parent" alt="tradeoff" href="#tradeoff" coords="699,314,1296,459" shape="rect"/>
+                        <area target="_parent" alt="terms" href="#terms" coords="1328,313,1690,460" shape="rect"/>
+                        <area target="_parent" alt="background" href="#bg" coords="98,493,470,642" shape="rect"/>
                         <area target="_parent" alt="" href="" coords="503,491,964,641" shape="rect"/>
                         <area target="_parent" alt="" href="" coords="996,491,1570,641" shape="rect"/>
                         <area target="_parent" alt="" href="" coords="1600,494,1964,641" shape="rect"/>
