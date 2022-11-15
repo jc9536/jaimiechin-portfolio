@@ -28,7 +28,7 @@ const Work = () => {
                         <List spacing={4}>
                             <ListItem>
                             <Meta>Report Document</Meta>
-                                <Link href="https://docs.google.com/document/d/1nJ9Tq-DEd6lMLRWAt6ScEksPZso_DaTeHT7BRQzXzzQ/edit?usp=sharing" isExternal={true}>
+                                <Link href="/FairnessAnalysis Report.pdf" isExternal={true}>
                                     Written Report on the Analysis <ExternalLinkIcon mx="2px" />
                                 </Link>
                             </ListItem>
