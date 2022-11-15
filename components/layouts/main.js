@@ -21,9 +21,11 @@ const Main = ({ children, router}) => {
 
                 <br />
                 <br />
-                <Footer />
+                
             </Container>
+            <Footer />
         </Box>
+        
     )
 }
 
