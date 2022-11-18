@@ -17,6 +17,7 @@ import { Typewriter } from 'react-simple-typewriter'
 import { WorkGridItem } from '../components/ux-grid-item'
 import thumbSheepy from '../public/images/sheepyCaseStudy/sheepyThumbnail.png'
 import underConstructionThumb from '../public/images/underConstruction.png'
+import starbucksThumb from '../public/images/StarbucksRedesign/thumbnail.png'
 
 
 const Page = () => {
@@ -98,7 +99,7 @@ const Page = () => {
                         </Container>
 
                         <Container maxW="md">
-                            <WorkGridItem id="underConstruction" title="Work In Progress..." thumbnail={underConstructionThumb}>
+                            <WorkGridItem id="underConstruction" title="Work In Progress..." thumbnail={starbucksThumb}>
                                 This  case study is under construction, please visit some of my other works in the meantime!
                             </WorkGridItem>
                         </Container>

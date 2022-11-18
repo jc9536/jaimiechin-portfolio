@@ -3,7 +3,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/ux-grid-item'
 import Layout from '../components/layouts/article'
 import thumbSheepy from '../public/images/sheepyCaseStudy/sheepyThumbnail.png'
-import underConstructionThumb from '../public/images/underConstruction.png'
+import starbucksThumb from '../public/images/StarbucksRedesign/thumbnail.png'
 
 const Works = () => {
     return (
@@ -24,7 +24,7 @@ const Works = () => {
                 </Section>
 
                 <Section>
-                    <WorkGridItem id="underConstruction" title="Work In Progress..." thumbnail={underConstructionThumb}>
+                    <WorkGridItem id="underConstruction" title="Work In Progress..." thumbnail={starbucksThumb}>
                         This  case study is under construction, please visit some of my other works in the meantime!
                     </WorkGridItem>
                 </Section>

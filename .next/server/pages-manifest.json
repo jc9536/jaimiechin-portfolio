@@ -1,6 +1,7 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/uxWorks/Sheepy": "pages/uxWorks/Sheepy.js"
+  "/_error": "pages/_error.js",
+  "/dataScienceWorks/accFairness": "pages/dataScienceWorks/accFairness.js",
+  "/dataScienceWorks": "pages/dataScienceWorks.js"
 }
