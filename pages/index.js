@@ -16,7 +16,6 @@ import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
 import { WorkGridItem } from '../components/ux-grid-item'
 import thumbSheepy from '../public/images/sheepyCaseStudy/sheepyThumbnail.png'
-import underConstructionThumb from '../public/images/underConstruction.png'
 import starbucksThumb from '../public/images/StarbucksRedesign/thumbnail.png'
 
 
