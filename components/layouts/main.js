@@ -16,11 +16,11 @@ const Main = ({ children, router}) => {
 
             <script async src="https://www.googletagmanager.com/gtag/js?id=G-P4NPYDG6ZT"></script>
             <script>
-                window.dataLayer = window.dataLayer || []
+                window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments)}
-                gtag('js', new Date())
+                gtag('js', new Date());
 
-                gtag('config', 'G-P4NPYDG6ZT')
+                gtag('config', 'G-P4NPYDG6ZT');
             </script>
 
             <Navbar path={router.asPath} />
