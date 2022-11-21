@@ -14,6 +14,15 @@ const Main = ({ children, router}) => {
                 <title>Jaimie Chin - Homepage</title>
             </Head>
 
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-P4NPYDG6ZT"></script>
+            <script>
+                window.dataLayer = window.dataLayer || []
+                function gtag(){dataLayer.push(arguments)}
+                gtag('js', new Date())
+
+                gtag('config', 'G-P4NPYDG6ZT')
+            </script>
+
             <Navbar path={router.asPath} />
 
             <Container maxW="container.xl" pt={14}>
