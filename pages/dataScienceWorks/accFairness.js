@@ -3,13 +3,25 @@ import { Title, Meta } from '../../components/dataScienceWorks'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import Layout from '../../components/layouts/article'
 import Section from '../../components/section'
-import {useEffect} from 'react'
+import { useEffect } from 'react'
+import Head from 'next/head'
 
 const Work = () => {
 
     useEffect(() => {
         import("image-map-resizer").then((module) => module.default());
-      }, []);
+    }, []);
+    
+    <Head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P4NPYDG6ZT"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments)}
+            gtag(&apos; js&apos;, new Date());
+
+            gtag(&apos;config&apos;, &apos;G-P4NPYDG6ZT&apos;);
+        </script>
+    </Head>
     
     return (
         

@@ -3,9 +3,21 @@ import React, {useState} from 'react'
 import Layout from '../components/layouts/article'
 import { userLogin } from '../components/utils/mockApi';
 import ErrorMessage from '../components/ErrorMessage';
-import { DownloadIcon} from '@chakra-ui/icons';
+import { DownloadIcon } from '@chakra-ui/icons';
+import Head from 'next/head'
 
 const Resume = () => {
+    <Head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P4NPYDG6ZT"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments)}
+            gtag(&apos; js&apos;, new Date());
+
+            gtag(&apos;config&apos;, &apos;G-P4NPYDG6ZT&apos;);
+        </script>
+    </Head>
+    
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
     const [isLoading, setIsLoading] = useState(false);

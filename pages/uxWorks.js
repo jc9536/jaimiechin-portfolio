@@ -4,8 +4,19 @@ import { WorkGridItem } from '../components/ux-grid-item'
 import Layout from '../components/layouts/article'
 import thumbSheepy from '../public/images/sheepyCaseStudy/sheepyThumbnail.png'
 import starbucksThumb from '../public/images/StarbucksRedesign/thumbnail.png'
+import Head from 'next/head'
 
 const Works = () => {
+    <Head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P4NPYDG6ZT"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments)}
+            gtag(&apos; js&apos;, new Date());
+
+            gtag(&apos;config&apos;, &apos;G-P4NPYDG6ZT&apos;);
+        </script>
+    </Head>
     return (
         <Layout>
         <Container maxW="container.xl">
