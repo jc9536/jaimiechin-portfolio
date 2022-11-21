@@ -18,9 +18,9 @@ const Main = ({ children, router}) => {
             <script>
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments)}
-                gtag('js', new Date());
+                gtag(&apos; js&apos;, new Date());
 
-                gtag('config', 'G-P4NPYDG6ZT');
+                gtag(&apos;config&apos;, &apos;G-P4NPYDG6ZT&apos;);
             </script>
 
             <Navbar path={router.asPath} />
