@@ -7,28 +7,26 @@ import {
     Divider,
     Button,
     useColorModeValue} from '@chakra-ui/react'
-import {Head, Script} from 'next/head'
+import {Script} from 'next/head'
 
 const NotFound = () => {
-    <Head>
-        <Script
-            src="https://www.googletagmanager.com/gtag/js?id=G-P4NPYDG6ZT"
-            strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-            {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-P4NPYDG6ZT);
-        `}
-        </Script>
-    </Head>
 
     const notFound = `/images/404notFound${useColorModeValue('', '_dark')}.png`
     return (
         <Container> 
+            <Script
+                src="https://www.googletagmanager.com/gtag/js?id=G-P4NPYDG6ZT"
+                strategy="afterInteractive"
+            />
+            <Script id="G-P4NPYDG6ZT" strategy="afterInteractive">
+                {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){window.dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'G-P4NPYDG6ZT);
+                `}
+            </Script>
             <br/>
             <br/>
             <Heading as="h1">Not Found</Heading>

@@ -4,33 +4,29 @@ import { ExternalLinkIcon } from '@chakra-ui/icons'
 import Layout from '../../components/layouts/article'
 import Section from '../../components/section'
 import { useEffect } from 'react'
-import {Head, Script} from 'next/head'
+import {Script} from 'next/head'
 
 const Work = () => {
 
     useEffect(() => {
         import("image-map-resizer").then((module) => module.default());
     }, []);
-    
-    <Head>
-        <Script
-            src="https://www.googletagmanager.com/gtag/js?id=G-P4NPYDG6ZT"
-            strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-            {`
+    return (
+        
+        <Layout title="AccuracyFairness">
+            <Script
+                src="https://www.googletagmanager.com/gtag/js?id=G-P4NPYDG6ZT"
+                strategy="afterInteractive"
+            />
+            <Script id="G-P4NPYDG6ZT" strategy="afterInteractive">
+                {`
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){window.dataLayer.push(arguments);}
                 gtag('js', new Date());
 
                 gtag('config', 'G-P4NPYDG6ZT);
                 `}
-        </Script>
-    </Head>
-    
-    return (
-        
-        <Layout title="AccuracyFairness">
+            </Script>
             <br />
 
             <Container maxW="max">

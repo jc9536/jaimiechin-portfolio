@@ -17,27 +17,25 @@ import { Typewriter } from 'react-simple-typewriter'
 import { WorkGridItem } from '../components/ux-grid-item'
 import thumbSheepy from '../public/images/sheepyCaseStudy/sheepyThumbnail.png'
 import starbucksThumb from '../public/images/StarbucksRedesign/thumbnail.png'
-import { Head, Script } from 'next/script'
+import { Script } from 'next/script'
 
 
 const Page = () => {
-    <Head>
-        <Script
-            src="https://www.googletagmanager.com/gtag/js?id=G-P4NPYDG6ZT"
-            strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-            {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-P4NPYDG6ZT);
-        `}
-        </Script>
-    </Head>
     return (
         <Layout>
+            <Script
+                src="https://www.googletagmanager.com/gtag/js?id=G-P4NPYDG6ZT"
+                strategy="afterInteractive"
+            />
+            <Script id="G-P4NPYDG6ZT" strategy="afterInteractive">
+                {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){window.dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'G-P4NPYDG6ZT);
+                `}
+            </Script>
             
             <Container maxW="container.xl" centerContent>
                 <br />

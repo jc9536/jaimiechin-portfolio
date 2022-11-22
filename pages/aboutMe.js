@@ -7,26 +7,24 @@ import {
     useColorModeValue} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import { BioSection, BioYear } from '../components/bio'
-import {Head, Script} from 'next/head'
+import {Script} from 'next/head'
 
 const About = () => {
-    <Head>
-        <Script
-            src="https://www.googletagmanager.com/gtag/js?id=G-P4NPYDG6ZT"
-            strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-            {`
+    return (
+        <Layout>
+            <Script
+                src="https://www.googletagmanager.com/gtag/js?id=G-P4NPYDG6ZT"
+                strategy="afterInteractive"
+            />
+            <Script id="G-P4NPYDG6ZT" strategy="afterInteractive">
+                {`
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){window.dataLayer.push(arguments);}
                 gtag('js', new Date());
 
                 gtag('config', 'G-P4NPYDG6ZT);
                 `}
-        </Script>
-    </Head>
-    return (
-        <Layout>
+            </Script>
             <br/>
             <br/>
             <Heading as="h1" variant="page-title" size="4xl" mb={4}>

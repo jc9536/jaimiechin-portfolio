@@ -4,26 +4,26 @@ import { WorkGridItem } from '../components/ux-grid-item'
 import Layout from '../components/layouts/article'
 import thumbSheepy from '../public/images/sheepyCaseStudy/sheepyThumbnail.png'
 import starbucksThumb from '../public/images/StarbucksRedesign/thumbnail.png'
-import {Head, Script} from 'next/head'
+import { Script} from 'next/head'
 
 const Works = () => {
-    <Head>
-        <Script
-            src="https://www.googletagmanager.com/gtag/js?id=G-P4NPYDG6ZT"
-            strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-            {`
+
+    return (
+        
+        <Layout>
+            <Script
+                src="https://www.googletagmanager.com/gtag/js?id=G-P4NPYDG6ZT"
+                strategy="afterInteractive"
+            />
+            <Script id="G-P4NPYDG6ZT" strategy="afterInteractive">
+                {`
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){window.dataLayer.push(arguments);}
                 gtag('js', new Date());
 
                 gtag('config', 'G-P4NPYDG6ZT);
                 `}
-        </Script>
-    </Head>
-    return (
-        <Layout>
+            </Script>
         <Container maxW="container.xl">
             <br />
             <Heading as="h3" fontSize={64} mb={4} align="center">

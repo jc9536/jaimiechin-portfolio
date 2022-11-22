@@ -4,19 +4,18 @@ import Fonts from '../components/fonts'
 import theme from '../lib/theme'
 import { AnimatePresence } from 'framer-motion'
 import { Analytics } from '@vercel/analytics/react'
-import { Head, Script } from 'next/script'
+import { Script } from 'next/script'
 
 const Website = ({ Component, pageProps, router}) => {
     return (
         <ChakraProvider theme={theme}>
             <Fonts />
             <Layout router={router}>
-                <Head>
                     <Script
                         src="https://www.googletagmanager.com/gtag/js?id=G-P4NPYDG6ZT"
                         strategy="afterInteractive"
                     />
-                    <Script id="google-analytics" strategy="afterInteractive">
+                    <Script id="G-P4NPYDG6ZT" strategy="afterInteractive">
                         {`
                             window.dataLayer = window.dataLayer || [];
                             function gtag(){window.dataLayer.push(arguments);}
@@ -25,7 +24,6 @@ const Website = ({ Component, pageProps, router}) => {
                             gtag('config', 'G-P4NPYDG6ZT);
                             `}
                     </Script>
-                </Head>
                 <AnimatePresence exitBeforeEnter initial={true}>
                     <Component {...pageProps} key={router.route} />
                     <Analytics />
