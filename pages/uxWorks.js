@@ -11,19 +11,17 @@ const Works = () => {
     return (
         
         <Layout>
-            <Script
-                src="https://www.googletagmanager.com/gtag/js?id=G-P4NPYDG6ZT"
-                strategy="afterInteractive"
-            />
             <Script id="google-analytics" strategy="afterInteractive">
                 {`
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){window.dataLayer.push(arguments);}
-                gtag('js', new Date());
-
-                gtag('config', 'G-P4NPYDG6ZT);
-                `}
+          window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+          ga('create', 'G-P4NPYDG6ZT', 'auto');
+          ga('send', 'pageview');
+        `}
             </Script>
+            <Script
+                src="https://www.google-analytics.com/analytics.js"
+                strategy="afterInteractive"
+            />
         <Container maxW="container.xl">
             <br />
             <Heading as="h3" fontSize={64} mb={4} align="center">
