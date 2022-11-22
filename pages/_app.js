@@ -4,6 +4,7 @@ import Fonts from '../components/fonts'
 import theme from '../lib/theme'
 import { AnimatePresence } from 'framer-motion'
 import { Analytics } from '@vercel/analytics/react'
+import { GoogleAnalytics } from 'nextjs-google-analytics'
 
 const Website = ({ Component, pageProps, router }) => {
     return (
@@ -11,6 +12,7 @@ const Website = ({ Component, pageProps, router }) => {
             <Fonts />
             <Layout router={router}>
                 <AnimatePresence exitBeforeEnter initial={true}>
+                    <GoogleAnalytics trackPageViews />
                     <Component {...pageProps} key={router.route} />
                     <Analytics />
                 </AnimatePresence>
