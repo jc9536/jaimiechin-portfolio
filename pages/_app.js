@@ -4,7 +4,7 @@ import Fonts from '../components/fonts'
 import theme from '../lib/theme'
 import { AnimatePresence } from 'framer-motion'
 import { Analytics } from '@vercel/analytics/react'
-import Head from 'next/head'
+import { Head, Script } from 'next/script'
 
 const Website = ({ Component, pageProps, router}) => {
     return (
@@ -12,14 +12,19 @@ const Website = ({ Component, pageProps, router}) => {
             <Fonts />
             <Layout router={router}>
                 <Head>
-                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P4NPYDG6ZT"></script>
-                    <script>
-                        window.dataLayer = window.dataLayer || [];
-                        function gtag(){dataLayer.push(arguments)}
-                        gtag(&apos; js&apos;, new Date());
+                    <Script
+                        src="https://www.googletagmanager.com/gtag/js?id=G-P4NPYDG6ZT"
+                        strategy="afterInteractive"
+                    />
+                    <Script id="google-analytics" strategy="afterInteractive">
+                        {`
+                            window.dataLayer = window.dataLayer || [];
+                            function gtag(){window.dataLayer.push(arguments);}
+                            gtag('js', new Date());
 
-                        gtag(&apos;config&apos;, &apos;G-P4NPYDG6ZT&apos;);
-                    </script>
+                            gtag('config', 'G-P4NPYDG6ZT);
+                            `}
+                    </Script>
                 </Head>
                 <AnimatePresence exitBeforeEnter initial={true}>
                     <Component {...pageProps} key={router.route} />
