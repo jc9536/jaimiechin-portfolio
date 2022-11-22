@@ -4,28 +4,14 @@ import Fonts from '../components/fonts'
 import theme from '../lib/theme'
 import { AnimatePresence } from 'framer-motion'
 import { Analytics } from '@vercel/analytics/react'
-import { Script } from 'next/script'
+import { GoogleAnalytics } from "nextjs-google-analytics"
 
 const Website = ({ Component, pageProps, router}) => {
     return (
         
         <ChakraProvider theme={theme}>
             <Fonts />
-            <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-P4NPYDG6ZT" />
-                <Script
-                    id='google-analytics'
-                    strategy="afterInteractive"
-                    dangerouslySetInnerHTML={{
-                        __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', G-P4NPYDG6ZT', {
-                page_path: window.location.pathname,
-            });
-            `,
-                    }}
-                />
+            <GoogleAnalytics gaMeasurementId="G-P4NPYDG6ZT" trackPageViews />
             <Layout router={router}>
                 <AnimatePresence exitBeforeEnter initial={true}>
                     <Component {...pageProps} key={router.route} />
