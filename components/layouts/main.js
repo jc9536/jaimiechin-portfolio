@@ -1,10 +1,10 @@
-import { Head } from 'next/head'
+import Head from 'next/head'
 import Navbar from '../navbar.js'
 import { Box, Container } from '@chakra-ui/react'
 import Footer from '../footer'
 
 
-const Main = ({ children, router}) => {
+const Main = ({ children, router }) => {
     return (
         <Box as="main" pb={8}>
             <Head>
@@ -21,11 +21,11 @@ const Main = ({ children, router}) => {
 
                 <br />
                 <br />
-                
+
             </Container>
             <Footer />
         </Box>
-        
+
     )
 }
 

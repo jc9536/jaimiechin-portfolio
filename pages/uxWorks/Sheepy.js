@@ -11,10 +11,7 @@ const UXWork = () => {
     useEffect(() => {
         import("image-map-resizer").then((module) => module.default());
     }, []);
-
-
-
-
+    
     return (
 
         <Layout title="Sheepy">
