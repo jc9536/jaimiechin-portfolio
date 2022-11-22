@@ -13,7 +13,7 @@ const Website = ({ Component, pageProps, router }) => {
             <Layout router={router}>
                 <AnimatePresence exitBeforeEnter initial={true}>
                     <Script
-                        src="https://www.googletagmanager.com/gtag/js?id=G-xxxxxxxxxx"
+                        src="https://www.googletagmanager.com/gtag/js?id=G-P4NPYDG6ZT"
                         strategy="afterInteractive"
                     />
                     <Script id="google-analytics" strategy="afterInteractive">
@@ -22,7 +22,7 @@ const Website = ({ Component, pageProps, router }) => {
                             function gtag(){window.dataLayer.push(arguments);}
                             gtag('js', new Date());
 
-                            gtag('config', 'G-G-P4NPYDG6ZT');
+                            gtag('config', 'G-P4NPYDG6ZT');
                             `}
                     </Script>
                     <Component {...pageProps} key={router.route} />
