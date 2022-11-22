@@ -1,4 +1,4 @@
-import { Head, Script } from 'next/script'
+import { Head } from 'next/script'
 import Navbar from '../navbar.js'
 import { Box, Container } from '@chakra-ui/react'
 import Footer from '../footer'
@@ -13,22 +13,6 @@ const Main = ({ children, router}) => {
                 <link rel="shortcut icon" href="/favicon.ico?v=1" type="image/x-icon" />
                 <title>Jaimie Chin - Homepage</title>
             </Head>
-
-            <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-P4NPYDG6ZT" />
-            <Script
-                id='google-analytics'
-                strategy="afterInteractive"
-                dangerouslySetInnerHTML={{
-                    __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', G-P4NPYDG6ZT', {
-                page_path: window.location.pathname,
-            });
-            `,
-                }}
-            />
 
             <Navbar path={router.asPath} />
 

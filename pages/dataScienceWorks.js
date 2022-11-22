@@ -4,26 +4,10 @@ import Layout from '../components/layouts/article'
 import { WorkGridItem } from '../components/ds-grid-item'
 import underConstructionThumb from '../public/images/underConstruction.png'
 import titanicThumb from '../public/images/accuracyFairnessProject/titanicThumbnail.png'
-import {Script} from 'next/head'
 
 const Works = () => {
     return (
         <Layout>
-            <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-P4NPYDG6ZT" />
-            <Script
-                id='google-analytics'
-                strategy="afterInteractive"
-                dangerouslySetInnerHTML={{
-                    __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', G-P4NPYDG6ZT', {
-                page_path: window.location.pathname,
-            });
-            `,
-                }}
-            />
         <Container maxW="container.xl">
 
         <br />

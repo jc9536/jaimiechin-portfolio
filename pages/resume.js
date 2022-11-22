@@ -4,7 +4,6 @@ import Layout from '../components/layouts/article'
 import { userLogin } from '../components/utils/mockApi';
 import ErrorMessage from '../components/ErrorMessage';
 import { DownloadIcon } from '@chakra-ui/icons';
-import {Script} from 'next/head'
 
 const Resume = () => {
     const [password, setPassword] = useState('');
@@ -30,21 +29,6 @@ const Resume = () => {
 
     return (
         <Layout>
-            <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-P4NPYDG6ZT" />
-            <Script
-                id='google-analytics'
-                strategy="afterInteractive"
-                dangerouslySetInnerHTML={{
-                    __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', G-P4NPYDG6ZT', {
-                page_path: window.location.pathname,
-            });
-            `,
-                }}
-            />
             <br/>
             <br/>
                
