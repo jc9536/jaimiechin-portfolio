@@ -15,7 +15,7 @@ const Website = ({ Component, pageProps, router}) => {
                         src="https://www.googletagmanager.com/gtag/js?id=G-P4NPYDG6ZT"
                         strategy="afterInteractive"
                     />
-                    <Script id="G-P4NPYDG6ZT" strategy="afterInteractive">
+                <Script id="google-analytics" strategy="afterInteractive">
                         {`
                             window.dataLayer = window.dataLayer || [];
                             function gtag(){window.dataLayer.push(arguments);}
