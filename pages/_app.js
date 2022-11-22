@@ -11,7 +11,7 @@ const Website = ({ Component, pageProps, router}) => {
         
         <ChakraProvider theme={theme}>
             <Fonts />
-            <GoogleAnalytics gaMeasurementId="G-P4NPYDG6ZT" trackPageViews />
+            <GoogleAnalytics trackPageViews />
             <Layout router={router}>
                 <AnimatePresence exitBeforeEnter initial={true}>
                     <Component {...pageProps} key={router.route} />
