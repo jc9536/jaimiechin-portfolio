@@ -8,20 +8,25 @@ import { Script } from 'next/script'
 
 const Website = ({ Component, pageProps, router}) => {
     return (
+        
         <ChakraProvider theme={theme}>
             <Fonts />
-            <Layout router={router}>
-                <Script id="google-analytics" strategy="afterInteractive">
-                    {`
-          window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-          ga('create', 'G-P4NPYDG6ZT', 'auto');
-          ga('send', 'pageview');
-        `}
-                </Script>
+            <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-P4NPYDG6ZT" />
                 <Script
-                    src="https://www.google-analytics.com/analytics.js"
+                    id='google-analytics'
                     strategy="afterInteractive"
+                    dangerouslySetInnerHTML={{
+                        __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', G-P4NPYDG6ZT', {
+                page_path: window.location.pathname,
+            });
+            `,
+                    }}
                 />
+            <Layout router={router}>
                 <AnimatePresence exitBeforeEnter initial={true}>
                     <Component {...pageProps} key={router.route} />
                     <Analytics />
