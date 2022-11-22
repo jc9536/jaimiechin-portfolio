@@ -78,27 +78,24 @@ const Page = () => {
 
                 <Section delay={0.1}>
 
-                    <Box display={{ md: 'flex' }} maxW="4xl">
+                    <Box display={{ xl: 'flex' }} maxW="3xl">
                         <Box flexGrow={1}>
                             <Heading as="h3" variant="section-title">
                                 UX Work
                             </Heading>
                             <br />
-                            <Text align="center" fontSize="xl">
-                                Within my user experience projects, I&apos;m interested in creating more mindful user experiences by improving design decisions through qualitative research methods & data analysis.
-                            </Text>
                         </Box>
                     </Box>
                     <br />
                     <SimpleGrid columns={[1, 2, 2]} gap={6}>
 
-                        <Container maxW="md">
+                        <Container maxW="lg">
                             <WorkGridItem id="Sheepy" title="Sheepy" thumbnail={thumbSheepy}>
                                 A bedtime routine app for parents who lack information about the best child development practices
                             </WorkGridItem>
                         </Container>
 
-                        <Container maxW="md">
+                        <Container maxW="lg">
                             <WorkGridItem id="underConstruction" title="Work In Progress..." thumbnail={starbucksThumb}>
                                 This  case study is under construction, please visit some of my other works in the meantime!
                             </WorkGridItem>
