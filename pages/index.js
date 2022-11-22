@@ -6,7 +6,8 @@ import {
     Box,
     Heading,
     useColorModeValue,
-    SimpleGrid} from '@chakra-ui/react'
+    SimpleGrid
+} from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
@@ -22,7 +23,7 @@ import starbucksThumb from '../public/images/StarbucksRedesign/thumbnail.png'
 const Page = () => {
     return (
         <Layout>
-            
+
             <Container maxW="container.xl" centerContent>
                 <br />
                 <br />
@@ -32,23 +33,23 @@ const Page = () => {
                     p={4}
                     mb={6}
                     maxW="750px">
-                        <Text fontSize="2xl" align="center">
-                            👋
-                            <Typewriter
-                                words={[" Hello & Welcome!"]}
-                                cursor
-                                cursorColor="#fccb35"
-                                deleteSpeed={100}
-                                delaySpeed={500}
-                                typeSpeed={85}
-                            />
-                        </Text>
+                    <Text fontSize="2xl" align="center">
+                        👋
+                        <Typewriter
+                            words={[" Hello & Welcome!"]}
+                            cursor
+                            cursorColor="#fccb35"
+                            deleteSpeed={100}
+                            delaySpeed={500}
+                            typeSpeed={85}
+                        />
+                    </Text>
                 </Box>
 
                 <br />
 
 
-                <Box display={{ md: 'flex'}}>
+                <Box display={{ md: 'flex' }}>
                     <Box flexGrow={1}>
                         <Heading as="h1" variant="page-title" size="3xl" mb={4}>
                             Jaimie Chin
@@ -66,7 +67,7 @@ const Page = () => {
                         textAlign="center"
                         p="1%"
                     >
-                        <Box display="inline-block" overflow="hidden" p="1%"> 
+                        <Box display="inline-block" overflow="hidden" p="1%">
                             <NoSsr>
                                 <JaimieCharacter />
                             </NoSsr>
@@ -77,7 +78,7 @@ const Page = () => {
 
                 <Section delay={0.1}>
 
-                    <Box display={{md: 'flex'}} maxW="4xl">
+                    <Box display={{ md: 'flex' }} maxW="4xl">
                         <Box flexGrow={1}>
                             <Heading as="h3" variant="section-title">
                                 UX Work
