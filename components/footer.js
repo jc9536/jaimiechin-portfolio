@@ -13,9 +13,6 @@ const Footer = () => {
                     </ButtonGroup>
                 </Stack>
             </Center>
-                
-
-            
             <br />
             &copy; {new Date().getFullYear()} Jaimie Chin. All Rights Reserved
         </Box>

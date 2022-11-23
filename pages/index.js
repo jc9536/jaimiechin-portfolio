@@ -78,7 +78,7 @@ const Page = () => {
 
                 <Section delay={0.1}>
 
-                    <Box display={{ xl: 'flex' }} maxW="3xl">
+                    <Box display={{ md: 'flex' }} maxW="3xl">
                         <Box flexGrow={1}>
                             <Heading as="h3" variant="section-title">
                                 UX Work
@@ -87,7 +87,7 @@ const Page = () => {
                         </Box>
                     </Box>
                     <br />
-                    <SimpleGrid columns={[1, 2, 2]} gap={6}>
+                    <SimpleGrid columns={[1, 1, 2]} gap={6}>
 
                         <Container maxW="lg">
                             <WorkGridItem id="Sheepy" title="Sheepy" thumbnail={thumbSheepy}>
