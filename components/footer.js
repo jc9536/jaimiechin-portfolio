@@ -1,6 +1,6 @@
 import { Box, Center, ButtonGroup, IconButton, Stack } from '@chakra-ui/react'
 import * as React from 'react'
-import { FaGithub, FaEnvelope  } from 'react-icons/fa'
+import { FaGithub, FaEnvelope, FaLinkedin  } from 'react-icons/fa'
 
 const Footer = () => {
     return (
@@ -10,6 +10,7 @@ const Footer = () => {
                     <ButtonGroup variant="ghost">
                         <IconButton as="a" target='_blank' href="https://github.com/jc9536?tab=repositories" aria-label="GitHub" icon={<FaGithub fontSize="1.75rem" />} />
                         <IconButton as="a" href="mailto: jc9536@nyu.edu" aria-label="Gmail" icon={<FaEnvelope fontSize="1.75rem" />} />
+                        <IconButton as="a" target='_blank' href="https://www.linkedin.com/in/jaimie-chin-a38511236/" aria-label="Linkedin" icon={<FaLinkedin fontSize="1.75rem" />} />
                     </ButtonGroup>
                 </Stack>
             </Center>
