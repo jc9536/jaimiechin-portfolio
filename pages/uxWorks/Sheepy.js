@@ -24,7 +24,7 @@ const UXWork = () => {
                 </Title>
 
 
-                <Image src={`/images/sheepyCaseStudy/matrix.png`} alt="MatrixCover" />
+                <Image src={`/images/sheepyCaseStudy/matrix${useColorModeValue('', '_dark')}.png`} alt="MatrixCover" />
 
                 <Section delay={0.2}>
 
