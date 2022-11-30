@@ -65,10 +65,8 @@ const UXWork = () => {
                     <Image src={`/images/sheepyCaseStudy/CompetitiveAnalysis${useColorModeValue('', '_dark')}.png`} alt="CompetitiveAnalysis" />
                     <Image src={`/images/sheepyCaseStudy/UserSurvey${useColorModeValue('', '_dark')}.png`} alt="UserSurvey" useMap='#surveyMap' id="usersurvey" />
                     <map name='surveyMap'>
-                        <area shape="rect" coords="1000,200, 1225,240" href="/Parenting Bedtime Routines for Children Survey Design.pdf" alt="survey" target="_blank" />
-                        <area target="_blank" alt="researchReport" title="researchReport" href="/SheepyResearchReport.pdf" coords="1646,326,1904,358" shape="rect" />
-                        <area target="_blank" alt="researchReport2" title="researchReport2" href="/SheepyResearchReport.pdf" coords="1637,361,1905,397" shape="rect" />
-
+                        <area target="_blank" alt="survey" title="survey" href="/Parenting Bedtime Routines for Children Survey Design.pdf" coords="989,203,1123,240" shape="rect" />
+                        <area target="_blank" alt="report" title="report" href="/SheepyResearchReport.pdf" coords="1649,284,1898,355" shape="rect" />
                     </map>
 
                     <Image src={`/images/sheepyCaseStudy/UserInsights${useColorModeValue('', '_dark')}.png`} alt="UserInsights" />
