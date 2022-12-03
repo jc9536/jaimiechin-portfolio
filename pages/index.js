@@ -21,6 +21,7 @@ import starbucksThumb from '../public/images/StarbucksRedesign/thumbnail.png'
 
 
 const Page = () => {
+    
     return (
         <Layout>
 

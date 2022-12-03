@@ -3,9 +3,9 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/ux-grid-item'
 import Layout from '../components/layouts/article'
 import thumbSheepy from '../public/images/sheepyCaseStudy/sheepyThumbnail.png'
-import starbucksThumb from '../public/images/StarbucksRedesign/thumbnail.png'
-
+import  starbucksThumb from '../public/images/StarbucksRedesign/thumbnail.png'
 const Works = () => {
+    
     return (
         <Layout>
             <Container maxW="container.xl">

@@ -10,6 +10,7 @@ import Layout from '../components/layouts/article'
 import { BioSection, BioYear } from '../components/bio'
 
 const About = () => {
+    const profile = `/images/profile${useColorModeValue('', '_dark')}.jpg`
     return (
         <Layout>
             <br />
@@ -45,7 +46,7 @@ const About = () => {
                             borderRadius="full"
                             overflow="hidden"
                         >
-                            <Image borderRadius='full' boxSize="325px" src="/images/profile.png" alt="profile" />
+                            <Image borderRadius='full' boxSize="325px" src={profile} alt="profile" />
                         </ Box>
                     </Center>
                 </Box>

@@ -19,14 +19,14 @@ import ThemeToggleButton from './theme-toggle-button'
 
 const LinkItem = ({href, path, isExternal, children}) => {
     const active = path == href 
-    const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
+    const inactiveColor = useColorModeValue('#333132', 'whiteAlpha.900')
     return(
         <NextLink href={href}>
             <Link
                 href={href}
                 p={2}
                 bg={active ? 'gold': undefined}
-                color={active ? '#202023': inactiveColor}
+                color={active ? '#333132': inactiveColor}
                 isExternal={isExternal}>
                     {children}
             </Link>
