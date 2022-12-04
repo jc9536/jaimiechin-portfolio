@@ -43,13 +43,13 @@ const Navbar = props => {
         as="nav"
         w="full"
         p="0.5%"
-        bg={useColorModeValue('#ffffff40', '#20202380')}
+            bg={useColorModeValue('#ffffff40', 'whiteAlpha.200')}
         style={{backdropFilter:'blur(10px'}}
         zIndex={1}
         {...props}>
             <Container 
             display="flex"
-            p={1} 
+            p={0.5} 
             maxW="container.xl"
             wrap="wrap"
             align="center"
