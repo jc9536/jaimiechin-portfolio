@@ -147,7 +147,7 @@ const Page = () => {
                     <Box align="center" my={4}>
                         <NextLink href="/dataScienceWorks">
                             <Button rightIcon={<ChevronRightIcon />} colorScheme="yellow">
-                                See More of My Data Science Projects
+                                My Data Science Projects
                             </Button>
                         </NextLink>
                     </Box>
