@@ -117,11 +117,6 @@ const Page = () => {
                         </NextLink>
                     </Box>
 
-                </Section>
-
-                <br />
-
-                <Section delay={0.2}>
                     <Box display={{ md: 'flex' }} maxW="3xl">
                         <Box flexGrow={1}>
                             <Heading as="h3" variant="section-title">
@@ -156,8 +151,9 @@ const Page = () => {
                             </Button>
                         </NextLink>
                     </Box>
-
                 </Section>
+
+                <br />
 
             </Container>
         </Layout>
