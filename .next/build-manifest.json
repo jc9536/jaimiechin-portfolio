@@ -29,6 +29,21 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
+    ],
+    "/dataScienceWorks/accFairness": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/dataScienceWorks/accFairness.js"
+    ],
+    "/uxWorks": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/uxWorks.js"
+    ],
+    "/uxWorks/Sheepy": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/uxWorks/Sheepy.js"
     ]
   },
   "ampFirstPages": []

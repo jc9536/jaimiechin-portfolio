@@ -76,7 +76,8 @@ const Work = () => {
                         <area target="_blank" alt="pawar" title="pawar" href="https://www.kaggle.com/code/akshaypawar7/roc-auc-decision-boundary-for-titanic-survival" coords="886,537,1437,592" shape="rect" />
                         <area target="_blank" alt="rocAUC" title="rocAUC" href="https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc" coords="413,1933,1584,2066" shape="rect" />
                     </map>
-
+                    <Image src={`/images/accuracyFairnessProject/DataFeatures${useColorModeValue('', '_dark')}.jpg`} alt="datafeatures" id="dataf1" />
+                    <Image src={`/images/accuracyFairnessProject/DataFeatures_2${useColorModeValue('', '_dark')}.jpg`} alt="datafeatures2" id="dataf2" />
                 </Section>
             </Container>
 
