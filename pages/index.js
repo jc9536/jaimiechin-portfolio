@@ -80,7 +80,7 @@ const Page = () => {
                 </Box>
 
 
-                <Section delay={0.1}>
+                <Section delay={0.5}>
 
                     <Box display={{ md: 'flex' }} maxW="3xl">
                         <Box flexGrow={1}>
@@ -116,46 +116,51 @@ const Page = () => {
                             </Button>
                         </NextLink>
                     </Box>
-
-                    <br />
-                    <br />
-                    <br />
-
-                    <Box display={{ md: 'flex' }} maxW="3xl">
-                        <Box flexGrow={1}>
-                            <Heading as="h3" variant="section-title">
-                                Data Science Projects
-                            </Heading>
-                            <br />
-                        </Box>
-                    </Box>
-                    <br />
-                    <SimpleGrid columns={[1, 1, 2]} gap={5}>
-
-                        <Container maxW="lg">
-                            <WorkGridItem id="accFairness" title="Accuracy & Fairness Analysis of an Automated Decision System" thumbnail={titanicThumb}>
-                                An analysis of the trade-off between accuracy and fairness in a machine learning classifier (automated decision system)
-                            </WorkGridItem>
-                        </Container>
-
-                        <Container maxW="lg">
-                            <WorkGridItem id="underConstruction" title="Work In Progress..." thumbnail={underConstructionThumb}>
-                                This  case study is under construction, please visit some of my other works in the meantime!
-                            </WorkGridItem>
-                        </Container>
-
-                    </SimpleGrid>
-
-                    <br />
-
-                    <Box align="center" my={4}>
-                        <NextLink href="/dataScienceWorks">
-                            <Button rightIcon={<ChevronRightIcon />} colorScheme="yellow">
-                                My Data Science Projects
-                            </Button>
-                        </NextLink>
-                    </Box>
                 </Section>
+
+                    <br />
+                    <br />
+                    <br />
+
+                    <Section delay={0.6}>
+                        <Box display={{ md: 'flex' }} maxW="3xl">
+                            <Box flexGrow={1}>
+                                <Heading as="h3" variant="section-title">
+                                    Data Science Projects
+                                </Heading>
+                                <br />
+                            </Box>
+                        </Box>
+                        <br />
+                        <SimpleGrid columns={[1, 1, 2]} gap={5}>
+
+                            <Container maxW="lg">
+                                <WorkGridItem id="accFairness" title="Accuracy & Fairness Analysis of an Automated Decision System" thumbnail={titanicThumb}>
+                                    An analysis of the trade-off between accuracy and fairness in a machine learning classifier (automated decision system)
+                                </WorkGridItem>
+                            </Container>
+
+                            <Container maxW="lg">
+                                <WorkGridItem id="underConstruction" title="Work In Progress..." thumbnail={underConstructionThumb}>
+                                    This  case study is under construction, please visit some of my other works in the meantime!
+                                </WorkGridItem>
+                            </Container>
+
+                        </SimpleGrid>
+
+                        <br />
+
+                        <Box align="center" my={4}>
+                            <NextLink href="/dataScienceWorks">
+                                <Button rightIcon={<ChevronRightIcon />} colorScheme="yellow">
+                                    My Data Science Projects
+                                </Button>
+                            </NextLink>
+                        </Box>
+                    </Section>
+
+                    
+                
 
                 <br />
 
