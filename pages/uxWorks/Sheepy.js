@@ -24,9 +24,10 @@ const UXWork = () => {
                 </Title>
 
 
-                <Image src={`/images/sheepyCaseStudy/matrix${useColorModeValue('', '_dark')}.jpg`} alt="MatrixCover" />
+                
 
-                <Section delay={0.2}>
+                <Section delay={0.3}>
+                    <Image src={`/images/sheepyCaseStudy/matrix${useColorModeValue('', '_dark')}.jpg`} alt="MatrixCover" />
 
                     <Image src={`/images/sheepyCaseStudy/ProjectInfo${useColorModeValue('', '_dark')}.jpg`} alt="ProjectInfo" useMap='#projinfolinks' />
                     <map name='projinfolinks'>

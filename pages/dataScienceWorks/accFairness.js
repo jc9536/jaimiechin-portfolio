@@ -20,9 +20,10 @@ const Work = () => {
                 <Title>
                     Accuracy & Fairness of an Automated Decision System <Badge>May 2022</Badge>
                 </Title>
-                <Image src={`/images/accuracyFairnessProject/titleFrame${useColorModeValue('', '_dark')}.jpg`} alt="title" />
-                <br />
-                <Section delay={0.2}>
+                
+                <Section delay={0.3}>
+                    <Image src={`/images/accuracyFairnessProject/titleFrame${useColorModeValue('', '_dark')}.jpg`} alt="title" />
+                    <br />
                     <br />
                     <Container centerContent>
                         <List spacing={4}>

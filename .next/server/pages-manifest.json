@@ -2,6 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/dataScienceWorks/accFairness": "pages/dataScienceWorks/accFairness.js",
   "/uxWorks": "pages/uxWorks.js",
-  "/uxWorks/Sheepy": "pages/uxWorks/Sheepy.js"
+  "/uxWorks/Sheepy": "pages/uxWorks/Sheepy.js",
+  "/dataScienceWorks": "pages/dataScienceWorks.js"
 }
