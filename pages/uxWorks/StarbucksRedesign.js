@@ -29,20 +29,22 @@ const UXWork = () => {
 
                     <Image src={`/images/StarbucksRedesign/ProjectInfo${useColorModeValue('', '_dark')}.jpg`} alt="ProjectInfo" useMap='#projinfolinks' />
                     <map name='projinfolinks'>
-                        <area target="_parent" alt="Background" title="Background" href="" coords="130,308,409,407" shape="rect"/>
-                        <area target="_parent" alt="AppAnalysis" title="AppAnalysis" href="" coords="436,308,710,407" shape="rect"/>
-                        <area target="_parent" alt="UserResearch" title="UserResearch" href="" coords="743,310,1059,407" shape="rect"/>
-                        <area target="_parent" alt="MarketResearch" title="MarketResearch" href="" coords="1088,309,1436,404" shape="rect"/>
-                        <area target="_parent" alt="AffinityMapping" title="AffinityMapping" href="" coords="1464,310,1821,404" shape="rect"/>
-                        <area target="_parent" alt="LoFi" title="LoFi" href="" coords="130,427,478,528" shape="rect"/>
-                        <area target="_parent" alt="HiFi" title="HiFi" href="" coords="510,428,708,528" shape="rect"/>
-                        <area target="_parent" alt="Validation" title="Validation" href="" coords="738,428,978,528" shape="rect"/>
-                        <area target="_blank" alt="Member" title="Member" href="https://www.linkedin.com/in/michael-lee-4955699b/" coords="98,846,330,883" shape="rect"/>
+                        <area target="_parent" alt="Background" title="Background" href="#background" coords="130,308,406,405" shape="rect"/>
+                        <area target="_parent" alt="MarketAnalysis" title="MarketAnalysis" href="#market" coords="436,307,784,406" shape="rect"/>
+                        <area target="_parent" alt="CompetitiveAnalysis" title="CompetitiveAnalysis" href="#competitive" coords="812,308,1236,407" shape="rect"/>
+                        <area target="_parent" alt="UserResearch" title="UserResearch" href="#user" coords="1266,308,1583,407" shape="rect"/>
+                        <area target="_parent" alt="AffinityMap" title="AffinityMap" href="#affinity" coords="130,430,487,529" shape="rect"/>
+                        <area target="_parent" alt="LoFi" title="LoFi" href="#lofi" coords="514,427,864,526" shape="rect"/>
+                        <area target="_parent" alt="HiFi" title="HiFi" href="#hifi" coords="894,429,1093,526" shape="rect"/>
+                        <area target="_parent" alt="Validation" title="Validation" href="#validation" coords="1121,429,1362,526" shape="rect"/>
+                        <area target="_blank" alt="Member" title="Member" href="https://www.linkedin.com/in/michael-lee-4955699b/" coords="97,844,328,881" shape="rect"/>
                     </map>
-                    <Image src={`/images/StarbucksRedesign/Concept${useColorModeValue('', '_dark')}.jpg`} alt="Concept" />
-                    <Image src={`/images/StarbucksRedesign/MarketResearch${useColorModeValue('', '_dark')}.jpg`} alt="Market" />
-                    <Image src={`/images/StarbucksRedesign/CompetitiveAnalysis${useColorModeValue('', '_dark')}.jpg`} alt="Compete" />
-                    <Image src={`/images/StarbucksRedesign/UserResearch${useColorModeValue('', '_dark')}.jpg`} alt="User" />
+                    
+                    <Image src={`/images/StarbucksRedesign/Concept${useColorModeValue('', '_dark')}.jpg`} alt="Concept" id="background"/>
+                    <Image src={`/images/StarbucksRedesign/MarketResearch${useColorModeValue('', '_dark')}.jpg`} alt="Market" id="market"/>
+                    <Image src={`/images/StarbucksRedesign/CompetitiveAnalysis${useColorModeValue('', '_dark')}.jpg`} alt="Compete" id="competitive"/>
+                    <Image src={`/images/StarbucksRedesign/UserResearch${useColorModeValue('', '_dark')}.jpg`} alt="User" id="user"/>
+                    <Image src={`/images/StarbucksRedesign/AffinityMap${useColorModeValue('', '_dark')}.jpg`} alt="AffinityMap" id="affinity"/>
 
                 </Section>
             </Container>
