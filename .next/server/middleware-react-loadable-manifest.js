@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST={}
+self.__REACT_LOADABLE_MANIFEST={"uxWorks/StarbucksRedesign.js -> image-map-resizer":{"id":"uxWorks/StarbucksRedesign.js -> image-map-resizer","files":["static/chunks/node_modules_image-map-resizer_js_imageMapResizer_min_js.js"]}}
