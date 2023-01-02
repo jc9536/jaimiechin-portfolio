@@ -41,6 +41,7 @@ const UXWork = () => {
                     </map>
                     <Image src={`/images/StarbucksRedesign/Concept${useColorModeValue('', '_dark')}.jpg`} alt="Concept" />
                     <Image src={`/images/StarbucksRedesign/MarketResearch${useColorModeValue('', '_dark')}.jpg`} alt="Market" />
+                    <Image src={`/images/StarbucksRedesign/CompetitiveAnalysis${useColorModeValue('', '_dark')}.jpg`} alt="Compete" />
                     <Image src={`/images/StarbucksRedesign/UserResearch${useColorModeValue('', '_dark')}.jpg`} alt="User" />
 
                 </Section>
