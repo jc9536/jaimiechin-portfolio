@@ -15,6 +15,7 @@ const Work = () => {
 
         <Layout title="AccuracyFairness">
             <br />
+            <br />
 
             <Container maxW="max">
                 <Title>

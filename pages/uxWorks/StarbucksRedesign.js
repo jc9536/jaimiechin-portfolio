@@ -24,25 +24,20 @@ const UXWork = () => {
                     Starbucks Redesign <Badge>August 2022</Badge>
                 </Title>
 
-
-
-
                 <Section delay={0.3}>
                     <Image src={`/images/StarbucksRedesign/Cover${useColorModeValue('', '_dark')}.jpg`} alt="Cover" />
 
                     <Image src={`/images/StarbucksRedesign/ProjectInfo${useColorModeValue('', '_dark')}.jpg`} alt="ProjectInfo" useMap='#projinfolinks' />
                     <map name='projinfolinks'>
-                        <area shape="rect" coords="100,845,350,885" href="https://www.linkedin.com/in/jasbrad/" alt="JamesBradley" target="_blank" />
-                        <area shape="rect" coords="130,305,435,410" href="#marketresearch" alt="marketResearchJump" target="_parent" />
-                        <area shape="rect" coords="460,305,725,410" href="#usersurvey" alt="userSurveyJump" target="_parent" />
-                        <area shape="rect" coords="750,305,960,410" href="#persona" alt="personaJump" target="_parent" />
-                        <area shape="rect" coords="985,305,1305,410" href="#userjourneymap" alt="userJourneyMapJump" target="_parent" />
-                        <area shape="rect" coords="1335,305,1525,410" href="#flowdiagram" alt="sitemapJump" target="_parent" />
-                        <area shape="rect" coords="1555,305,1855,410" href="#lofi" alt="loFiJump" target="_parent" />
-                        <area shape="rect" coords="130,425,435,530" href="#aligngrid" alt="alignGridJump" target="_parent" />
-                        <area shape="rect" coords="460,425,635,530" href="#hifi" alt="hiFiJump" target="_parent" />
-                        <area shape="rect" coords="665,425,1010,530" href="#prototype" alt="usabilityJump" target="_parent" />
-
+                        <area target="_parent" alt="Background" title="Background" href="" coords="130,308,409,407" shape="rect"/>
+                        <area target="_parent" alt="AppAnalysis" title="AppAnalysis" href="" coords="436,308,710,407" shape="rect"/>
+                        <area target="_parent" alt="UserResearch" title="UserResearch" href="" coords="743,310,1059,407" shape="rect"/>
+                        <area target="_parent" alt="MarketResearch" title="MarketResearch" href="" coords="1088,309,1436,404" shape="rect"/>
+                        <area target="_parent" alt="AffinityMapping" title="AffinityMapping" href="" coords="1464,310,1821,404" shape="rect"/>
+                        <area target="_parent" alt="LoFi" title="LoFi" href="" coords="130,427,478,528" shape="rect"/>
+                        <area target="_parent" alt="HiFi" title="HiFi" href="" coords="510,428,708,528" shape="rect"/>
+                        <area target="_parent" alt="Validation" title="Validation" href="" coords="738,428,978,528" shape="rect"/>
+                        <area target="_blank" alt="Member" title="Member" href="https://www.linkedin.com/in/michael-lee-4955699b/" coords="98,846,330,883" shape="rect"/>
                     </map>
 
                 </Section>
