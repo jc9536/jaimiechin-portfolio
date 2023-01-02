@@ -51,7 +51,8 @@ const UXWork = () => {
                         <area target="_blank" alt="CompNotes" title="CompNotes" href="/Competitor Analysis Starbucks.pdf" coords="1597,282,1901,321" shape="rect"/>
                     </map>
                     <Image src={`/images/StarbucksRedesign/UserResearch${useColorModeValue('', '_dark')}.jpg`} alt="User" id="user"/>
-                    <Image src={`/images/StarbucksRedesign/AffinityMap${useColorModeValue('', '_dark')}.jpg`} alt="AffinityMap" id="affinity"/>
+                    <Image src={`/images/StarbucksRedesign/AffinityMap${useColorModeValue('', '_dark')}.jpg`} alt="AffinityMap" id="affinity" />
+                    <Image src={`/images/StarbucksRedesign/Opportunity${useColorModeValue('', '_dark')}.jpg`} alt="Opportunity"/>
 
                 </Section>
             </Container>
