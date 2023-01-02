@@ -24,7 +24,7 @@ const Works = () => {
                     </Section>
 
                     <Section>
-                        <WorkGridItemUX id="underConstruction" title="Work In Progress..." thumbnail={starbucksThumb}>
+                        <WorkGridItemUX id="StarbucksRedesign" title="Starbucks Menu Redesign" thumbnail={starbucksThumb}>
                             This  case study is under construction, please visit some of my other works in the meantime!
                         </WorkGridItemUX>
                     </Section>
