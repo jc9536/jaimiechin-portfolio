@@ -39,10 +39,17 @@ const UXWork = () => {
                         <area target="_parent" alt="Validation" title="Validation" href="#validation" coords="1121,429,1362,526" shape="rect"/>
                         <area target="_blank" alt="Member" title="Member" href="https://www.linkedin.com/in/michael-lee-4955699b/" coords="97,844,328,881" shape="rect"/>
                     </map>
-                    
+
                     <Image src={`/images/StarbucksRedesign/Concept${useColorModeValue('', '_dark')}.jpg`} alt="Concept" id="background"/>
-                    <Image src={`/images/StarbucksRedesign/MarketResearch${useColorModeValue('', '_dark')}.jpg`} alt="Market" id="market"/>
-                    <Image src={`/images/StarbucksRedesign/CompetitiveAnalysis${useColorModeValue('', '_dark')}.jpg`} alt="Compete" id="competitive"/>
+                    <Image src={`/images/StarbucksRedesign/MarketResearch${useColorModeValue('', '_dark')}.jpg`} alt="Market" useMap="#marketMap" id="market" />
+                    <map name="marketMap">
+                        <area target="_blank" alt="BusinessInsider" title="BusinessInsider" href="https://www.businessinsider.com/is-the-starbucks-app-down-mobile-order-outage-2022-5#:~:text=Starbucks%20CEO%20at%20the%20time,at%20company%2Downed%20US%20stores" coords="1311,488,1632,527" shape="rect"/>
+                    </map>
+
+                    <Image src={`/images/StarbucksRedesign/CompetitiveAnalysis${useColorModeValue('', '_dark')}.jpg`} alt="Compete" useMap="#compMap" id="competitive" />
+                    <map name="compMap">
+                        <area target="_blank" alt="CompNotes" title="CompNotes" href="/Competitor Analysis Starbucks.pdf" coords="1597,282,1901,321" shape="rect"/>
+                    </map>
                     <Image src={`/images/StarbucksRedesign/UserResearch${useColorModeValue('', '_dark')}.jpg`} alt="User" id="user"/>
                     <Image src={`/images/StarbucksRedesign/AffinityMap${useColorModeValue('', '_dark')}.jpg`} alt="AffinityMap" id="affinity"/>
 
