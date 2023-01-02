@@ -39,6 +39,9 @@ const UXWork = () => {
                         <area target="_parent" alt="Validation" title="Validation" href="" coords="738,428,978,528" shape="rect"/>
                         <area target="_blank" alt="Member" title="Member" href="https://www.linkedin.com/in/michael-lee-4955699b/" coords="98,846,330,883" shape="rect"/>
                     </map>
+                    <Image src={`/images/StarbucksRedesign/Concept${useColorModeValue('', '_dark')}.jpg`} alt="Concept" />
+                    <Image src={`/images/StarbucksRedesign/MarketResearch${useColorModeValue('', '_dark')}.jpg`} alt="Market" />
+                    <Image src={`/images/StarbucksRedesign/UserResearch${useColorModeValue('', '_dark')}.jpg`} alt="User" />
 
                 </Section>
             </Container>
