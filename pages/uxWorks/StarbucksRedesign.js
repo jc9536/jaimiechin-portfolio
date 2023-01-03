@@ -52,7 +52,8 @@ const UXWork = () => {
                     </map>
                     <Image src={`/images/StarbucksRedesign/UserResearch${useColorModeValue('', '_dark')}.jpg`} alt="User" id="user"/>
                     <Image src={`/images/StarbucksRedesign/AffinityMap${useColorModeValue('', '_dark')}.jpg`} alt="AffinityMap" id="affinity" />
-                    <Image src={`/images/StarbucksRedesign/Opportunity${useColorModeValue('', '_dark')}.jpg`} alt="Opportunity"/>
+                    <Image src={`/images/StarbucksRedesign/Opportunity${useColorModeValue('', '_dark')}.jpg`} alt="Opportunity" />
+                    <Image src={`/images/StarbucksRedesign/LoFi${useColorModeValue('', '_dark')}.jpg`} alt="LoFo" id="lofi"  />
 
                 </Section>
             </Container>
