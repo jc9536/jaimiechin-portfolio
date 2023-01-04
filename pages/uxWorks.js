@@ -25,7 +25,7 @@ const Works = () => {
 
                     <Section>
                         <WorkGridItemUX id="StarbucksRedesign" title="Starbucks Redesign" thumbnail={starbucksThumb}>
-                            This  case study is under construction, please visit some of my other works in the meantime!
+                            A redesign of the beverage browsing experience within the Starbucks Mobile app
                         </WorkGridItemUX>
                     </Section>
 
