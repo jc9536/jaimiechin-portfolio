@@ -53,7 +53,11 @@ const UXWork = () => {
                     <Image src={`/images/StarbucksRedesign/UserResearch${useColorModeValue('', '_dark')}.jpg`} alt="User" id="user"/>
                     <Image src={`/images/StarbucksRedesign/AffinityMap${useColorModeValue('', '_dark')}.jpg`} alt="AffinityMap" id="affinity" />
                     <Image src={`/images/StarbucksRedesign/Opportunity${useColorModeValue('', '_dark')}.jpg`} alt="Opportunity" />
-                    <Image src={`/images/StarbucksRedesign/LoFi${useColorModeValue('', '_dark')}.jpg`} alt="LoFo" id="lofi"  />
+                    <Image src={`/images/StarbucksRedesign/LoFi${useColorModeValue('', '_dark')}.jpg`} alt="LoFo" useMap="#lofiMap" id="lofi" />
+                    <map name="lofiMap">
+                        <area target="_blank" alt="StarbucksDesignSystem" title="StarbucksDesignSystem" href="https://creative.starbucks.com/" coords="1047,3392,1888,3436" shape="rect" />
+                    </map>
+                    <Image src={`/images/StarbucksRedesign/HiFi${useColorModeValue('', '_dark')}.jpg`} alt="HiFi" id="hifi" />
 
                 </Section>
             </Container>
