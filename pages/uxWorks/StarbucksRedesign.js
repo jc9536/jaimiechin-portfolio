@@ -17,12 +17,11 @@ const UXWork = () => {
         <Layout title="StarbucksRedesign">
             <br />
             <br />
-
-
+            <Title>
+                Starbucks Redesign <Badge>August 2022</Badge>
+            </Title>
             <Container maxW="max">
-                <Title>
-                    Starbucks Redesign <Badge>August 2022</Badge>
-                </Title>
+                
 
                 <Section delay={0.3}>
                     <Image src={`/images/StarbucksRedesign/Cover${useColorModeValue('', '_dark')}.jpg`} alt="Cover" />

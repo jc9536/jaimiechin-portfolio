@@ -25,6 +25,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/uxWorks": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/uxWorks.js"
+    ],
     "/uxWorks/StarbucksRedesign": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

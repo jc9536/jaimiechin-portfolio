@@ -16,11 +16,11 @@ const Work = () => {
         <Layout title="AccuracyFairness">
             <br />
             <br />
+            <Title>
+                Accuracy & Fairness of an Automated Decision System <Badge>May 2022</Badge>
+            </Title>
 
             <Container maxW="max">
-                <Title>
-                    Accuracy & Fairness of an Automated Decision System <Badge>May 2022</Badge>
-                </Title>
                 
                 <Section delay={0.3}>
                     <Image src={`/images/accuracyFairnessProject/titleFrame${useColorModeValue('', '_dark')}.jpg`} alt="title" />

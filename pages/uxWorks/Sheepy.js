@@ -17,15 +17,10 @@ const UXWork = () => {
         <Layout title="Sheepy">
             <br />
             <br />
-
-
+            <Title>
+                Sheepy <Badge>July 2022</Badge>
+            </Title>
             <Container maxW="max">
-                <Title>
-                    Sheepy <Badge>July 2022</Badge>
-                </Title>
-
-
-                
 
                 <Section delay={0.3}>
                     <Image src={`/images/sheepyCaseStudy/matrix${useColorModeValue('', '_dark')}.jpg`} alt="MatrixCover" />
