@@ -2,7 +2,7 @@ import { Container, Badge, useColorModeValue, Image} from '@chakra-ui/react'
 import { Title } from '../../components/uxWorks'
 import Layout from '../../components/layouts/article'
 import Section from '../../components/section'
-import { useEffect } from 'react'
+import { useEffect} from 'react'
 
 
 
@@ -23,8 +23,7 @@ const UXWork = () => {
                 
 
                 <Section delay={0.3}>
-                    <Image src={`/images/StarbucksRedesign/Cover${useColorModeValue('', '_dark')}.jpg`} alt="Cover" loading='eager'/>
-
+                    <Image src={`/images/StarbucksRedesign/Cover${useColorModeValue('', '_dark')}.jpg`} alt="Cover" loading='eager' />
                     <Image src={`/images/StarbucksRedesign/ProjectInfo${useColorModeValue('', '_dark')}.jpg`} alt="ProjectInfo" useMap='#projinfolinks' loading='eager' />
                     <map name='projinfolinks'>
                         <area target="_parent" alt="Background" title="Background" href="#background" coords="130,308,406,405" shape="rect"/>

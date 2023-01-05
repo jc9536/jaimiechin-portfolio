@@ -3,5 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/uxWorks": "pages/uxWorks.js",
-  "/uxWorks/StarbucksRedesign": "pages/uxWorks/StarbucksRedesign.js"
+  "/dataScienceWorks/accFairness": "pages/dataScienceWorks/accFairness.js",
+  "/uxWorks/Sheepy": "pages/uxWorks/Sheepy.js"
 }

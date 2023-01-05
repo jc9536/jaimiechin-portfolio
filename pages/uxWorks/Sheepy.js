@@ -22,9 +22,9 @@ const UXWork = () => {
             <Container maxW="max">
 
                 <Section delay={0.3}>
-                    <Image src={`/images/sheepyCaseStudy/matrix${useColorModeValue('', '_dark')}.jpg`} alt="MatrixCover" />
+                    <Image src={`/images/sheepyCaseStudy/matrix${useColorModeValue('', '_dark')}.jpg`} alt="MatrixCover" loading='eager' />
 
-                    <Image src={`/images/sheepyCaseStudy/ProjectInfo${useColorModeValue('', '_dark')}.jpg`} alt="ProjectInfo" useMap='#projinfolinks' />
+                    <Image src={`/images/sheepyCaseStudy/ProjectInfo${useColorModeValue('', '_dark')}.jpg`} alt="ProjectInfo" loading='eager' useMap='#projinfolinks' />
                     <map name='projinfolinks'>
                         <area shape="rect" coords="100,845,350,885" href="https://www.linkedin.com/in/jasbrad/" alt="JamesBradley" target="_blank" />
                         <area shape="rect" coords="130,305,435,410" href="#marketresearch" alt="marketResearchJump" target="_parent" />
@@ -39,10 +39,10 @@ const UXWork = () => {
 
                     </map>
 
-                    <Image src={`/images/sheepyCaseStudy/Concept${useColorModeValue('', '_dark')}.jpg`} overflow="hidden" alt="Concept" />
+                    <Image src={`/images/sheepyCaseStudy/Concept${useColorModeValue('', '_dark')}.jpg`} overflow="hidden" alt="Concept" loading='eager' />
 
 
-                    <Image src={`/images/sheepyCaseStudy/MarketResearch${useColorModeValue('', '_dark')}.jpg`} alt="MarketResearch" useMap='#marketMap' id="marketresearch" />
+                    <Image src={`/images/sheepyCaseStudy/MarketResearch${useColorModeValue('', '_dark')}.jpg`} alt="MarketResearch" loading='eager' useMap='#marketMap' id="marketresearch" />
                     <map name='marketMap'>
                         <area target="_blank" alt="Sviggum" title="Sviggum" href="https://pubmed.ncbi.nlm.nih.gov/30289029/" coords="1430,822,1640,864" shape="rect" />
                         <area target="_blank" alt="Sviggum2" title="Sviggum2" href="https://pubmed.ncbi.nlm.nih.gov/30289029/" coords="1294,870,1494,911" shape="rect" />
@@ -51,28 +51,28 @@ const UXWork = () => {
                     </map>
 
 
-                    <Image src={`/images/sheepyCaseStudy/UserNeeds${useColorModeValue('', '_dark')}.jpg`} alt="UserNeeds" useMap="#userMap" id="userneeds" />
+                    <Image src={`/images/sheepyCaseStudy/UserNeeds${useColorModeValue('', '_dark')}.jpg`} alt="UserNeeds" useMap="#userMap" loading='eager' id="userneeds" />
 
                     <map name='userMap'>
                         <area shape="rect" coords="390,375, 1615,485" href="https://pubmed.ncbi.nlm.nih.gov/34343320/" alt="Shetty" target="_blank" />
 
                     </map>
 
-                    <Image src={`/images/sheepyCaseStudy/CompetitiveAnalysis${useColorModeValue('', '_dark')}.jpg`} alt="CompetitiveAnalysis" />
-                    <Image src={`/images/sheepyCaseStudy/UserSurvey${useColorModeValue('', '_dark')}.jpg`} alt="UserSurvey" useMap='#surveyMap' id="usersurvey" />
+                    <Image src={`/images/sheepyCaseStudy/CompetitiveAnalysis${useColorModeValue('', '_dark')}.jpg`} alt="CompetitiveAnalysis" loading='eager' />
+                    <Image src={`/images/sheepyCaseStudy/UserSurvey${useColorModeValue('', '_dark')}.jpg`} alt="UserSurvey" useMap='#surveyMap' loading='eager' id="usersurvey" />
                     <map name='surveyMap'>
                         <area target="_blank" alt="survey" title="survey" href="/Parenting Bedtime Routines for Children Survey Design.pdf" coords="989,203,1123,240" shape="rect" />
                         <area target="_blank" alt="report" title="report" href="/SheepyResearchReport.pdf" coords="1649,284,1898,355" shape="rect" />
                     </map>
 
-                    <Image src={`/images/sheepyCaseStudy/UserInsights${useColorModeValue('', '_dark')}.jpg`} alt="UserInsights" />
+                    <Image src={`/images/sheepyCaseStudy/UserInsights${useColorModeValue('', '_dark')}.jpg`} alt="UserInsights" loading='eager' />
                     <br />
-                    <Image src={`/images/sheepyCaseStudy/Persona${useColorModeValue('', '_dark')}.jpg`} alt="Persona" id='persona' />
+                    <Image src={`/images/sheepyCaseStudy/Persona${useColorModeValue('', '_dark')}.jpg`} alt="Persona" id='persona' loading='eager' />
                     <br />
-                    <Image src={`/images/sheepyCaseStudy/UserJourneyMap${useColorModeValue('', '_dark')}.jpg`} alt="UserJourneyMap" id='userjourneymap' />
-                    <Image src={`/images/sheepyCaseStudy/Opportunity${useColorModeValue('', '_dark')}.jpg`} alt="Opportunity" />
-                    <Image src={`/images/sheepyCaseStudy/FlowDiagram${useColorModeValue('', '_dark')}.jpg`} alt="FlowDiagram" id='flowdiagram' />
-                    <Image src={`/images/sheepyCaseStudy/Lo-Fi_1${useColorModeValue('', '_dark')}.jpg`} alt="LoFi1" useMap="#loFiMap" id='lofi' />
+                    <Image src={`/images/sheepyCaseStudy/UserJourneyMap${useColorModeValue('', '_dark')}.jpg`} alt="UserJourneyMap" id='userjourneymap' loading='eager' />
+                    <Image src={`/images/sheepyCaseStudy/Opportunity${useColorModeValue('', '_dark')}.jpg`} alt="Opportunity" loading='eager' />
+                    <Image src={`/images/sheepyCaseStudy/FlowDiagram${useColorModeValue('', '_dark')}.jpg`} alt="FlowDiagram" id='flowdiagram' loading='eager' />
+                    <Image src={`/images/sheepyCaseStudy/Lo-Fi_1${useColorModeValue('', '_dark')}.jpg`} alt="LoFi1" useMap="#loFiMap" id='lofi' loading='eager' />
                     <map name='loFiMap'>
                         <area shape="rect" coords="1400,340, 1900,380" href="https://developer.apple.com/design/human-interface-guidelines/platforms/designing-for-ios/" alt="designGuide" target="_blank" />
                     </map>
@@ -82,22 +82,22 @@ const UXWork = () => {
                         <iframe style={{ border: "1px" }} width="100%" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FwB7P7UgN4heOPRmiyzDcxl%2FAssignment-06---Product-Persona-%2526-Wireframes%3Fpage-id%3D0%253A1%26node-id%3D0%253A1%26viewport%3D814%252C582%252C0.5%26scaling%3Dscale-down%26starting-point-node-id%3D15%253A367" allowFullScreen></iframe>
                     </AspectRatio>
 
-                    <Image src={`/images/sheepyCaseStudy/Lo-Fi_2${useColorModeValue('', '_dark')}.jpg`} alt="LoFi2" id='lofi2' />
-                    <Image src={`/images/sheepyCaseStudy/AlignmentGrid${useColorModeValue('', '_dark')}.jpg`} alt="AlignmentGrid" id='aligngrid' />
-                    <Image src={`/images/sheepyCaseStudy/HiFi${useColorModeValue('', '_dark')}.jpg`} alt="HiFi" id='hifi' />
-                    <Image src={`/images/sheepyCaseStudy/Prototype${useColorModeValue('', '_dark')}.jpg`} alt="Prototype" id='prototype' />
+                    <Image src={`/images/sheepyCaseStudy/Lo-Fi_2${useColorModeValue('', '_dark')}.jpg`} alt="LoFi2" id='lofi2' loading='eager' />
+                    <Image src={`/images/sheepyCaseStudy/AlignmentGrid${useColorModeValue('', '_dark')}.jpg`} alt="AlignmentGrid" id='aligngrid' loading='eager' />
+                    <Image src={`/images/sheepyCaseStudy/HiFi${useColorModeValue('', '_dark')}.jpg`} alt="HiFi" id='hifi' loading='eager' />
+                    <Image src={`/images/sheepyCaseStudy/Prototype${useColorModeValue('', '_dark')}.jpg`} alt="Prototype" id='prototype' loading='eager' />
 
                     <AspectRatio maxW="100%" minH="450" ratio={16 / 9}>
                         <iframe style={{ border: "1px" }} width="100%" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FwB7P7UgN4heOPRmiyzDcxl%2FSheepy%3Fpage-id%3D57%253A618%26node-id%3D112%253A986%26viewport%3D2003%252C-1158%252C0.5%26scaling%3Dscale-down%26starting-point-node-id%3D112%253A986" allowFullScreen></iframe>
                     </AspectRatio>
 
-                    <Image src={`/images/sheepyCaseStudy/Validation${useColorModeValue('', '_dark')}.jpg`} alt="Validation" useMap="#validationMap" id='validation' />
+                    <Image src={`/images/sheepyCaseStudy/Validation${useColorModeValue('', '_dark')}.jpg`} alt="Validation" useMap="#validationMap" id='validation' loading='eager' />
                     <map name='validationMap'>
                         <area shape="rect" coords="1420,1400, 1680,1440" href="https://digital.ahrq.gov/sites/default/files/docs/survey/systemusabilityscale%2528sus%2529_comp%255B1%255D.pdf" alt="designGuide" target="_blank" />
                         <area shape="rect" coords="870,1445, 1140,1485" href="https://digital.ahrq.gov/sites/default/files/docs/survey/systemusabilityscale%2528sus%2529_comp%255B1%255D.pdf" alt="designGuide2" target="_blank" />
                     </map>
 
-                    <Image src={`/images/sheepyCaseStudy/Summary${useColorModeValue('', '_dark')}.jpg`} alt="Summary" id='summary' />
+                    <Image src={`/images/sheepyCaseStudy/Summary${useColorModeValue('', '_dark')}.jpg`} alt="Summary" id='summary' loading='eager' />
 
                 </Section>
             </Container>

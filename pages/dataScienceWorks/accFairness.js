@@ -22,7 +22,7 @@ const Work = () => {
             <Container maxW="max">
                 
                 <Section delay={0.3}>
-                    <Image src={`/images/accuracyFairnessProject/titleFrame${useColorModeValue('', '_dark')}.jpg`} alt="title" />
+                    <Image src={`/images/accuracyFairnessProject/titleFrame${useColorModeValue('', '_dark')}.jpg`} alt="title" loading='eager' />
                     <br />
                     <br />
                     <Container centerContent>
@@ -54,7 +54,7 @@ const Work = () => {
                         </List>
                     </Container>
                     <br />
-                    <Image src={`/images/accuracyFairnessProject/ProjectInfo${useColorModeValue('', '_dark')}.jpg`} alt="projinfo" useMap='#info' />
+                    <Image src={`/images/accuracyFairnessProject/ProjectInfo${useColorModeValue('', '_dark')}.jpg`} alt="projinfo" useMap='#info' loading='eager' />
                     <map name="info">
                         <area target="_parent" alt="fairnessInML" href="#fairness" coords="97,314,669,464" shape="rect" />
                         <area target="_parent" alt="tradeoff" href="#tradeoff" coords="699,314,1296,459" shape="rect" />
@@ -65,20 +65,20 @@ const Work = () => {
                         <area target="_parent" alt="" href="" coords="1600,494,1964,641" shape="rect" />
                     </map>
 
-                    <Image src={`/images/accuracyFairnessProject/Fairness${useColorModeValue('', '_dark')}.jpg`} alt="fairness" id="fairness" useMap='#fair' />
+                    <Image src={`/images/accuracyFairnessProject/Fairness${useColorModeValue('', '_dark')}.jpg`} alt="fairness" id="fairness" useMap='#fair' loading='eager' />
                     <map name="fair">
                         <area target="_blank" alt="fair" title="fair" href="https://link.springer.com/article/10.1007/s10287-022-00425-z#citeas" coords="716,791,1284,731" shape="rect" />
                     </map>
 
-                    <Image src={`/images/accuracyFairnessProject/Tradeoff${useColorModeValue('', '_dark')}.jpg`} alt="tradeoff" id="tradeoff" />
-                    <Image src={`/images/accuracyFairnessProject/Terms${useColorModeValue('', '_dark')}.jpg`} alt="terms" id="terms" />
-                    <Image src={`/images/accuracyFairnessProject/Background${useColorModeValue('', '_dark')}.jpg`} alt="bground" id="bg" useMap='#backgroundMap' />
+                    <Image src={`/images/accuracyFairnessProject/Tradeoff${useColorModeValue('', '_dark')}.jpg`} alt="tradeoff" id="tradeoff" loading='eager' />
+                    <Image src={`/images/accuracyFairnessProject/Terms${useColorModeValue('', '_dark')}.jpg`} alt="terms" id="terms" loading='eager' />
+                    <Image src={`/images/accuracyFairnessProject/Background${useColorModeValue('', '_dark')}.jpg`} alt="bground" id="bg" useMap='#backgroundMap' loading='eager' />
                     <map name="backgroundMap">
                         <area target="_blank" alt="pawar" title="pawar" href="https://www.kaggle.com/code/akshaypawar7/roc-auc-decision-boundary-for-titanic-survival" coords="886,537,1437,592" shape="rect" />
                         <area target="_blank" alt="rocAUC" title="rocAUC" href="https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc" coords="413,1933,1584,2066" shape="rect" />
                     </map>
-                    <Image src={`/images/accuracyFairnessProject/DataFeatures${useColorModeValue('', '_dark')}.jpg`} alt="datafeatures" id="dataf1" />
-                    <Image src={`/images/accuracyFairnessProject/DataFeatures_2${useColorModeValue('', '_dark')}.jpg`} alt="datafeatures2" id="dataf2" />
+                    <Image src={`/images/accuracyFairnessProject/DataFeatures${useColorModeValue('', '_dark')}.jpg`} alt="datafeatures" id="dataf1" loading='eager' />
+                    <Image src={`/images/accuracyFairnessProject/DataFeatures_2${useColorModeValue('', '_dark')}.jpg`} alt="datafeatures2" id="dataf2" loading='eager' />
                 </Section>
             </Container>
 
