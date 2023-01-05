@@ -16,7 +16,6 @@ const UXWork = () => {
 
         <Layout title="Sheepy">
             <br />
-            <br />
             <Title>
                 Sheepy <Badge>July 2022</Badge>
             </Title>

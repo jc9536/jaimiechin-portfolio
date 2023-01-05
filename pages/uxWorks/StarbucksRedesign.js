@@ -16,7 +16,6 @@ const UXWork = () => {
 
         <Layout title="StarbucksRedesign">
             <br />
-            <br />
             <Title>
                 Starbucks Redesign <Badge>August 2022</Badge>
             </Title>
@@ -49,6 +48,7 @@ const UXWork = () => {
                     <map name="compMap">
                         <area target="_blank" alt="CompNotes" title="CompNotes" href="/Competitor Analysis Starbucks.pdf" coords="1597,282,1901,321" shape="rect"/>
                     </map>
+
                     <Image src={`/images/StarbucksRedesign/UserResearch${useColorModeValue('', '_dark')}.jpg`} alt="User" id="user"/>
                     <Image src={`/images/StarbucksRedesign/AffinityMap${useColorModeValue('', '_dark')}.jpg`} alt="AffinityMap" id="affinity" />
                     <Image src={`/images/StarbucksRedesign/Opportunity${useColorModeValue('', '_dark')}.jpg`} alt="Opportunity" />
@@ -56,8 +56,11 @@ const UXWork = () => {
                     <map name="lofiMap">
                         <area target="_blank" alt="StarbucksDesignSystem" title="StarbucksDesignSystem" href="https://creative.starbucks.com/" coords="1047,3392,1888,3436" shape="rect" />
                     </map>
+
                     <Image src={`/images/StarbucksRedesign/HiFi${useColorModeValue('', '_dark')}.jpg`} alt="HiFi" id="hifi" />
                     <Image src={`/images/StarbucksRedesign/Validation${useColorModeValue('', '_dark')}.jpg`} alt="Valid" id="validation" />
+                    <Image src={`/images/StarbucksRedesign/Summary${useColorModeValue('', '_dark')}.jpg`} alt="Sum" />
+                    <Image src={`/images/StarbucksRedesign/Reflection${useColorModeValue('', '_dark')}.jpg`} alt="Reflect" />
 
                 </Section>
             </Container>

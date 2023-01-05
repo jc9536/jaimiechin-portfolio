@@ -3,7 +3,7 @@ import {Heading, Box, Image, Link, Badge} from '@chakra-ui/react'
 import {ChevronRightIcon} from '@chakra-ui/icons'
 
 export const Title = ({ children }) => (
-    <Box>
+    <Box mt={4}>
         <NextLink href="/uxWorks">
             <Link> UX Case Studies</Link>
         </NextLink>

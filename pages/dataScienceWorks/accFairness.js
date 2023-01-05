@@ -15,7 +15,6 @@ const Work = () => {
 
         <Layout title="AccuracyFairness">
             <br />
-            <br />
             <Title>
                 Accuracy & Fairness of an Automated Decision System <Badge>May 2022</Badge>
             </Title>
