@@ -57,6 +57,7 @@ const UXWork = () => {
                         <area target="_blank" alt="StarbucksDesignSystem" title="StarbucksDesignSystem" href="https://creative.starbucks.com/" coords="1047,3392,1888,3436" shape="rect" />
                     </map>
                     <Image src={`/images/StarbucksRedesign/HiFi${useColorModeValue('', '_dark')}.jpg`} alt="HiFi" id="hifi" />
+                    <Image src={`/images/StarbucksRedesign/Validation${useColorModeValue('', '_dark')}.jpg`} alt="Valid" id="validation" />
 
                 </Section>
             </Container>
