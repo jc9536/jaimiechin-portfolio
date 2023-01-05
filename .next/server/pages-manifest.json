@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/dataScienceWorks": "pages/dataScienceWorks.js",
-  "/dataScienceWorks/accFairness": "pages/dataScienceWorks/accFairness.js"
+  "/uxWorks": "pages/uxWorks.js",
+  "/uxWorks/StarbucksRedesign": "pages/uxWorks/StarbucksRedesign.js"
 }
