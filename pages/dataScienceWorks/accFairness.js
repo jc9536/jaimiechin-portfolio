@@ -60,7 +60,7 @@ const Work = () => {
                         <area target="_parent" alt="tradeoff" href="#tradeoff" coords="699,314,1296,459" shape="rect" />
                         <area target="_parent" alt="terms" href="#terms" coords="1328,313,1690,460" shape="rect" />
                         <area target="_parent" alt="background" href="#bg" coords="98,493,470,642" shape="rect" />
-                        <area target="_parent" alt="" href="" coords="503,491,964,641" shape="rect" />
+                        <area target="_parent" alt="visualizations" href="#visualizations" coords="503,491,964,641" shape="rect" />
                         <area target="_parent" alt="" href="" coords="996,491,1570,641" shape="rect" />
                         <area target="_parent" alt="" href="" coords="1600,494,1964,641" shape="rect" />
                     </map>
@@ -77,8 +77,11 @@ const Work = () => {
                         <area target="_blank" alt="pawar" title="pawar" href="https://www.kaggle.com/code/akshaypawar7/roc-auc-decision-boundary-for-titanic-survival" coords="886,537,1437,592" shape="rect" />
                         <area target="_blank" alt="rocAUC" title="rocAUC" href="https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc" coords="413,1933,1584,2066" shape="rect" />
                     </map>
-                    <Image src={`/images/accuracyFairnessProject/DataFeatures${useColorModeValue('', '_dark')}.jpg`} alt="datafeatures" id="dataf1" loading='eager' />
-                    <Image src={`/images/accuracyFairnessProject/DataFeatures_2${useColorModeValue('', '_dark')}.jpg`} alt="datafeatures2" id="dataf2" loading='eager' />
+                    <Image src={`/images/accuracyFairnessProject/DataFeatures${useColorModeValue('', '_dark')}.jpg`} alt="datafeatures" id="visualizations" loading='eager' />
+                    <Image src={`/images/accuracyFairnessProject/CategoricalData${useColorModeValue('', '_dark')}.jpg`} alt="categoricalData" loading='eager' />
+                    <Image src={`/images/accuracyFairnessProject/AgeFare${useColorModeValue('', '_dark')}.jpg`} alt="AgeFare" loading='eager' />
+                    <Image src={`/images/accuracyFairnessProject/ExploratoryPlots${useColorModeValue('', '_dark')}.jpg`} alt="ExploratoryPlots" loading='eager' />
+                    <Image src={`/images/accuracyFairnessProject/CorrelationMatrix${useColorModeValue('', '_dark')}.jpg`} alt="CorrelationMatrix" loading='eager' />
                 </Section>
             </Container>
 
