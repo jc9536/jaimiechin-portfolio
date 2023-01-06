@@ -61,7 +61,7 @@ const Work = () => {
                         <area target="_parent" alt="terms" href="#terms" coords="1328,313,1690,460" shape="rect" />
                         <area target="_parent" alt="background" href="#bg" coords="98,493,470,642" shape="rect" />
                         <area target="_parent" alt="visualizations" href="#visualizations" coords="503,491,964,641" shape="rect" />
-                        <area target="_parent" alt="" href="" coords="996,491,1570,641" shape="rect" />
+                        <area target="_parent" alt="implementation" href="#implement" coords="996,491,1570,641" shape="rect" />
                         <area target="_parent" alt="" href="" coords="1600,494,1964,641" shape="rect" />
                     </map>
 
@@ -82,6 +82,8 @@ const Work = () => {
                     <Image src={`/images/accuracyFairnessProject/AgeFare${useColorModeValue('', '_dark')}.jpg`} alt="AgeFare" loading='eager' />
                     <Image src={`/images/accuracyFairnessProject/ExploratoryPlots${useColorModeValue('', '_dark')}.jpg`} alt="ExploratoryPlots" loading='eager' />
                     <Image src={`/images/accuracyFairnessProject/CorrelationMatrix${useColorModeValue('', '_dark')}.jpg`} alt="CorrelationMatrix" loading='eager' />
+                    <Image src={`/images/accuracyFairnessProject/Implementation${useColorModeValue('', '_dark')}.jpg`} alt="Implementation" id="implement" loading='eager' />
+                    <Image src={`/images/accuracyFairnessProject/Validation${useColorModeValue('', '_dark')}.jpg`} alt="Validation" loading='eager' />
                 </Section>
             </Container>
 
