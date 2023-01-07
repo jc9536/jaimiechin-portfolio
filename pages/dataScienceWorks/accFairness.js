@@ -85,6 +85,7 @@ const Work = () => {
                     <Image src={`/images/accuracyFairnessProject/Implementation${useColorModeValue('', '_dark')}.jpg`} alt="Implementation" id="implement" loading='eager' />
                     <Image src={`/images/accuracyFairnessProject/Validation${useColorModeValue('', '_dark')}.jpg`} alt="Validation" loading='eager' />
                     <Image src={`/images/accuracyFairnessProject/Outcomes${useColorModeValue('', '_dark')}.jpg`} alt="Outcomes" id="outcomes" loading='eager' />
+                    <Image src={`/images/accuracyFairnessProject/Conclusion${useColorModeValue('', '_dark')}.jpg`} alt="Conclusion" loading='eager' />
                 </Section>
             </Container>
 
