@@ -33,7 +33,6 @@ const Work = () => {
                     </Box>
                 </Section>
             </Container>
-
         </Layout>
     )
 }
