@@ -37,7 +37,7 @@ const Resume = () => {
                     <Box textAlign="center">
                         <Heading>Success!</Heading>
                         <br />
-                        <AspectRatio maxW="100%" minH="1185" ratio={16 / 9}>
+                        <AspectRatio minH="1125" ratio={16 / 9}>
                             <iframe style={{ border: "1px" }} width="100%" src="/JaimieChinResume.pdf" allowFullScreen></iframe>
                         </AspectRatio>
                         <Button

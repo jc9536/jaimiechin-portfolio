@@ -2,6 +2,7 @@ import { Container, Badge, useColorModeValue, Image, Button, Box, AspectRatio } 
 import { Title } from '../../components/PsychPapers'
 import Layout from '../../components/layouts/article'
 import Section from '../../components/section'
+import { DownloadIcon } from '@chakra-ui/icons'
 
 const Work = () => {
 
@@ -17,7 +18,7 @@ const Work = () => {
 
                 <Section delay={0.3}>
                     <Image src={`/images/SiblingPaper/titleFrame${useColorModeValue('', '_dark')}.jpg`} alt="title" loading='eager' />
-                    <AspectRatio maxW="100%" minH="1185" ratio={16 / 9}>
+                    <AspectRatio minH="1125" ratio={16 / 9}>
                         <iframe style={{ border: "1px" }} width="100%" src="/FinalAssignment.pdf" allowFullScreen></iframe>
                     </AspectRatio>
                     <Box textAlign="center">
