@@ -21,6 +21,9 @@ import starbucksThumb from '../public/images/StarbucksRedesign/thumbnail.png'
 import { WorkGridItem } from '../components/ds-grid-item'
 import underConstructionThumb from '../public/images/underConstruction.png'
 import titanicThumb from '../public/images/accuracyFairnessProject/titanicThumbnail.png'
+import { WorkGridItemPaper } from '../components/paper-grid-item'
+import ictThumb from '../public/images/ICTPaper/ICTThumbnail.png'
+import siblingThumb from '../public/images/SiblingPaper/SiblingThumbnail.png'
 
 
 const Page = () => {
@@ -120,48 +123,84 @@ const Page = () => {
 
                     <br />
                     <br />
+
+                <Section delay={0.6}>
+                    <Box display={{ md: 'flex' }} maxW="3xl">
+                        <Box flexGrow={1}>
+                            <Heading as="h3" variant="section-title">
+                                Data Science Projects
+                            </Heading>
+                            <br />
+                        </Box>
+                    </Box>
+                    <br />
+                    <SimpleGrid columns={[1, 1, 2]} gap={5}>
+
+                        <Container maxW="lg">
+                            <WorkGridItem id="accFairness" title="Accuracy & Fairness Analysis of an Automated Decision System" thumbnail={titanicThumb}>
+                                An analysis of the trade-off between accuracy and fairness in a machine learning classifier (automated decision system)
+                            </WorkGridItem>
+                        </Container>
+
+                        <Container maxW="lg">
+                            <WorkGridItem id="underConstruction" title="Work In Progress..." thumbnail={underConstructionThumb}>
+                                This  case study is under construction, please visit some of my other works in the meantime!
+                            </WorkGridItem>
+                        </Container>
+
+                    </SimpleGrid>
+
                     <br />
 
-                    <Section delay={0.6}>
-                        <Box display={{ md: 'flex' }} maxW="3xl">
-                            <Box flexGrow={1}>
-                                <Heading as="h3" variant="section-title">
-                                    Data Science Projects
-                                </Heading>
-                                <br />
-                            </Box>
-                        </Box>
-                        <br />
-                        <SimpleGrid columns={[1, 1, 2]} gap={5}>
+                    <Box align="center" my={4}>
+                        <NextLink href="/dataScienceWorks">
+                            <Button rightIcon={<ChevronRightIcon />} colorScheme="yellow">
+                                My Data Science Projects
+                            </Button>
+                        </NextLink>
+                    </Box>
+                </Section>
 
-                            <Container maxW="lg">
-                                <WorkGridItem id="accFairness" title="Accuracy & Fairness Analysis of an Automated Decision System" thumbnail={titanicThumb}>
-                                    An analysis of the trade-off between accuracy and fairness in a machine learning classifier (automated decision system)
-                                </WorkGridItem>
-                            </Container>
-
-                            <Container maxW="lg">
-                                <WorkGridItem id="underConstruction" title="Work In Progress..." thumbnail={underConstructionThumb}>
-                                    This  case study is under construction, please visit some of my other works in the meantime!
-                                </WorkGridItem>
-                            </Container>
-
-                        </SimpleGrid>
-
-                        <br />
-
-                        <Box align="center" my={4}>
-                            <NextLink href="/dataScienceWorks">
-                                <Button rightIcon={<ChevronRightIcon />} colorScheme="yellow">
-                                    My Data Science Projects
-                                </Button>
-                            </NextLink>
-                        </Box>
-                    </Section>
-
+                <br />
+                <br />
                     
-                
+                <Section delay={0.7}>
 
+                    <Box display={{ md: 'flex' }} maxW="3xl">
+                        <Box flexGrow={1}>
+                            <Heading as="h3" variant="section-title">
+                                Psychology Research Papers 
+                            </Heading>
+                            <br />
+                        </Box>
+                    </Box>
+                    <br />
+                    <SimpleGrid columns={[1, 1, 2]} gap={5}>
+
+                        <Container maxW="lg">
+                            <WorkGridItemPaper id="ICT" title="Student Experiences with ICT Learning Environments" thumbnail={ictThumb}>
+                                A qualitative research paper exploring how adolescents experience information and communication technology (ICT) in post-pandemic classrooms
+                            </WorkGridItemPaper>
+                        </Container>
+
+                        <Container maxW="lg">
+                            <WorkGridItemPaper id="Siblings" title="Perspective Analysis of Sibling Relationships" thumbnail={siblingThumb}>
+                                An analysis of a semi-structured interview featuring sibling relationships and its influence on how adolescents navigate cultural pressures and expectations
+                            </WorkGridItemPaper>
+                        </Container>
+
+                    </SimpleGrid>
+
+                    <br />
+
+                    <Box align="center" my={4}>
+                        <NextLink href="/uxWorks">
+                            <Button rightIcon={<ChevronRightIcon />} colorScheme="yellow">
+                                See More of My Papers
+                            </Button>
+                        </NextLink>
+                    </Box>
+                </Section>
                 <br />
 
             </Container>

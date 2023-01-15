@@ -76,6 +76,10 @@ const Navbar = props => {
                         <LinkItem href="/dataScienceWorks" path={path} isExternal={false}>
                             Data Science Works
                         </LinkItem>
+                    
+                    <LinkItem href="/PsychPapers" path={path} isExternal={false}>
+                            Psychology Research Papers
+                        </LinkItem>
 
                         <LinkItem href='/resume' path={path} isExternal={false}>
                             Resumé
@@ -105,6 +109,9 @@ const Navbar = props => {
                                     </NextLink>
                                     <NextLink href="/dataScienceWorks" passHref>
                                         <MenuItem as={Link}>Data Science Works</MenuItem>
+                                    </NextLink>
+                                    <NextLink href="/dataScienceWorks" passHref>
+                                        <MenuItem as={Link}>Psychology Research Papers</MenuItem>
                                     </NextLink>
                                     <NextLink href="/resume" passHref>
                                         <MenuItem as={Link}>Resumé</MenuItem>
