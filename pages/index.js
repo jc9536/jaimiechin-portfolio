@@ -194,7 +194,7 @@ const Page = () => {
                     <br />
 
                     <Box align="center" my={4}>
-                        <NextLink href="/uxWorks">
+                        <NextLink href="/PsychPapers">
                             <Button rightIcon={<ChevronRightIcon />} colorScheme="yellow">
                                 See More of My Papers
                             </Button>

@@ -24,11 +24,7 @@ const Work = () => {
             </Container>
 
         </Layout>
-
-
     )
-
-
 }
 
 export default Work
