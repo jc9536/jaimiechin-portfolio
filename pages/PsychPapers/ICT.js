@@ -2,13 +2,8 @@ import { Container, Badge, useColorModeValue, Image, AspectRatio } from '@chakra
 import { Title} from '../../components/PsychPapers'
 import Layout from '../../components/layouts/article'
 import Section from '../../components/section'
-import { useEffect } from 'react'
 
 const Work = () => {
-
-    useEffect(() => {
-        import("image-map-resizer").then((module) => module.default());
-    }, []);
 
     return (
 
