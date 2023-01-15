@@ -19,7 +19,7 @@ const Work = () => {
                 <Section delay={0.3}>
                     <Image src={`/images/SiblingPaper/titleFrame${useColorModeValue('', '_dark')}.jpg`} alt="title" loading='eager' />
                     <AspectRatio minH="1125" ratio={16 / 9}>
-                        <iframe style={{ position: "absolute" }} width="100%" src="/SiblingrelationshipsPaper.pdf" allowFullScreen></iframe>
+                        <iframe style={{ position: "absolute" }} width="100%" src="/SiblingRelationshipsPaper.pdf" allowFullScreen></iframe>
                     </AspectRatio>
                     <Box textAlign="center">
                         <Button
@@ -27,7 +27,7 @@ const Work = () => {
                             maxW="md"
                             mt={8}
                         >
-                            <a href="/SiblingrelationshipsPaper.pdf" target="_blank">Click to Read on Mobile <ExternalLinkIcon mx="2px" /> </a>
+                            <a href="/SiblingRelationshipsPaper.pdf" target="_blank">Click to Read on Mobile <ExternalLinkIcon mx="2px" /> </a>
 
                         </Button>
                     </Box>

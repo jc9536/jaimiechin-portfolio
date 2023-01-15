@@ -15,10 +15,10 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/PsychPapers/ICT": [
+    "/": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/PsychPapers/ICT.js"
+      "static/chunks/pages/index.js"
     ],
     "/PsychPapers/Siblings": [
       "static/chunks/webpack.js",
@@ -34,6 +34,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
+    ],
+    "/resume": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/resume.js"
     ]
   },
   "ampFirstPages": []
