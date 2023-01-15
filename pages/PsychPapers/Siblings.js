@@ -18,8 +18,11 @@ const Work = () => {
 
                 <Section delay={0.3}>
                     <Image src={`/images/SiblingPaper/titleFrame${useColorModeValue('', '_dark')}.jpg`} alt="title" loading='eager' />
+                    
                     <AspectRatio minH="1125" ratio={16 / 9}>
-                        <iframe style={{ position: "absolute" }} width="100%" src="/FinalAssignment.pdf" allowFullScreen></iframe>
+                        <object data="/FinalAssignment.pdf" type="application/pdf">
+                            <embed src="FinalAssignment.pdf" type="application/pdf" />
+                        </object>
                     </AspectRatio>
                     <Box textAlign="center">
                         <Button
