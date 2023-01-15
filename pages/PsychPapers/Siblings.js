@@ -1,4 +1,4 @@
-import { Container, Badge, useColorModeValue, Image, AspectRatio } from '@chakra-ui/react'
+import { Container, Badge, useColorModeValue, Image, Button, Box, AspectRatio } from '@chakra-ui/react'
 import { Title } from '../../components/PsychPapers'
 import Layout from '../../components/layouts/article'
 import Section from '../../components/section'
@@ -20,6 +20,16 @@ const Work = () => {
                     <AspectRatio maxW="100%" minH="1185" ratio={16 / 9}>
                         <iframe style={{ border: "1px" }} width="100%" src="/FinalAssignment.pdf" allowFullScreen></iframe>
                     </AspectRatio>
+                    <Box textAlign="center">
+                        <Button
+                            colorScheme="yellow"
+                            maxW="md"
+                            mt={8}
+                        >
+                            <a href="/FinalAssignment.pdf" download="/FinalAssignment.pdf">Download the pdf <DownloadIcon mx="2px" /> </a>
+
+                        </Button>
+                    </Box>
                 </Section>
             </Container>
 
