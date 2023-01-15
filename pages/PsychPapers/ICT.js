@@ -2,7 +2,7 @@ import { Container, Badge, useColorModeValue, Image, Button, Box, AspectRatio } 
 import { Title} from '../../components/PsychPapers'
 import Layout from '../../components/layouts/article'
 import Section from '../../components/section'
-import { DownloadIcon } from '@chakra-ui/icons'
+import { ExternalLinkIcon } from '@chakra-ui/icons'
 
 const Work = () => {
 
@@ -19,9 +19,7 @@ const Work = () => {
                 <Section delay={0.3}>
                     <Image src={`/images/ICTPaper/titleFrame${useColorModeValue('', '_dark')}.jpg`} alt="title" loading='eager' />
                     <AspectRatio minH="1125" ratio={16 / 9}>
-                        <object data="/FinalPaper.pdf" type="application/pdf">
-                            <embed src="FinalPaper.pdf" type="application/pdf" />
-                        </object>
+                        <iframe style={{ border: "1px" }} width="100%" src="/ICTPaper.pdf" allowFullScreen></iframe>
                     </AspectRatio>
                     <Box textAlign="center">
                         <Button
@@ -29,7 +27,7 @@ const Work = () => {
                             maxW="md"
                             mt={8}
                         >
-                            <a href="/FinalPaper.pdf" download="/FinalPaper.pdf">Download the pdf <DownloadIcon mx="2px" /> </a>
+                            <a href="/ICTPaper.pdf" target="_blank">Click to Read on Mobile <ExternalLinkIcon mx="2px" /> </a>
 
                         </Button>
                     </Box>
