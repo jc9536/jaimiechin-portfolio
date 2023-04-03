@@ -63,7 +63,7 @@ const Page = () => {
                         </Heading>
                         <Box maxW="3xl">
                             <Text align="left" fontSize="2xl">
-                                I&apos;m currently an undergraduate researcher in Applied Psychology focused in analyzing positive development interventions.
+                                I&apos;m currently an undergraduate researcher in Applied Psychology & Data Science focused on analyzing positive development interventions
                             </Text>
                         </Box>
                     </Box>

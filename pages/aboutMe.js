@@ -90,7 +90,7 @@ const About = () => {
                     </Heading>
                     <Text fontSize="xl">
                         My creative hobbies all stem from my initial interdisciplinary study between learning about people and technology. When I&apos;m not organizing spreadsheets and coding analyses, you can often find me gaming my favorite titles: <b><i>Animal Crossing</i></b>, <b><i>Pokémon</i></b>, and <b><i>Stardew Valley</i></b> or
-                        exploring new creative skills like 3D modeling in Blender and front-end development.  I am also an avid reader and enjoy exploring different genres of literature. I believe that reading is essential for personal growth and development, and it allows me to gain new perspectives and insights into the world around me.
+                        exploring new creative skills like 3D modeling in Blender and front-end development.
                     </Text>
                 </Section>
                 
