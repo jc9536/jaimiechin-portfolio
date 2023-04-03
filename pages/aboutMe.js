@@ -90,7 +90,7 @@ const About = () => {
                     </Heading>
                     <Text fontSize="xl">
                         My creative hobbies all stem from my initial interdisciplinary study between learning about people and technology. When I&apos;m not organizing spreadsheets and coding analyses, you can often find me gaming my favorite titles: <b><i>Animal Crossing</i></b>, <b><i>Pokémon</i></b>, and <b><i>Stardew Valley</i></b> or
-                        exploring new creative skills like 3D modeling in Blender and front-end development.
+                        exploring new creative skills like 3D modeling in Blender and front-end development.  I am also an avid reader and enjoy exploring different genres of literature. I believe that reading is essential for personal growth and development, and it allows me to gain new perspectives and insights into the world around me.
                     </Text>
                 </Section>
                 
@@ -101,7 +101,7 @@ const About = () => {
                         My passion for UX
                     </Heading>
                     <Text fontSize="xl">
-                        Within my user experience projects, I&apos;m interested in creating more mindful user experiences by improving design decisions through qualitative research methods & data analysis.
+                        Within my user experience projects, I&apos;m interested in creating more mindful user experiences by improving design decisions through qualitative research methods, quantitative research methods & data analysis. I am also passionate about incorporating accessibility and inclusivity into my design decisions. I believe that every user should be able to easily navigate and interact with a product, regardless of their background or ability.
                     </Text>
                 </Section>
                 <br />
