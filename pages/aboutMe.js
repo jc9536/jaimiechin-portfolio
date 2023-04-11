@@ -69,7 +69,11 @@ const About = () => {
                                 </BioSection>
                                 <BioSection>
                                     <BioYear>2023</BioYear>
-                                    Will graduate from New York University with a <b>B.S in Applied Psycholgy</b> & <b>B.A in Data Science</b>
+                                    Graduated from NYU with a <b>B.S in Applied Psychology</b> & <b>B.A in Data Science</b>
+                                </BioSection>
+                                <BioSection>
+                                    <BioYear>2025</BioYear>
+                                    Will graduate from University of Washington with a <b>M.S in Human Centered Design & Engineering</b>
                                 </BioSection>
                                 <Heading as="h1" variant="page-title" size="2xl" mt={6} mb={2}>
                                     Who am I?
