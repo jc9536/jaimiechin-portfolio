@@ -40,6 +40,8 @@ const UXWork = () => {
                     </map>
 
                     <Image src={`/images/sheepyCaseStudy/Concept${useColorModeValue('', '_dark')}.jpg`} overflow="hidden" alt="Concept" loading='eager' />
+                    <Image src={`/images/sheepyCaseStudy/Background${useColorModeValue('', '_dark')}.jpg`} overflow="hidden" alt="bg" loading='eager' />
+                    <Image src={`/images/sheepyCaseStudy/Goals${useColorModeValue('', '_dark')}.jpg`} overflow="hidden" alt="Goals" loading='eager' />
 
 
                     <Image src={`/images/sheepyCaseStudy/MarketResearch${useColorModeValue('', '_dark')}.jpg`} alt="MarketResearch" loading='eager' useMap='#marketMap' id="marketresearch" />

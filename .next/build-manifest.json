@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/aboutMe": [
+    "/uxWorks/Sheepy": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/aboutMe.js"
+      "static/chunks/pages/uxWorks/Sheepy.js"
     ]
   },
   "ampFirstPages": []
