@@ -43,7 +43,6 @@ const UXWork = () => {
                     <Image src={`/images/sheepyCaseStudy/Background${useColorModeValue('', '_dark')}.jpg`} overflow="hidden" alt="bg" loading='eager' />
                     <Image src={`/images/sheepyCaseStudy/Goals${useColorModeValue('', '_dark')}.jpg`} overflow="hidden" alt="Goals" loading='eager' />
 
-
                     <Image src={`/images/sheepyCaseStudy/MarketResearch${useColorModeValue('', '_dark')}.jpg`} alt="MarketResearch" loading='eager' useMap='#marketMap' id="marketresearch" />
                     <map name='marketMap'>
                         <area target="_blank" alt="Sviggum" title="Sviggum" href="https://pubmed.ncbi.nlm.nih.gov/30289029/" coords="1430,822,1640,864" shape="rect" />
