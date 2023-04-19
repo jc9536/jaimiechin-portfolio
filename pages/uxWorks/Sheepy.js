@@ -59,7 +59,6 @@ const UXWork = () => {
 
                     </map>
 
-                    <Image src={`/images/sheepyCaseStudy/CompetitiveAnalysis${useColorModeValue('', '_dark')}.jpg`} alt="CompetitiveAnalysis" loading='eager' />
                     <Image src={`/images/sheepyCaseStudy/UserSurvey${useColorModeValue('', '_dark')}.jpg`} alt="UserSurvey" useMap='#surveyMap' loading='eager' id="usersurvey" />
                     <map name='surveyMap'>
                         <area target="_blank" alt="survey" title="survey" href="/Parenting Bedtime Routines for Children Survey Design.pdf" coords="989,203,1123,240" shape="rect" />
@@ -67,6 +66,7 @@ const UXWork = () => {
                     </map>
 
                     <Image src={`/images/sheepyCaseStudy/UserInsights${useColorModeValue('', '_dark')}.jpg`} alt="UserInsights" loading='eager' />
+                    <Image src={`/images/sheepyCaseStudy/CompetitiveAnalysis${useColorModeValue('', '_dark')}.jpg`} alt="CompetitiveAnalysis" loading='eager' />
                     <br />
                     <Image src={`/images/sheepyCaseStudy/Persona${useColorModeValue('', '_dark')}.jpg`} alt="Persona" id='persona' loading='eager' />
                     <br />
