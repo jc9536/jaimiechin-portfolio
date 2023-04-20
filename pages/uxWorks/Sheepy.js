@@ -65,11 +65,11 @@ const UXWork = () => {
                         <area target="_blank" alt="survey" title="survey" href="/Parenting Bedtime Routines for Children Survey Design.pdf" coords="989,203,1123,240" shape="rect" />
                         <area target="_blank" alt="report" title="report" href="/SheepyResearchReport.pdf" coords="1649,284,1898,355" shape="rect" />
                     </map>
-
+                        
                     <Image src={`/images/sheepyCaseStudy/UserInsights${useColorModeValue('', '_dark')}.jpg`} alt="UserInsights" loading='eager' />
-                    <Image src={`/images/sheepyCaseStudy/CompetitiveAnalysis${useColorModeValue('', '_dark')}.jpg`} alt="CompetitiveAnalysis" loading='eager' />
                     <br />
                     <Image src={`/images/sheepyCaseStudy/Persona${useColorModeValue('', '_dark')}.jpg`} alt="Persona" id='persona' loading='eager' />
+                    <Image src={`/images/sheepyCaseStudy/CompetitiveAnalysis${useColorModeValue('', '_dark')}.jpg`} alt="CompetitiveAnalysis" loading='eager' />
                     <br />
                     <Image src={`/images/sheepyCaseStudy/UserJourneyMap${useColorModeValue('', '_dark')}.jpg`} alt="UserJourneyMap" id='userjourneymap' loading='eager' />
                     <Image src={`/images/sheepyCaseStudy/Opportunity${useColorModeValue('', '_dark')}.jpg`} alt="Opportunity" loading='eager' />
