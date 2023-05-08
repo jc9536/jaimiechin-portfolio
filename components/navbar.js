@@ -110,7 +110,7 @@ const Navbar = props => {
                                     <NextLink href="/dataScienceWorks" passHref>
                                         <MenuItem as={Link}>Data Science Works</MenuItem>
                                     </NextLink>
-                                    <NextLink href="/dataScienceWorks" passHref>
+                                    <NextLink href="/PsychPapers" passHref>
                                         <MenuItem as={Link}>Psychology Research Papers</MenuItem>
                                     </NextLink>
                                     <NextLink href="/resume" passHref>
