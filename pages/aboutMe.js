@@ -27,7 +27,7 @@ const About = () => {
                     p={4}
                     mb={6}>
                     <Text align="center" fontSize="3xl">
-                        My name is Jaimie and I&apos;m an aspiring UX designer and researcher studying Human Centered Design & Engineering at the University of Washington.
+                        My name is Jaimie and I&apos;m an aspiring UX designer and researcher studying Human Centered Design & Engineering at the University of Washington
                     </Text>
                 </Box>
                 <br />
