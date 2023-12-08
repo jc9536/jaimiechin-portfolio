@@ -20,11 +20,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/index.js"
     ],
-    "/PsychPapers": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/PsychPapers.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -35,25 +30,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/aboutMe": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/aboutMe.js"
-    ],
-    "/dataScienceWorks": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/dataScienceWorks.js"
-    ],
     "/uxWorks": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/uxWorks.js"
     ],
-    "/uxWorks/Sheepy": [
+    "/uxWorks/DigiDubs": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/uxWorks/Sheepy.js"
+      "static/chunks/pages/uxWorks/DigiDubs.js"
     ]
   },
   "ampFirstPages": []

@@ -3,7 +3,8 @@ import Section from '../components/section'
 import { WorkGridItemUX } from '../components/ux-grid-item'
 import Layout from '../components/layouts/article'
 import thumbSheepy from '../public/images/sheepyCaseStudy/sheepyThumbnail.png'
-import  starbucksThumb from '../public/images/StarbucksRedesign/thumbnail.png'
+import starbucksThumb from '../public/images/StarbucksRedesign/thumbnail.png'
+import dubsThumb from '../public/images/DigiDubs/thumbnail.png'
 const Works = () => {
     
     return (
@@ -17,6 +18,13 @@ const Works = () => {
                 <br />
 
                 <SimpleGrid columns={[1, 1, 2]} spacing="60px">
+
+                    <Section>
+                        <WorkGridItemUX id="DigiDubs" title="Digi-Dubs" thumbnail={dubsThumb}>
+                            An app to foster a greater sense of community at the University of Washington
+                        </WorkGridItemUX>
+                    </Section>
+
                     <Section>
                         <WorkGridItemUX id="Sheepy" title="Sheepy" thumbnail={thumbSheepy}>
                             A bedtime routine app for parents who lack information about the best child development practices

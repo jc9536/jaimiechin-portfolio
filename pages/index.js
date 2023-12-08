@@ -17,7 +17,7 @@ import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
 import { WorkGridItemUX } from '../components/ux-grid-item'
 import thumbSheepy from '../public/images/sheepyCaseStudy/sheepyThumbnail.png'
-import starbucksThumb from '../public/images/StarbucksRedesign/thumbnail.png'
+import dubsThumb from '../public/images/DigiDubs/thumbnail.png'
 import { WorkGridItem } from '../components/ds-grid-item'
 import underConstructionThumb from '../public/images/underConstruction.png'
 import titanicThumb from '../public/images/accuracyFairnessProject/titanicThumbnail.png'
@@ -97,14 +97,14 @@ const Page = () => {
                     <SimpleGrid columns={[1, 1, 2]} gap={5}>
 
                         <Container maxW="lg">
-                            <WorkGridItemUX id="Sheepy" title="Sheepy" thumbnail={thumbSheepy}>
-                                A bedtime routine app for parents who lack information about the best child development practices
+                            <WorkGridItemUX id="DigiDubs" title="Digi-Dubs" thumbnail={dubsThumb}>
+                                An app to foster a greater sense of community at the University of Washington
                             </WorkGridItemUX>
                         </Container>
 
                         <Container maxW="lg">
-                            <WorkGridItemUX id="StarbucksRedesign" title="Starbucks Redesign" thumbnail={starbucksThumb}>
-                                A redesign of the beverage browsing experience within the Starbucks Mobile app
+                            <WorkGridItemUX id="Sheepy" title="Sheepy" thumbnail={thumbSheepy}>
+                                A bedtime routine app for parents who lack information about the best child development practices
                             </WorkGridItemUX>
                         </Container>
 
