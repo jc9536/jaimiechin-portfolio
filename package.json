@@ -50,6 +50,7 @@
     "@svgr/webpack": "^6.4.0",
     "eslint": "^8.22.0",
     "eslint-config-next": "^12.2.5",
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "@babel/traverse": ">=7.23.2"
   }
 }
