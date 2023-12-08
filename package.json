@@ -12,6 +12,12 @@
   "author": "Jaimie Chin",
   "license": "MIT",
   "dependencies": {
+    "@babel/traverse": ">=7.23.2",
+    "loader-utils": ">=2.0.4",
+    "ua-parser-js": ">=0.7.33",
+    "json5": ">=2.2.2",
+    "decode-uri-component": ">=0.2.1",
+    "glob-parent": ">=5.1.2",
     "@chakra-ui/icons": "^2.0.9",
     "@chakra-ui/react": "^2.2.9",
     "@emotion/react": "^11.10.0",
