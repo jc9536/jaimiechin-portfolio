@@ -3,7 +3,7 @@ import Layout from '../components/layouts/main'
 import Fonts from '../components/fonts'
 import theme from '../lib/theme'
 import { AnimatePresence } from 'framer-motion'
-import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import Script from 'next/script'
 
 const Website = ({ Component, pageProps, router }) => {
@@ -26,7 +26,7 @@ const Website = ({ Component, pageProps, router }) => {
                             `}
                     </Script>
                     <Component {...pageProps} key={router.route} />
-                    <Analytics />
+                    <SpeedInsights />
                 </AnimatePresence>
             </Layout>
         </ChakraProvider>
