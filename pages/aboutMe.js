@@ -17,7 +17,7 @@ const About = () => {
             <br />
             <br />
             <Section delay={0.3}>
-                <Heading as="h1" variant="page-title" size="4xl" mb={4}>
+                <Heading as="h1" variant="page-title" size="4xl" mb={4} align="center">
                     About Me
                 </Heading>
                 <br />
@@ -27,7 +27,7 @@ const About = () => {
                     p={4}
                     mb={6}>
                     <Text align="center" fontSize="3xl">
-                        My name is Jaimie and I&apos;m an aspiring UX designer and researcher studying Human Centered Design & Engineering at the University of Washington.
+                        My name is Jaimie and I&apos;m an aspiring UX designer and researcher studying Human Centered Design & Engineering at the University of Washington
                     </Text>
                 </Box>
                 <br />
