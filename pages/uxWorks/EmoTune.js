@@ -1,7 +1,5 @@
-import { Container, Badge, useColorModeValue, Image, List, Link, ListItem, AspectRatio } from '@chakra-ui/react'
-import { Meta } from '../../components/dataScienceWorks'
+import { Container, Badge, useColorModeValue, Image, AspectRatio } from '@chakra-ui/react'
 import { Title } from '../../components/uxWorks'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
 import Layout from '../../components/layouts/article'
 import Section from '../../components/section'
 import { useEffect} from 'react'
