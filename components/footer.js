@@ -8,9 +8,9 @@ const Footer = () => {
             <Center size="sm">
                 <Stack justify="space-between" direction="row" align="center">
                     <ButtonGroup variant="ghost">
-                        <IconButton as="a" target='_blank' href="https://github.com/jc9536?tab=repositories" aria-label="GitHub" icon={<FaGithub fontSize="1.75rem" />} />
-                        <IconButton as="a" href="mailto: jc9536@nyu.edu" aria-label="Gmail" icon={<FaEnvelope fontSize="1.75rem" />} />
-                        <IconButton as="a" target='_blank' href="https://www.linkedin.com/in/jaimie-chin-a38511236/" aria-label="Linkedin" icon={<FaLinkedin fontSize="1.75rem" />} />
+                        <IconButton as="a" target='_blank' href="https://github.com/jc9536?tab=repositories" aria-label="GitHub" colorScheme='yellow' icon={<FaGithub fontSize="1.75rem" />} />
+                        <IconButton as="a" href="mailto: jc9536@nyu.edu" aria-label="Gmail" colorScheme='yellow' icon={<FaEnvelope fontSize="1.75rem" />} />
+                        <IconButton as="a" target='_blank' href="https://www.linkedin.com/in/jaimie-chin-a38511236/" aria-label="Linkedin" colorScheme='yellow' icon={<FaLinkedin fontSize="1.75rem" />} />
                     </ButtonGroup>
                 </Stack>
             </Center>

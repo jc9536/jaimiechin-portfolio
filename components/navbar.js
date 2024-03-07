@@ -26,7 +26,8 @@ const LinkItem = ({href, path, isExternal, children}) => {
                 href={href}
                 p={2}
                 bg={active ? 'gold': undefined}
-                color={active ? '#333132': inactiveColor}
+                color={active ? '#333132' : inactiveColor}
+                borderRadius={active ? 'lg' : 'none'}
                 isExternal={isExternal}>
                     {children}
             </Link>
