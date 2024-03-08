@@ -34,7 +34,7 @@ const Works = () => {
 
                     <Section>
                         <WorkGridItemUX id="Sheepy" title="Sheepy" thumbnail={thumbSheepy}>
-                            A children's bedtime routine app for parents
+                            A children&apos;s bedtime routine app for parents
                         </WorkGridItemUX>
                     </Section>
 
