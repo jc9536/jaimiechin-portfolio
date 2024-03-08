@@ -1,8 +1,10 @@
-import { Container, Badge, useColorModeValue, Image, AspectRatio } from '@chakra-ui/react'
+import { Container, Badge, useColorModeValue, Image, AspectRatio, Link, List, ListItem, Box } from '@chakra-ui/react'
 import { Title } from '../../components/uxWorks'
 import Layout from '../../components/layouts/article'
 import Section from '../../components/section'
-import { useEffect} from 'react'
+import { useEffect } from 'react'
+import { Meta } from '../../components/dataScienceWorks'
+import { ExternalLinkIcon } from '@chakra-ui/icons'
 
 
 
@@ -50,9 +52,26 @@ const UXWork = () => {
                     <Image src={`/images/EmoTune/MidFi${useColorModeValue('', '_dark')}.jpg`} alt="MidFi" id="midfi" loading='eager' />
                     <Image src={`/images/EmoTune/DesignSystem${useColorModeValue('', '_dark')}.jpg`} alt="DesignSys" id="designsys" loading='eager' />
                     <Image src={`/images/EmoTune/Demo${useColorModeValue('', '_dark')}.jpg`} alt="Demo" id="demo" loading='eager' />
-                    <AspectRatio maxW="100%" minH="450" ratio={16 / 10.6}>
-                        <iframe style={{ border: "1px" }} width="100%" src="https://jc9536.github.io/DRGAIBiasforChildren/#/" scrolling="no" allowFullScreen></iframe>
-                    </AspectRatio>
+                    <Container centerContent maxW="max">
+                        <List spacing={4}>
+                            <ListItem>
+                                <Meta>Demo Link</Meta>
+                                <Link href="https://jc9536.github.io/DRGAIBiasforChildren/#/" isExternal={true}>
+                                    EmoTune Demo <ExternalLinkIcon mx="2px" />
+                                </Link>
+                            </ListItem>
+                        </List>
+                    </Container>
+                    <br />
+
+                    <Box borderRadius="3xl" overflow="hidden">
+                        
+                        <AspectRatio maxW="100%" minH="450" ratio={16 / 10.6}>
+                            <iframe style={{ border: "1px" }} width="100%" src="https://jc9536.github.io/DRGAIBiasforChildren/#/" allow="camera *; microphone *" scrolling="no" allowFullScreen></iframe>
+                        </AspectRatio>
+
+                    </Box>
+                    
                     
                     <Image src={`/images/EmoTune/HiFi${useColorModeValue('', '_dark')}.jpg`} alt="HiFi" id="hifi" loading='eager' />
 
