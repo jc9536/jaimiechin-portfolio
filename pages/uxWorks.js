@@ -38,6 +38,19 @@ const Works = () => {
                         </WorkGridItemUX>
                     </Section>
 
+                </SimpleGrid>
+
+                <br />
+                <br />
+
+                <Heading as="h3" variant="section-title">
+                    Archived Work
+                </Heading>
+
+                <br />
+
+                <SimpleGrid columns={[1, 1, 2]} spacing="60px">
+
                     <Section>
                         <WorkGridItemUX id="StarbucksRedesign" title="Starbucks Redesign" thumbnail={starbucksThumb}>
                             A redesign of the beverage browsing experience within the Starbucks Mobile app
@@ -45,6 +58,7 @@ const Works = () => {
                     </Section>
 
                 </SimpleGrid>
+
             </Container>
         </Layout>
     )
