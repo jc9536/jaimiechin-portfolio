@@ -20,9 +20,9 @@ export const GridItem = ({children, href, title, thumbnail}) => (
     </Box>
 )
 
-export const WorkGridItemPaper= ({children, id, title, thumbnail }) => (
+export const WorkGridItem533= ({children, id, title, thumbnail }) => (
     <Box w="100%" align="center">
-        <NextLink href={`/PsychPapers/${id}`}>
+        <NextLink href={`/digitalFabrication/${id}`}>
             <LinkBox cursor="pointer">
                 <Image 
                     src={thumbnail} 
@@ -32,7 +32,7 @@ export const WorkGridItemPaper= ({children, id, title, thumbnail }) => (
 
                     <Text as='b' mt={4} fontSize={32}>
 
-                        <NextLink href={`/PsychPapers/${id}`}>
+                        <NextLink href={`/digitalFabrication/${id}`}>
                             <Link>{title}</Link>
                         </NextLink>
 

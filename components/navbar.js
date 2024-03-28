@@ -82,7 +82,7 @@ const Navbar = props => {
                             Psychology Research Papers
                         </LinkItem>
                     
-                        <LinkItem href="/533DigitalFabrication" path={path} isExternal={false}>
+                        <LinkItem href="/digitalFabrication" path={path} isExternal={false}>
                             HCDE 533
                         </LinkItem>
 
@@ -118,7 +118,7 @@ const Navbar = props => {
                                     <NextLink href="/PsychPapers" passHref>
                                         <MenuItem as={Link}>Psychology Research Papers</MenuItem>
                                     </NextLink>
-                                    <NextLink href="/533DigitalFabrication" passHref>
+                                    <NextLink href="/digitalFabrication" passHref>
                                         <MenuItem as={Link}>HCDE 533</MenuItem>
                                     </NextLink>
                                     <NextLink href="/resume" passHref>
