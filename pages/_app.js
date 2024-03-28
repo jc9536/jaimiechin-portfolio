@@ -25,6 +25,11 @@ const Website = ({ Component, pageProps, router }) => {
                             gtag('config', 'G-P4NPYDG6ZT');
                             `}
                     </Script>
+                    <Script
+                        id="hotjar-analytics"
+                        src="https://static.hotjar.com/c/hotjar-3921985.js?sv=1"
+                        strategy="afterInteractive"
+                    />
                     <Component {...pageProps} key={router.route} />
                     <Analytics />
                 </AnimatePresence>
