@@ -78,8 +78,12 @@ const Navbar = props => {
                             Data Science Works
                         </LinkItem>
                     
-                    <LinkItem href="/PsychPapers" path={path} isExternal={false}>
+                        <LinkItem href="/PsychPapers" path={path} isExternal={false}>
                             Psychology Research Papers
+                        </LinkItem>
+                    
+                        <LinkItem href="/533DigitalFabrication" path={path} isExternal={false}>
+                            HCDE 533
                         </LinkItem>
 
                         <LinkItem href='/resume' path={path} isExternal={false}>
@@ -113,6 +117,9 @@ const Navbar = props => {
                                     </NextLink>
                                     <NextLink href="/PsychPapers" passHref>
                                         <MenuItem as={Link}>Psychology Research Papers</MenuItem>
+                                    </NextLink>
+                                    <NextLink href="/533DigitalFabrication" passHref>
+                                        <MenuItem as={Link}>HCDE 533</MenuItem>
                                     </NextLink>
                                     <NextLink href="/resume" passHref>
                                         <MenuItem as={Link}>Resumé</MenuItem>
