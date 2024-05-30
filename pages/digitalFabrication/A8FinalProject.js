@@ -18,7 +18,7 @@ const Work = () => {
     const lotusGH = '/images/533_Assignment_8/Lotus.gh'
     const lotusSTL = '/images/533_Assignment_8/LotusBoxMold.stl'
     const carousel_1 = ['/images/533_Assignment_8/Fish.jpg', '/images/533_Assignment_8/FishMold_1.jpg', '/images/533_Assignment_8/FishMold.jpg']
-    const carousel_2 = ['/images/533_Assignment_8/LotusGH.jpg', '/images/533_Assignment_8/LotusMold.jpg', '/images/533_Assignment_8/Orca.jpg']
+    const carousel_2 = ['/images/533_Assignment_8/LotusGrasshopper.jpg', '/images/533_Assignment_8/LotusMold.jpg', '/images/533_Assignment_8/Orca.jpg']
     const carousel_3 = ['/images/533_Assignment_8/Fishes.jpg', '/images/533_Assignment_8/Lotuses.jpg', '/images/533_Assignment_8/LotusMoldCast.jpg']
     const carousel_4 = ['/images/533_Assignment_8/YinYangFish.jpg', '/images/533_Assignment_8/Flower.jpg', '/images/533_Assignment_8/Crane.jpg',]
     const carousel_5 = ['/images/533_Assignment_8/LaserTags.jpg', '/images/533_Assignment_8/Tags.jpg',]
