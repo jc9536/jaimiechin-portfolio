@@ -2,5 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/uxWorks/Leilo": "pages/uxWorks/Leilo.js"
+  "/uxWorks/Leilo": "pages/uxWorks/Leilo.js",
+  "/digitalFabrication": "pages/digitalFabrication.js"
 }
