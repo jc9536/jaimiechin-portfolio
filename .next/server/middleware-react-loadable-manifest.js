@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST={"digitalFabrication/A8FinalProject.js -> image-map-resizer":{"id":"digitalFabrication/A8FinalProject.js -> image-map-resizer","files":["static/chunks/node_modules_image-map-resizer_js_imageMapResizer_min_js.js"]}}
+self.__REACT_LOADABLE_MANIFEST={"uxWorks/Leilo.js -> image-map-resizer":{"id":"uxWorks/Leilo.js -> image-map-resizer","files":["static/chunks/node_modules_image-map-resizer_js_imageMapResizer_min_js.js"]}}
