@@ -25,15 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/digitalFabrication": [
+    "/aboutMe": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/digitalFabrication.js"
-    ],
-    "/uxWorks/Leilo": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/uxWorks/Leilo.js"
+      "static/chunks/pages/aboutMe.js"
     ]
   },
   "ampFirstPages": []

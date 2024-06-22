@@ -1,3 +1,4 @@
+import React from 'react';
 import {
     Text,
     Box,
@@ -5,13 +6,14 @@ import {
     Image,
     Center,
     useColorModeValue
-} from '@chakra-ui/react'
-import Layout from '../components/layouts/article'
-import Section from '../components/section'
-import { BioSection, BioYear } from '../components/bio'
+} from '@chakra-ui/react';
+import Layout from '../components/layouts/article';
+import Section from '../components/section';
+import { BioSection, BioYear } from '../components/bio';
 
 const About = () => {
-    const profile = `/images/profile${useColorModeValue('', '_dark')}.jpg`
+    const profile = `/images/profile${useColorModeValue('', '_dark')}.jpg`;
+
     return (
         <Layout>
             <br />
@@ -56,7 +58,7 @@ const About = () => {
                     <Box w="225px" h="20px" display="inline=block" overflow="hidden"></Box>
 
                     <Section delay={0.4}>
-                        
+
                         <Box flexGrow={1} display="inline-block" overflow="hidden">
                             <Box display="inline-block" overflow="hidden">
                                 <Heading as="h3" variant="section-title">
@@ -75,13 +77,6 @@ const About = () => {
                                     <BioYear>2025</BioYear>
                                     Will graduate from University of Washington with a <b>M.S in Human Centered Design & Engineering</b>
                                 </BioSection>
-                                <Heading as="h1" variant="page-title" size="2xl" mt={6} mb={2}>
-                                    Who am I?
-                                </Heading>
-                                <Text fontSize="xl">
-                                    I&apos;ve always been interested in solving problems by identifying common patterns in data. I want to continue developing my skills in research, design and development in order to make the world a better place.
-                                    To me, learning is a lifelong journey and it never stops.
-                                </Text>
                             </Box>
                         </Box>
                     </Section>
@@ -90,14 +85,46 @@ const About = () => {
 
                 <Section delay={0.5}>
                     <Heading as="h1" variant="page-title" size="2xl" mb={2}>
+                        Who am I?
+                    </Heading>
+                    <Text fontSize="xl">
+                        I am a dedicated UX designer and developer passionate about solving problems by identifying common patterns in data. I aim to continuously develop my research, design, and development skills to make the world a better place. Learning is a lifelong journey that never stops, and I strive to integrate this philosophy into all aspects of my work. A significant driving force behind my work is my interest in educational technology.
+                    </Text>
+                    <br />
+                    <Text fontSize="xl">
+                        With a background in early childhood education research, including my role as an Assistant Research Scientist at IHDSC, I have managed and organized data to promote school readiness and positive behavioral outcomes for children. This experience has solidified my commitment to leveraging technology to create impactful educational tools accessible and beneficial to all.
+                    </Text>
+                </Section>
+
+                <br />
+
+                <Section delay={0.5}>
+                    <Heading as="h1" variant="page-title" size="2xl" mb={2}>
                         What I like to do
                     </Heading>
                     <Text fontSize="xl">
-                        My creative hobbies all stem from my initial interdisciplinary study between learning about people and technology. When I&apos;m not organizing spreadsheets and coding analyses, you can often find me gaming my favorite titles: <b><i>Animal Crossing</i></b>, <b><i>Pokémon</i></b>, and <b><i>Stardew Valley</i></b> or
-                        exploring new creative skills like 3D modeling in Blender and front-end development.
+                        My creative hobbies are deeply rooted in my interdisciplinary study of people and technology. When I'm not organizing spreadsheets and coding analyses, I often play my favorite titles: Animal Crossing, Pokémon, and Stardew Valley. Additionally, I love exploring new creative skills like 3D modeling in Blender and front-end development. I have also recently developed an interest in building games:
                     </Text>
+                    <br />
+                    <Box display="flex" justifyContent="center" mt={6}>
+                        <Box
+                            borderRadius="2xl" // Increased border radius for more rounded corners
+                            overflow="hidden"
+                            border="2px"
+                            borderColor={useColorModeValue('gray.200', 'gray.700')}
+                            boxShadow="lg"
+                        >
+                            <iframe
+                                src="/TrainJump.html"
+                                title="TrainJump Game"
+                                width="800"
+                                height="600"
+                                style={{ border: 'none', borderRadius: 'inherit' }}
+                            />
+                        </Box>
+                    </Box>
                 </Section>
-                
+
                 <br />
 
                 <Section delay={0.6}>
@@ -105,7 +132,7 @@ const About = () => {
                         My passion for UX
                     </Heading>
                     <Text fontSize="xl">
-                        Within my user experience projects, I&apos;m interested in creating more mindful user experiences by improving design decisions through qualitative research methods, quantitative research methods & data analysis. I am also passionate about incorporating accessibility and inclusivity into my design decisions. I believe that every user should be able to easily navigate and interact with a product, regardless of their background or ability.
+                        In my user experience projects, I am dedicated to creating mindful user experiences by enhancing design decisions through qualitative and quantitative research methods and data analysis. My passion extends to incorporating accessibility and inclusivity into every design decision. Every user, regardless of their background or ability, should be able to navigate and interact with a product effortlessly. My commitment to educational technology is reflected in my projects. I leverage technology to develop impactful educational tools that benefit all users. Explore my portfolio to see how my passion for UX, commitment to accessibility, and dedication to educational technology come together in my work.
                     </Text>
                 </Section>
                 <br />
@@ -115,4 +142,4 @@ const About = () => {
     )
 }
 
-export default About
+export default About;
