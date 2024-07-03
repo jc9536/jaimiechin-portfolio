@@ -109,39 +109,31 @@ const Work = () => {
         }
     ]
 
-
     return (
-
         <Layout title="A7FinalProjectProposal">
             <br />
             <Title>
                 Final Project Proposal <Badge>May 2024</Badge>
             </Title>
 
-            <Container maxW="container.xl" centerContent>
+            <Container maxW="full">
                 <br />
                 <br />
                 <Section delay={0.3}>
                     <Heading as="h1" variant="page-title" size="3xl" mb={4} align="center">
                         Assignment 7: Final Project Proposal
                     </Heading>
-
                     <br />
                     <br />
-
                     <Heading as="h3" variant="section-title">
                         Assignment Details
                     </Heading>
-
                     <br />
                     <br />
-
                     <Text fontSize="xl">
                         Create a proposal pitch for your final project. Your pitch should include&#58;
                     </Text>
-
                     <br />
-
                     <Center>
                         <UnorderedList spacing={5}>
                             <ListItem>
@@ -165,53 +157,39 @@ const Work = () => {
                                 </Text>
                             </ListItem>
                         </UnorderedList>
-
                     </Center>
-
                     <br />
                     <Text fontSize="xl">
                         Your proposal can be for any digitally fabricated object. Your plan must include several of the techniques we learned in class, e.g. Rhino, Grasshopper, Slicing, Printing, Casting, Rendering, etc.
                     </Text>
-
                     <br />
                     <br />
-
                     <Heading as="h3" variant="section-title">
                         Phase 1: Ideation & Sketching
                     </Heading>
-
                     <br />
                     <br />
-
                     <Box display={{ lg: 'flex' }}>
                         <Box flexGrow={1} display="inline-block" overflow="hidden">
                             <Box display="inline-block" overflow="hidden">
                                 <br />
                                 <br />
                                 <br />
-
                                 <Text fontSize="xl">
                                     <b>Concept&#58;</b> Wind chime set
                                 </Text>
-
                                 <br />
-
                                 <Text fontSize="xl">
                                     <b>Intended Use Case&#58;</b> A set of components that can be assembled to form different wind chimes
                                 </Text>
-
                                 <br />
-
                                 <Text fontSize="xl">
                                     <b>Context&#58;</b> Each components utilizes a different technique from the class
                                 </Text>
                             </Box>
                         </Box>
-
                         <Box w="125px" h="20px" display="inline=block" overflow="hidden"></Box>
-
                         <Section delay={0.4}>
-
                             <Box
                                 flexShrink={0}
                                 textAlign="center">
@@ -228,37 +206,28 @@ const Work = () => {
                             </Box>
                         </Section>
                     </Box>
-
                     <br />
-
                     <Heading as="h3" variant="section-title">
-                        Phase 2:Task Breakdown
+                        Phase 2: Task Breakdown
                     </Heading>
                     <br />
                     <br />
-
                     <StepsComponent steps={TaskSteps} variant='horizontal' />
-
                     <br />
                     <br />
-
                     <Heading as="h3" variant="section-title">
                         Phase 3: Timeline
                     </Heading>
                     <br />
                     <br />
-
-                    <StepsComponent steps={TimeSteps} variant='vertical' />
-                
+                    <StepsComponent steps={TimeSteps} variant='horizontal' />
                     <br />
                     <br />
-
                     <Heading as="h3" variant="section-title">
                         Phase 4: Bill of Materials
                     </Heading>
-
                     <br />
-                    <TableContainer>
+                    <TableContainer >
                         <Table size='md' variant='striped' colorScheme='yellow'>
                             <TableCaption>Bill of Materials</TableCaption>
                             <Thead>
@@ -273,7 +242,7 @@ const Work = () => {
                             </Thead>
                             <Tbody>
                                 <Tr>
-                                    <Td>Specialty Filament (Wood and Metal)</Td>
+                                    <Td>Wood & Metal Filament</Td>
                                     <Td>1 spool of each</Td>
                                     <Td>Protopasta via Amazon</Td>
                                     <Td><Link isExternal href='https://www.amazon.com/ProtoPlant-Protopasta-Metallic-Metal-Filled-Composite/dp/B09SL1MPWM/ref=sr_1_3?crid=1D5YWNU8WO1W2&dib=eyJ2IjoiMSJ9.3k7aVjTd_Ql5mWAcFaPHlZJzK1qeRDue1tl9CwysxKuGaoSBW73xoJwoJBn2cTInywp4AogZ6oW0KyXgojLjKKWBGLyuLk8ygy4e4cl6ttIcofa1WbI0vodTg71Et9yv7tJp74K2VupoZjS5kMGUo9UyMlZE35c8zQKUiRHV60qhD8afjRXQWmIqxkzeH5w3KP1V5AwHHo8dwvWprpLVYh7YFuEcny_NC9tAHfgkB80.7l3uoLT-hS8vUjXoHisoa4mheqi32UN7PIkhSwTnG4g&dib_tag=se&keywords=metal%2Bcopper%2Bfilament&qid=1715820515&sprefix=metal%2Bcopper%2Bfilament%2Caps%2C144&sr=8-3&th=1'>Protopasta</Link></Td>
@@ -291,7 +260,7 @@ const Work = () => {
                                 <Tr>
                                     <Td>Plaster</Td>
                                     <Td>4 lbs.</Td>
-                                    <Td>Left over from Assignment 6</Td>
+                                    <Td>From Assignment 6</Td>
                                     <Td><Link isExternal href='https://www.amazon.com/10308-4-Pound-Interior-Plaster-Paris/dp/B000BQLT0S/ref=sr_1_5_pp?crid=2SHDVIA5IBKPJ&dib=eyJ2IjoiMSJ9.qMFiXq7ezeNTynHzLcYCUmtTf-MVuXsvI1wuAQ-3_oiI1Z8VhkG-u3XXOheTJSWzE0pMdWqR_MHSUmicMYEiV89DHRVP7uz2K0GrLMeOOGWYCD6E53syvYXFCmdzHS_nvYU1v6IZxxX4hHchXOnow-MqZGcwlt8o-sXJ-QuwehLO5hjShM-EWlyu3hIYjr9peaGsWPIecHNovPwcCFhHINsLxQ09v17zPw__IUK_yc_QxZy2eWQVSD3zu_CNqB4FvQGnrfx1X6cQICPTXiW-ZMpf7ZnBUya8qrkjqMabbi8.JjO6Zhvd10sl2th3AI7Rzn46kRi-AilhFo2DTNaHUUg&dib_tag=se&keywords=plaster&qid=1715820860&sprefix=plaster%2Caps%2C199&sr=8-5&th=1'>DAP</Link></Td>
                                     <Td>2 Day Prime shipping</Td>
                                     <Td>$8.37</Td>
@@ -299,7 +268,7 @@ const Work = () => {
                                 <Tr>
                                     <Td>Silicone</Td>
                                     <Td>20.46 oz</Td>
-                                    <Td>Left over from Assignment 6</Td>
+                                    <Td>From Assignment 6</Td>
                                     <Td><Link isExternal href='https://www.amazon.com/dp/B07V5FFPWC?ref=nb_sb_ss_w_as-reorder_k5_1_4&amp=&crid=3R0GRT5D4284Z&amp=&sprefix=sili'>LET&apos;S RESIN</Link></Td>
                                     <Td>2 Day Prime shipping</Td>
                                     <Td>$8.37</Td>
@@ -344,23 +313,15 @@ const Work = () => {
                                     <Td>1 Day Prime shipping</Td>
                                     <Td>$7.99</Td>
                                 </Tr>
-                                
                             </Tbody>
                         </Table>
                     </TableContainer>
-
                     <br />
                     <br />
-
                 </Section>
             </Container>
-
         </Layout>
-
-
     )
-
-
 }
 
 export default Work

@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/aboutMe": [
+    "/digitalFabrication/A7FinalProjectProposal": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/aboutMe.js"
+      "static/chunks/pages/digitalFabrication/A7FinalProjectProposal.js"
     ]
   },
   "ampFirstPages": []

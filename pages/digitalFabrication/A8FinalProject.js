@@ -31,8 +31,7 @@ const Work = () => {
             <Title>
                 Final Project <Badge>May 2024</Badge>
             </Title>
-
-            <Container maxW="container.xl" centerContent>
+            <Container maxW="max">
                 <br />
                 <br />
                 <Section delay={0.3}>
@@ -135,7 +134,7 @@ const Work = () => {
                                 <Box display="inline-block" overflow="hidden">
 
                                     <Text fontSize="xl">
-                                        I made a model of my fish sketch in Fusion360. This was relatively straight forward process and I knew that I needed to leave a hole at the top to thread through the component. 
+                                        I made a model of my fish sketch in Fusion360. This was relatively straight forward process and I knew that I needed to leave a hole at the top to thread through the component.
                                     </Text>
 
                                     <br />
@@ -147,7 +146,7 @@ const Work = () => {
                                     <br />
 
                                     <Text fontSize="xl">
-                                        I ended up printing a smaller version of the mold and decided to make keychains out of the smaller casts. 
+                                        I ended up printing a smaller version of the mold and decided to make keychains out of the smaller casts.
                                     </Text>
 
                                 </Box>
@@ -173,7 +172,7 @@ const Work = () => {
                     <br />
 
                     <Heading as="h3" variant="section-title">
-                        Phase 3: Parametric Lotus Flower 
+                        Phase 3: Parametric Lotus Flower
                     </Heading>
 
                     <br />
@@ -184,13 +183,13 @@ const Work = () => {
                             <Box display="inline-block" overflow="hidden">
 
                                 <Text fontSize="xl">
-                                    The next thing I had to tackle was creating a parametric lotus flower in Grasshopper. 
+                                    The next thing I had to tackle was creating a parametric lotus flower in Grasshopper.
                                 </Text>
 
                                 <br />
 
                                 <Text fontSize="xl">
-                                    As I have said before: <b>I hate Rhino/Grasshopper</b>. So this was probably the most mentally exhausting part of the fabricating process. Luckily there is a lovely <Link href="https://youtu.be/_3_7sDce6ME?si=hiMJYi2ZfbQDbodF" isExternal={true}>Youtube Tutorial</Link> on how to do this that I followed, altered and layered in order to create the lotus flower mesh. 
+                                    As I have said before: <b>I hate Rhino/Grasshopper</b>. So this was probably the most mentally exhausting part of the fabricating process. Luckily there is a lovely <Link href="https://youtu.be/_3_7sDce6ME?si=hiMJYi2ZfbQDbodF" isExternal={true}>Youtube Tutorial</Link> on how to do this that I followed, altered and layered in order to create the lotus flower mesh.
                                 </Text>
 
                                 <br />
@@ -245,7 +244,7 @@ const Work = () => {
                     <br />
 
                     <Heading as="h3" variant="section-title">
-                        Phase 4: Printing the Models and Molds 
+                        Phase 4: Printing the Models and Molds
                     </Heading>
 
                     <br />
@@ -256,13 +255,13 @@ const Work = () => {
                                 <br />
 
                                 <Text fontSize="xl">
-                                    After modeling, I 3D printed some test models to make sure my print settings provided the best final print. 
+                                    After modeling, I 3D printed some test models to make sure my print settings provided the best final print.
                                 </Text>
 
                                 <br />
 
                                 <Text fontSize="xl">
-                                    I ended up having to customize some of the tree supports for both the fish model and the lotus model and lowering the print speed in order for both prints to print smoothly. 
+                                    I ended up having to customize some of the tree supports for both the fish model and the lotus model and lowering the print speed in order for both prints to print smoothly.
                                 </Text>
 
                                 <br />
@@ -298,7 +297,7 @@ const Work = () => {
                     <br />
 
                     <Text fontSize="xl">
-                        After printing in multiple materials, I found that the most visually appealing and durable prints for the fish was Wood PLA and Copper PLA. The lotus flower had the best print with Clear PLA and Silk PLA. The lotus flower print had very thin petals on certain points that would not be durable in brittle Copper PLA. 
+                        After printing in multiple materials, I found that the most visually appealing and durable prints for the fish was Wood PLA and Copper PLA. The lotus flower had the best print with Clear PLA and Silk PLA. The lotus flower print had very thin petals on certain points that would not be durable in brittle Copper PLA.
                     </Text>
 
                     <br />
@@ -334,13 +333,13 @@ const Work = () => {
                                 <Box display="inline-block" overflow="hidden">
 
                                     <Text fontSize="xl">
-                                        One of the components I wanted to include for the wind chimes is a wooden tag that would catch wind. I created a general tag shape in Rhino and exported the SVG into Adobe InDesign. For each of the designs on the tag, I ended up tracing real-life images in Procreate and exporting them as SVGs into Adobe InDesign for layout organization. 
+                                        One of the components I wanted to include for the wind chimes is a wooden tag that would catch wind. I created a general tag shape in Rhino and exported the SVG into Adobe InDesign. For each of the designs on the tag, I ended up tracing real-life images in Procreate and exporting them as SVGs into Adobe InDesign for layout organization.
                                     </Text>
 
                                     <br />
 
                                     <Text fontSize="xl">
-                                        I went to the MILL and did a few test prints in order to achieve the best engraving (raster) results. The most optimal results included <b>60% speed and 55% Power</b> for the Raster and <b>10% Speed, 15% Power, 50% Frequency</b> for the vector cutting. I ended up making multiples of the tags, just because they turned out so well. 
+                                        I went to the MILL and did a few test prints in order to achieve the best engraving (raster) results. The most optimal results included <b>60% speed and 55% Power</b> for the Raster and <b>10% Speed, 15% Power, 50% Frequency</b> for the vector cutting. I ended up making multiples of the tags, just because they turned out so well.
                                     </Text>
 
                                 </Box>
@@ -352,7 +351,7 @@ const Work = () => {
                     <br />
 
                     <Heading as="h3" variant="section-title">
-                        Phase 6: Getting a Professional Finish 
+                        Phase 6: Getting a Professional Finish
                     </Heading>
 
                     <br />
@@ -363,19 +362,19 @@ const Work = () => {
                                 <br />
 
                                 <Text fontSize="xl">
-                                    I wanted to achieve a more polished finish for my components, so I experimented with sanding, polishing, and staining my components. 
+                                    I wanted to achieve a more polished finish for my components, so I experimented with sanding, polishing, and staining my components.
                                 </Text>
 
                                 <br />
 
                                 <Text fontSize="xl">
-                                    I first started with my Copper PLA fish prints because I wanted to achieve two different finishes. I wanted to oxidize one print to achieve a green/blue patina and polish the other print to achieve a shiny copper finish. 
+                                    I first started with my Copper PLA fish prints because I wanted to achieve two different finishes. I wanted to oxidize one print to achieve a green/blue patina and polish the other print to achieve a shiny copper finish.
                                 </Text>
 
                                 <br />
 
                                 <Text fontSize="xl">
-                                    The lotus flower prints already had a visual appeal from the Clear PLA, so I decided to leave those prints be since they were also more fragile than the fish components. 
+                                    The lotus flower prints already had a visual appeal from the Clear PLA, so I decided to leave those prints be since they were also more fragile than the fish components.
                                 </Text>
 
                             </Box>
@@ -411,19 +410,19 @@ const Work = () => {
                     <br />
 
                     <Text fontSize="xl">
-                        I cleaned the prints with some copper polish and was happy with the result. For one of the prints, I decided to add a patina, so I applied a salt and vinegar solution on the exposed print and left it exposed to ammonia vapors in order to achieve a more blue patina. 
+                        I cleaned the prints with some copper polish and was happy with the result. For one of the prints, I decided to add a patina, so I applied a salt and vinegar solution on the exposed print and left it exposed to ammonia vapors in order to achieve a more blue patina.
                     </Text>
 
                     <br />
 
                     <Text fontSize="xl">
-                        For the wooden tags, I noticed that they looked a bare and too pristine, so I went over them with a chestnut wood stain and wiped off the excess to distress the wood texture on the balsa. 
+                        For the wooden tags, I noticed that they looked a bare and too pristine, so I went over them with a chestnut wood stain and wiped off the excess to distress the wood texture on the balsa.
                     </Text>
 
                     <br />
 
                     <Text fontSize="xl">
-                        Happy with the finishes, I sprayed a satin finish top-coat over all of my components in order to make them resistant to the weather and preserve the finishes. 
+                        Happy with the finishes, I sprayed a satin finish top-coat over all of my components in order to make them resistant to the weather and preserve the finishes.
                     </Text>
 
                     <br />
@@ -459,19 +458,19 @@ const Work = () => {
                                 <Box display="inline-block" overflow="hidden">
 
                                     <Text fontSize="xl">
-                                        Once all of my components were ready, it was time to assemble the the wind chimes. This was a more tedious process since I had to assemble the chimes vertically and test (with a fan) the chime-ability. 
+                                        Once all of my components were ready, it was time to assemble the the wind chimes. This was a more tedious process since I had to assemble the chimes vertically and test (with a fan) the chime-ability.
                                     </Text>
 
                                     <br />
 
                                     <Text fontSize="xl">
-                                        Using beads, fishing line, eyepins and metal tubes, I assembled segments of chimes and attached them to the components. I ended up recycling some old christmas ornament bells and attaching those to add to the overall sound of the wind chimes. 
+                                        Using beads, fishing line, eyepins and metal tubes, I assembled segments of chimes and attached them to the components. I ended up recycling some old christmas ornament bells and attaching those to add to the overall sound of the wind chimes.
                                     </Text>
 
                                     <br />
 
                                     <Text fontSize="xl">
-                                        Overall, I felt as though I was able to incorporate many of the things I have learned during this quarter and apply them to this final project. 
+                                        Overall, I felt as though I was able to incorporate many of the things I have learned during this quarter and apply them to this final project.
                                     </Text>
 
                                     <br />
@@ -488,10 +487,8 @@ const Work = () => {
                     <br />
                     <br />
 
-
-
-
                 </Section>
+
             </Container>
 
         </Layout>

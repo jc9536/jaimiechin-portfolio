@@ -29,7 +29,7 @@ const Work = () => {
                 Molding & Casting <Badge>May 2024</Badge>
             </Title>
 
-            <Container maxW="container.xl" centerContent>
+            <Container maxW="max">
                 <br />
                 <br />
                 <Section delay={0.3}>
