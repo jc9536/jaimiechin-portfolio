@@ -1,4 +1,4 @@
-import { Container, Badge, Heading, Text, Image, Box, Center, Link, Flex, Spacer } from '@chakra-ui/react'
+import { Container, Badge, Heading, Text, Box, Center, Link, Flex, Spacer } from '@chakra-ui/react'
 import { Title } from '../../components/digitalFabrication'
 import Layout from '../../components/layouts/article'
 import Section from '../../components/section'
@@ -25,7 +25,6 @@ const Work = () => {
     const final = ['/images/533_Assignment_8/CopperFish.jpg', '/images/533_Assignment_8/BlueFish.jpg', '/images/533_Assignment_8/RedLotus.jpg', '/images/533_Assignment_8/WhiteLotus.jpg']
 
     return (
-
         <Layout title="A8FinalProject">
             <br />
             <Title>
@@ -90,12 +89,12 @@ const Work = () => {
                                 textAlign="center">
                                 <Center>
                                     <Box
-                                        w="900px"
-                                        h="500px"
+                                        w={{ base: '100%', md: '900px' }}
+                                        h={{ base: '250px', md: '500px' }}
                                         display="inline-block"
                                         overflow="hidden"
                                     >
-                                        <ImageCarousel images={sketch} height="500px" />
+                                        <ImageCarousel images={sketch} height={{ base: '250px', md: '500px' }} />
                                     </ Box>
                                 </Center>
                             </Box>
@@ -116,12 +115,12 @@ const Work = () => {
                             textAlign="center">
                             <Center>
                                 <Box
-                                    w="675px"
-                                    h="425px"
+                                    w={{ base: '100%', md: '675px' }}
+                                    h={{ base: '300px', md: '425px' }}
                                     display="inline-block"
                                     overflow="hidden"
                                 >
-                                    <ImageCarousel images={carousel_1} height="425px" />
+                                    <ImageCarousel images={carousel_1} height={{ base: '300px', md: '425px' }} />
                                 </ Box>
                             </Center>
                         </Box>
@@ -209,12 +208,12 @@ const Work = () => {
                                 textAlign="center">
                                 <Center>
                                     <Box
-                                        w="775px"
-                                        h="450px"
+                                        w={{ base: '100%', md: '775px' }}
+                                        h={{ base: '300px', md: '450px' }}
                                         display="inline-block"
                                         overflow="hidden"
                                     >
-                                        <ImageCarousel images={carousel_2} height="450px" />
+                                        <ImageCarousel images={carousel_2} height={{ base: '300px', md: '450px' }} />
                                     </ Box>
                                 </Center>
                             </Box>
@@ -282,12 +281,12 @@ const Work = () => {
                                 textAlign="center">
                                 <Center>
                                     <Box
-                                        w="650px"
-                                        h="450px"
+                                        w={{ base: '100%', md: '650px' }}
+                                        h={{ base: '300px', md: '450px' }}
                                         display="inline-block"
                                         overflow="hidden"
                                     >
-                                        <ImageCarousel images={carousel_3} height="450px" />
+                                        <ImageCarousel images={carousel_3} height={{ base: '300px', md: '450px' }} />
                                     </ Box>
                                 </Center>
                             </Box>
@@ -315,12 +314,12 @@ const Work = () => {
                             textAlign="center">
                             <Center>
                                 <Box
-                                    w="525px"
-                                    h="600px"
+                                    w={{ base: '100%', md: '525px' }}
+                                    h={{ base: '300px', md: '600px' }}
                                     display="inline-block"
                                     overflow="hidden"
                                 >
-                                    <ImageCarousel images={carousel_4} height="600px" />
+                                    <ImageCarousel images={carousel_4} height={{ base: '300px', md: '600px' }} />
                                 </ Box>
                             </Center>
                         </Box>
@@ -389,12 +388,12 @@ const Work = () => {
                                 textAlign="center">
                                 <Center>
                                     <Box
-                                        w="700px"
-                                        h="450px"
+                                        w={{ base: '100%', md: '700px' }}
+                                        h={{ base: '300px', md: '450px' }}
                                         display="inline-block"
                                         overflow="hidden"
                                     >
-                                        <ImageCarousel images={carousel_5} height="450px" />
+                                        <ImageCarousel images={carousel_5} height={{ base: '300px', md: '450px' }} />
                                     </ Box>
                                 </Center>
                             </Box>
@@ -440,12 +439,12 @@ const Work = () => {
                             textAlign="center">
                             <Center>
                                 <Box
-                                    w="600px"
-                                    h="800px"
+                                    w={{ base: '100%', md: '600px' }}
+                                    h={{ base: '400px', md: '800px' }}
                                     display="inline-block"
                                     overflow="hidden"
                                 >
-                                    <ImageCarousel images={final} height="800px" />
+                                    <ImageCarousel images={final} height={{ base: '400px', md: '800px' }} />
                                 </ Box>
                             </Center>
                         </Box>
@@ -486,17 +485,10 @@ const Work = () => {
 
                     <br />
                     <br />
-
                 </Section>
-
             </Container>
-
         </Layout>
-
-
     )
-
-
 }
 
 export default Work

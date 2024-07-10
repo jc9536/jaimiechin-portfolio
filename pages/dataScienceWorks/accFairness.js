@@ -13,7 +13,7 @@ const Work = () => {
 
     return (
 
-        <Layout title="AccuracyFairness">
+        <Layout title="Accuracy & Fairness of an Automated Decision System">
             <br />
             <Title>
                 Accuracy & Fairness of an Automated Decision System <Badge>May 2022</Badge>

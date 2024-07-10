@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
-import { Box, Image, Flex, IconButton} from '@chakra-ui/react';
+import { Box, Image, Flex, IconButton } from '@chakra-ui/react';
 import { TiArrowRightThick, TiArrowLeftThick } from "react-icons/ti";
 
-const ImageCarousel = ({ images, height }) => {
+const ImageCarousel = ({ images, aspectRatio }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
-
-    
 
     const handlePrev = () => {
         setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
@@ -16,7 +14,7 @@ const ImageCarousel = ({ images, height }) => {
     };
 
     return (
-        <Box position="relative" overflow="hidden" borderRadius="3xl" height={height}>
+        <Box position="relative" overflow="hidden" borderRadius="3xl" aspectRatio={aspectRatio}>
             <Flex
                 width="100%"
                 transform={`translateX(-${currentIndex * 100}%)`}
@@ -24,7 +22,7 @@ const ImageCarousel = ({ images, height }) => {
                 justifyContent="space-between"
             >
                 {images.map((image, index) => (
-                    <Image key={index} src={image} alt={`image-${index}`} flexShrink={0} width="100%" height={height} borderRadius="md" />
+                    <Image key={index} src={image} alt={`image-${index}`} flexShrink={0} width="100%" height="100%" borderRadius="md" />
                 ))}
             </Flex>
             <IconButton
@@ -66,5 +64,3 @@ const ImageCarousel = ({ images, height }) => {
 };
 
 export default ImageCarousel;
-
-

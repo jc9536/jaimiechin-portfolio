@@ -2,8 +2,8 @@ import { Container, Heading, SimpleGrid, } from '@chakra-ui/react'
 import Section from '../components/section'
 import Layout from '../components/layouts/article'
 import { WorkGridItem } from '../components/ds-grid-item'
-import underConstructionThumb from '../public/images/underConstruction.png'
 import titanicThumb from '../public/images/accuracyFairnessProject/titanicThumbnail.png'
+import coralThumb from '../public/images/coralPredict/coralThumbnail.png'
 
 const Works = () => {
     return (
@@ -26,8 +26,8 @@ const Works = () => {
                     </Section>
 
                     <Section>
-                        <WorkGridItem id="WIP_2" title="Work In Progress..." thumbnail={underConstructionThumb}>
-                            This project is under construction, please visit some of my other works in the meantime!
+                        <WorkGridItem id="coralPredict" title="Machine Learning: Predicting Coral Reef Bleaching Events" thumbnail={coralThumb}>
+                            Training a Stacked Regressor (random forests, gradient boosting, neural networks) to improve coral bleaching prediction accuracy
                         </WorkGridItem>
                     </Section>
 

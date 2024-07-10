@@ -25,10 +25,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/digitalFabrication/A7FinalProjectProposal": [
+    "/dataScienceWorks": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/digitalFabrication/A7FinalProjectProposal.js"
+      "static/chunks/pages/dataScienceWorks.js"
+    ],
+    "/dataScienceWorks/coralPredict": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/dataScienceWorks/coralPredict.js"
     ]
   },
   "ampFirstPages": []
