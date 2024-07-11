@@ -55,21 +55,25 @@ const UXWork = () => {
                     <Container centerContent maxW="max">
                         <List spacing={4}>
                             <ListItem>
-                                <Meta>Demo Link</Meta>
+                                <Meta>Webpage Demo Link</Meta>
                                 <Link href="https://jc9536.github.io/DRGAIBiasforChildren/#/" isExternal={true}>
-                                    EmoTune Demo <ExternalLinkIcon mx="2px" />
+                                    EmoTune Demo for Mobile Devices <ExternalLinkIcon mx="2px" />
                                 </Link>
                             </ListItem>
                         </List>
                     </Container>
                     <br />
 
-                    <Box borderRadius="3xl" overflow="hidden">
-                        
-                        <AspectRatio maxW="100%" minH="450" ratio={16 / 10.6}>
-                            <iframe style={{ border: "1px" }} width="100%" src="https://jc9536.github.io/DRGAIBiasforChildren/#/" allow="camera *; microphone *" scrolling="no" allowFullScreen></iframe>
+                    <Box borderRadius="3xl" overflow="hidden" width="100%">
+                        <AspectRatio maxW="100%" ratio={16 / 10.6}>
+                            <iframe
+                                style={{ border: "none", width: "100%", height: "100%" }}
+                                src="https://jc9536.github.io/DRGAIBiasforChildren/#/"
+                                allow="camera *; microphone *"
+                                scrolling="no"
+                                allowFullScreen
+                            ></iframe>
                         </AspectRatio>
-
                     </Box>
                     
                     

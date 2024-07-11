@@ -19,15 +19,16 @@ const Works = () => {
                 <br />
 
                 <SimpleGrid columns={[1, 1, 2]} spacing="60px">
-                    <Section>
-                        <WorkGridItem id="accFairness" title="Accuracy & Fairness Analysis of an Automated Decision System" thumbnail={titanicThumb}>
-                            An analysis of the trade-off between accuracy and fairness in a machine learning classifier (automated decision system)
-                        </WorkGridItem>
-                    </Section>
 
                     <Section>
                         <WorkGridItem id="coralPredict" title="Machine Learning: Predicting Coral Reef Bleaching Events" thumbnail={coralThumb}>
                             Training a Stacked Regressor (random forests, gradient boosting, neural networks) to improve coral bleaching prediction accuracy
+                        </WorkGridItem>
+                    </Section>
+
+                    <Section>
+                        <WorkGridItem id="accFairness" title="Accuracy & Fairness Analysis of an Automated Decision System" thumbnail={titanicThumb}>
+                            An analysis of the trade-off between accuracy and fairness in a machine learning classifier (automated decision system)
                         </WorkGridItem>
                     </Section>
 

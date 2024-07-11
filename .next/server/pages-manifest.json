@@ -2,6 +2,5 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/dataScienceWorks": "pages/dataScienceWorks.js",
-  "/dataScienceWorks/coralPredict": "pages/dataScienceWorks/coralPredict.js"
+  "/uxWorks/EmoTune": "pages/uxWorks/EmoTune.js"
 }

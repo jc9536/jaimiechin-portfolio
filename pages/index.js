@@ -19,11 +19,11 @@ import { WorkGridItemUX } from '../components/ux-grid-item'
 import thumbEmoTune from '../public/images/EmoTune/thumbnail.png'
 import dubsThumb from '../public/images/DigiDubs/thumbnail.png'
 import { WorkGridItem } from '../components/ds-grid-item'
-import underConstructionThumb from '../public/images/underConstruction.png'
 import titanicThumb from '../public/images/accuracyFairnessProject/titanicThumbnail.png'
 import { WorkGridItemPaper } from '../components/paper-grid-item'
 import ictThumb from '../public/images/ICTPaper/ICTThumbnail.png'
 import siblingThumb from '../public/images/SiblingPaper/SiblingThumbnail.png'
+import coralThumb from '../public/images/coralPredict/coralThumbnail.png'
 
 
 const Page = () => {
@@ -137,14 +137,14 @@ const Page = () => {
                     <SimpleGrid columns={[1, 1, 2]} gap={5}>
 
                         <Container maxW="lg">
-                            <WorkGridItem id="accFairness" title="Accuracy & Fairness Analysis of an Automated Decision System" thumbnail={titanicThumb}>
-                                An analysis of the trade-off between accuracy and fairness in a machine learning classifier (automated decision system)
+                            <WorkGridItem id="coralPredict" title="Machine Learning: Predicting Coral Reef Bleaching Events" thumbnail={coralThumb}>
+                                Training a Stacked Regressor (random forests, gradient boosting, neural networks) to improve coral bleaching prediction accuracy
                             </WorkGridItem>
                         </Container>
 
                         <Container maxW="lg">
-                            <WorkGridItem id="underConstruction" title="Work In Progress..." thumbnail={underConstructionThumb}>
-                                This  case study is under construction, please visit some of my other works in the meantime!
+                            <WorkGridItem id="accFairness" title="Accuracy & Fairness Analysis of an Automated Decision System" thumbnail={titanicThumb}>
+                                An analysis of the trade-off between accuracy and fairness in a machine learning classifier (automated decision system)
                             </WorkGridItem>
                         </Container>
 

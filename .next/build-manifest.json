@@ -25,15 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/dataScienceWorks": [
+    "/uxWorks/EmoTune": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/dataScienceWorks.js"
-    ],
-    "/dataScienceWorks/coralPredict": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/dataScienceWorks/coralPredict.js"
+      "static/chunks/pages/uxWorks/EmoTune.js"
     ]
   },
   "ampFirstPages": []
