@@ -63,7 +63,7 @@ const Page = () => {
                         </Heading>
                         <Box maxW="3xl">
                             <Text align="left" fontSize="2xl">
-                                I&apos;m currently an Assistant Research Scientist analyzing positive development interventions
+                                I&apos;m currently a Graduate Student studying Human Centered Design & Engineering at the University of Washington
                             </Text>
                         </Box>
                     </Box>
