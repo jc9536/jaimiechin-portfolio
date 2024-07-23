@@ -1,4 +1,4 @@
-import { Heading, Box, FormControl, Input, FormLabel, Button, CircularProgress, InputGroup, InputRightElement, AspectRatio, useColorModeValue, Center } from '@chakra-ui/react'
+import { Heading, Box, FormControl, Input, FormLabel, Button, CircularProgress, InputGroup, InputRightElement, AspectRatio, useColorModeValue, Center, Text } from '@chakra-ui/react'
 import React, { useState } from 'react'
 import Layout from '../components/layouts/article'
 import { userLogin } from '../components/utils/mockApi';
@@ -84,6 +84,9 @@ const Resume = () => {
                                         )}
                                     </Button>
                                 </form>
+                            </Box>
+                            <Box textAlign="center">
+                                <Text fontSize="xs" color="grey">*Please request resume access via email* </Text>
                             </Box>
                         </Box>
                     </Center>
