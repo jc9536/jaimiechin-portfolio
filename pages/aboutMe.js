@@ -107,8 +107,14 @@ const About = () => {
                         <Text fontSize="xl">
                             My creative hobbies are deeply rooted in my interdisciplinary study of people and technology. When I'm not organizing spreadsheets and coding analyses, I often play my favorite titles: Animal Crossing, Pokémon, and Stardew Valley. Additionally, I love exploring new creative skills like 3D modeling in Blender and front-end development. I have also recently developed an interest in building games:
                         </Text>
+
                         <br />
-                        <Box display="flex" justifyContent="center" mt={6}>
+
+                        <Box textAlign="center">
+                            <Text fontSize="sm" color="grey" as="i"> Press Space Bar or Tap to Jump! </Text>
+                        </Box>
+
+                        <Box display="flex" justifyContent="center" mt={2}>
                             <Box
                                 borderRadius="2xl" // Increased border radius for more rounded corners
                                 overflow="hidden"
@@ -142,6 +148,7 @@ const About = () => {
                             </Box>
                         </Box>
                     </Section>
+                    
 
                     <br />
 
