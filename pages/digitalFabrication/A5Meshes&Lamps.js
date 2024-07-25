@@ -117,45 +117,36 @@ const Work = () => {
                     <br />
                     <br />
 
-                    <Box display={{ lg: 'flex' }}>
-                        <Box
-                            flexShrink={0}
-                            textAlign="center">
+                    <Box display={{ base: 'block', lg: 'flex' }}>
+                        <Box flexShrink={0} textAlign="center">
                             <Center>
                                 <Box
-                                    w="650px"
-                                    h="425px"
+                                    w={{ base: '100%', sm: '80%', md: '70%', lg: '650px' }}
+                                    h={{ base: 'auto', lg: '650px' }}
                                     display="inline-block"
                                     overflow="hidden"
                                 >
-                                    <ImageCarousel images={carousel_1} height="425px" />
-                                </ Box>
+                                    <ImageCarousel images={carousel_1} aspectRatio="1:1" />
+                                </Box>
                             </Center>
                         </Box>
 
-                        <Box w="125px" h="20px" display="inline=block" overflow="hidden"></Box>
+                        <Box w={{ base: '100%', lg: '125px' }} h="20px" display="inline-block" overflow="hidden"></Box>
 
                         <Section delay={0.4}>
-
                             <Box flexGrow={1} display="inline-block" overflow="hidden">
                                 <Box display="inline-block" overflow="hidden">
-
                                     <Text fontSize="xl">
                                         I wanted to make a <b>Mario Mushroom</b> (Nintendo please don&apos;t copystrike me ԅ[ •́ ﹏├┬┴┬┴) so I began to model a simple Mushroom in <b>Blender</b>. I was not particularly concerned about creating the model to scale for now, since I knew I could scale it in Fusion360 later.
                                     </Text>
-
                                     <br />
-
                                     <Text fontSize="xl">
-                                        After exporting my model from Blender as an .stl, I needed to import it into Fusion360 to model and create the more technical parts of my design (innereds and screw mechanisms). 
+                                        After exporting my model from Blender as an .stl, I needed to import it into Fusion360 to model and create the more technical parts of my design (innereds and screw mechanisms).
                                     </Text>
-
                                     <br />
-
                                     <Text fontSize="xl">
                                         However, I spent <b>DAYS</b> ˚‧º·(˃̣̣̥⌓˂̣̣̥)‧º·˚ trying to import my model into Fusion360.
                                     </Text>
-
                                 </Box>
                             </Box>
                         </Section>
@@ -199,38 +190,32 @@ const Work = () => {
                     <br />
                     <br />
 
-                    <Box display={{ lg: 'flex' }}>
+                    <Box display={{ base: 'block', lg: 'flex' }}>
                         <Box flexGrow={1} display="inline-block" overflow="hidden">
                             <Box display="inline-block" overflow="hidden">
-
                                 <Text fontSize="xl">
-                                    If I did&apos;t mention earlier, remodelling in Fusion360 also took another few days. So by this time, I had maybe one or two days to complete Part 1 of the assignment (╥╯⌒╰╥๑).
+                                    If I didn&apos;t mention earlier, remodeling in Fusion360 also took another few days. So by this time, I had maybe one or two days to complete Part 1 of the assignment (╥╯⌒╰╥๑).
                                 </Text>
-
                                 <br />
-
                                 <Text fontSize="xl">
-                                    In order to save time, I used my original model created in Blender, and decided to make the Golden Mushroom from Mario. This was fine, considering I couldn&apos;t find a Golden Mushroom on Thingaverse that I liked and was true to the original design (again, Nintendo don&apos;t come after me (ㆆ ᴗ ㆆ)).
+                                    In order to save time, I used my original model created in Blender and decided to make the Golden Mushroom from Mario. This was fine, considering I couldn&apos;t find a Golden Mushroom on Thingaverse that I liked and was true to the original design (again, Nintendo don&apos;t come after me (ㆆ ᴗ ㆆ)).
                                 </Text>
                             </Box>
                         </Box>
 
-                        <Box w="125px" h="20px" display="inline=block" overflow="hidden"></Box>
+                        <Box w={{ base: '100%', lg: '125px' }} h="20px" display="inline-block" overflow="hidden"></Box>
 
                         <Section delay={0.4}>
-
-                            <Box
-                                flexShrink={0}
-                                textAlign="center">
+                            <Box flexShrink={0} textAlign="center">
                                 <Center>
                                     <Box
-                                        w="775px"
-                                        h="450px"
+                                        w={{ base: '100%', sm: '80%', md: '70%', lg: '600px' }}
+                                        h={{ base: 'auto', lg: '400px' }}
                                         display="inline-block"
                                         overflow="hidden"
                                     >
-                                        <ImageCarousel images={carousel_2} height="450px" />
-                                    </ Box>
+                                        <ImageCarousel images={carousel_2} aspectRatio="3/2" />
+                                    </Box>
                                 </Center>
                             </Box>
                         </Section>
@@ -287,40 +272,33 @@ const Work = () => {
 
                     <br />
 
-                    <Box display={{ lg: 'flex' }}>
+                    <Box display={{ base: 'block', lg: 'flex' }}>
                         <Box flexGrow={1} display="inline-block" overflow="hidden">
                             <Box display="inline-block" overflow="hidden">
                                 <br />
-
                                 <Text fontSize="xl">
                                     The tree supports definitely helped! The final product looks much neater! °˖✧◝(⁰▿⁰)◜✧˖°
                                 </Text>
-
                                 <br />
-
                                 <Text fontSize="xl">
-                                    Overall, I felt like I spent a lot of time moving from one file format to another. While I have more experience with Blender and feel more comfortable modeling meshes in Blender, it was a giant PAIN to import meshes into Fusion360. I was better off creating a simpler model in Fusion360 eventhough I would lose some of the detail I had in my original model. 
+                                    Overall, I felt like I spent a lot of time moving from one file format to another. While I have more experience with Blender and feel more comfortable modeling meshes in Blender, it was a giant PAIN to import meshes into Fusion360. I was better off creating a simpler model in Fusion360 even though I would lose some of the detail I had in my original model.
                                 </Text>
-
                             </Box>
                         </Box>
 
-                        <Box w="125px" h="20px" display="inline=block" overflow="hidden"></Box>
+                        <Box w={{ base: '100%', lg: '50px' }} h="20px" display="inline-block" overflow="hidden"></Box>
 
                         <Section delay={0.4}>
-
-                            <Box
-                                flexShrink={0}
-                                textAlign="center">
+                            <Box flexShrink={0} textAlign="center">
                                 <Center>
                                     <Box
-                                        w="650px"
-                                        h="350px"
+                                        w={{ base: '100%', sm: '80%', md: '70%', lg: '650px' }}
+                                        h={{ base: 'auto', lg: '400px' }}
                                         display="inline-block"
                                         overflow="hidden"
                                     >
-                                        <ImageCarousel images={final_carousel} height="350px" />
-                                    </ Box>
+                                        <ImageCarousel images={final_carousel} aspectRatio="16/9" />
+                                    </Box>
                                 </Center>
                             </Box>
                         </Section>
@@ -341,40 +319,32 @@ const Work = () => {
                     <br />
                     <br />
 
-                    <Box display={{ lg: 'flex' }}>
-                        <Box
-                            flexShrink={0}
-                            textAlign="center">
+                    <Box display={{ base: 'block', lg: 'flex' }}>
+                        <Box flexShrink={0} textAlign="center">
                             <Center>
                                 <Box
-                                    w="650px"
-                                    h="425px"
+                                    w={{ base: '100%', sm: '80%', md: '70%', lg: '650px' }}
+                                    h={{ base: 'auto', lg: '500px' }}
                                     display="inline-block"
                                     overflow="hidden"
                                 >
-                                    <ImageCarousel images={carousel_3} height="425px" />
-                                </ Box>
+                                    <ImageCarousel images={carousel_3} aspectRatio="3/2" />
+                                </Box>
                             </Center>
                         </Box>
 
-                        <Box w="125px" h="20px" display="inline=block" overflow="hidden"></Box>
+                        <Box w={{ base: '100%', lg: '125px' }} h="20px" display="inline-block" overflow="hidden"></Box>
 
                         <Section delay={0.4}>
-
                             <Box flexGrow={1} display="inline-block" overflow="hidden">
                                 <Box display="inline-block" overflow="hidden">
-
                                     <Text fontSize="xl">
                                         For the next week I tested different lamp parts (base and bulb) and measured their sizes to compare how I would fit these parts within the model I had made. I had already designed the mushroom to have 3 main parts: <b>the body</b> (where the lamp parts and majority of the bulb would go), <b>the cap</b> (where the light part of the bulb would go), and a <b>detachable bottom</b> (for the wire to escape).
                                     </Text>
-
                                     <br />
-
                                     <Text fontSize="xl">
                                         What I had to keep in mind was how big my print plate was (180mm x 180mm x 180mm) and needed to make sure I was not scaling my lamp to be so large that I could not print it. I ended up needing to disassemble my lamp base in order for it to fit.
                                     </Text>
-
-
                                 </Box>
                             </Box>
                         </Section>
@@ -441,44 +411,36 @@ const Work = () => {
                     <br />
                     <br />
 
-                    <Box display={{ lg: 'flex' }}>
+                    <Box display={{ base: 'block', lg: 'flex' }}>
                         <Box flexGrow={1} display="inline-block" overflow="hidden">
                             <Box display="inline-block" overflow="hidden">
-
                                 <Text fontSize="xl">
                                     While this did make the layer lines on my pieces much more noticeable, I was content with the more reasonable printing times.
                                 </Text>
-
                                 <br />
-
                                 <Text fontSize="xl">
                                     The only piece I would reprint with higher quality settings would be the Mushroom Cap since with the clear filament, it was very apparent where the imperfections were.
                                 </Text>
-
                                 <br />
-
                                 <Text fontSize="xl">
-                                    I would also consider making the infill 100% for the Mushroom Cap since you can see some of the infill pattern. Infill is necessary for the cap because of the screw threads structure, which needs support to print correctly. 
+                                    I would also consider making the infill 100% for the Mushroom Cap since you can see some of the infill pattern. Infill is necessary for the cap because of the screw threads structure, which needs support to print correctly.
                                 </Text>
                             </Box>
                         </Box>
 
-                        <Box w="125px" h="20px" display="inline=block" overflow="hidden"></Box>
+                        <Box w={{ base: '100%', lg: '125px' }} h="20px" display="inline-block" overflow="hidden"></Box>
 
                         <Section delay={0.4}>
-
-                            <Box
-                                flexShrink={0}
-                                textAlign="center">
+                            <Box flexShrink={0} textAlign="center">
                                 <Center>
                                     <Box
-                                        w="775px"
-                                        h="500px"
+                                        w={{ base: '100%', sm: '80%', md: '70%', lg: '775px' }}
+                                        h={{ base: 'auto', lg: '600px' }}
                                         display="inline-block"
                                         overflow="hidden"
                                     >
-                                        <ImageCarousel images={carousel_4} height="500px" />
-                                    </ Box>
+                                        <ImageCarousel images={carousel_4} aspectRatio="3/2" />
+                                    </Box>
                                 </Center>
                             </Box>
                         </Section>
@@ -493,51 +455,41 @@ const Work = () => {
 
                     <br />
 
-                    <Box display={{ lg: 'flex' }}>
+                    <Box display={{ base: 'block', lg: 'flex' }}>
                         <Box flexGrow={1} display="inline-block" overflow="hidden">
                             <Box display="inline-block" overflow="hidden">
                                 <br />
-
                                 <Text fontSize="xl">
                                     Overall, I am happy with what I was able to accomplish, even if the quality of my print was not as high as I wanted it to be.
                                 </Text>
-
                                 <br />
-
                                 <Text fontSize="xl">
-                                    For my first relatively large print, I was made aware of my machine&apos;s limitations and the relevant settings I needed to adjust and change for a cleaner print. 
+                                    For my first relatively large print, I was made aware of my machine&apos;s limitations and the relevant settings I needed to adjust and change for a cleaner print.
                                 </Text>
-
                                 <br />
-
                                 <Text fontSize="xl">
-                                    I am relatively happy that I have a functional desk lamp, but I am not sure if I want to print larger piece on my printer given the smaller size that it is
+                                    I am relatively happy that I have a functional desk lamp, but I am not sure if I want to print larger pieces on my printer given the smaller size that it is.
                                 </Text>
-
                             </Box>
                         </Box>
 
-                        <Box w="125px" h="20px" display="inline=block" overflow="hidden"></Box>
+                        <Box w={{ base: '100%', lg: '125px' }} h="20px" display="inline-block" overflow="hidden"></Box>
 
                         <Section delay={0.4}>
-
-                            <Box
-                                flexShrink={0}
-                                textAlign="center">
+                            <Box flexShrink={0} textAlign="center">
                                 <Center>
                                     <Box
-                                        w="650px"
-                                        h="350px"
+                                        w={{ base: '100%', sm: '80%', md: '70%', lg: '650px' }}
+                                        h={{ base: 'auto', lg: '450px' }}
                                         display="inline-block"
                                         overflow="hidden"
                                     >
-                                        <ImageCarousel images={carousel_5} height="350px" />
-                                    </ Box>
+                                        <ImageCarousel images={carousel_5} aspectRatio="3/2" />
+                                    </Box>
                                 </Center>
                             </Box>
                         </Section>
                     </Box>
-
                     <br />
 
                     <Text fontSize="xl">

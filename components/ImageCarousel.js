@@ -22,7 +22,7 @@ const ImageCarousel = ({ images, aspectRatio }) => {
                 justifyContent="space-between"
             >
                 {images.map((image, index) => (
-                    <Image key={index} src={image} alt={`image-${index}`} flexShrink={0} width="100%" height="100%" borderRadius="md" />
+                    <Image key={index} src={image} alt={`image-${index}`} flexShrink={0} objectFit="cover" borderRadius="md" />
                 ))}
             </Flex>
             <IconButton

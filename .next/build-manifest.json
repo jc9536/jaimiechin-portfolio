@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/aboutMe": [
+    "/digitalFabrication/A5Meshes&Lamps": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/aboutMe.js"
+      "static/chunks/pages/digitalFabrication/A5Meshes&Lamps.js"
     ]
   },
   "ampFirstPages": []
