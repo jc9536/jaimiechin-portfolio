@@ -1,4 +1,4 @@
-import { Container, Badge, Heading, Text, Image, Box, Center, Link, Flex, Spacer } from '@chakra-ui/react'
+import { Container, Badge, Heading, Text, Image, Box, Center, Link, Wrap, WrapItem } from '@chakra-ui/react'
 import { Title } from '../../components/digitalFabrication'
 import Layout from '../../components/layouts/article'
 import Section from '../../components/section'
@@ -116,45 +116,36 @@ const Work = () => {
                     <br />
                     <br />
 
-                    <Box display={{ lg: 'flex' }}>
-                        <Box
-                            flexShrink={0}
-                            textAlign="center">
+                    <Box display={{ base: 'block', lg: 'flex' }}>
+                        <Box flexShrink={0} textAlign="center">
                             <Center>
                                 <Box
-                                    w="650px"
-                                    h="425px"
+                                    w={{ base: '100%', sm: '80%', md: '70%', lg: '656px' }}
+                                    h={{ base: 'auto', lg: '410px' }}
                                     display="inline-block"
                                     overflow="hidden"
                                 >
-                                    <ImageCarousel images={carousel_1} height="425px" />
-                                </ Box>
+                                    <ImageCarousel images={carousel_1} aspectRatio="16/10" />
+                                </Box>
                             </Center>
                         </Box>
 
-                        <Box w="125px" h="20px" display="inline=block" overflow="hidden"></Box>
+                        <Box w={{ base: '100%', lg: '125px' }} h="20px" display="inline-block" overflow="hidden"></Box>
 
                         <Section delay={0.4}>
-
                             <Box flexGrow={1} display="inline-block" overflow="hidden">
                                 <Box display="inline-block" overflow="hidden">
-
                                     <Text fontSize="xl">
-                                        I made a model of my sketch in Fusion360 and printed it to observe where to cut my mold and where to add keys or sprues. 
+                                        I made a model of my sketch in Fusion360 and printed it to observe where to cut my mold and where to add keys or sprues.
                                     </Text>
-
                                     <br />
-
                                     <Text fontSize="xl">
                                         After doing my initial print, I realized that I should add additional features to allow the tealight to be removed more easily. Also, I realized that I could make a two part mold and have the bottom of the base be the area in which I pour in the plaster since it is flat and no one would see the bottom anyway.
                                     </Text>
-
                                     <br />
-
                                     <Text fontSize="xl">
                                         So I split my mold in half and added in 4 square keys (a mistake). I printed out both parts and realized multiple mistakes.
                                     </Text>
-
                                 </Box>
                             </Box>
                         </Section>
@@ -188,61 +179,56 @@ const Work = () => {
                     <br />
                     <br />
 
-                    <Box display={{ lg: 'flex' }}>
+                    <Box display={{ base: 'block', lg: 'flex' }}>
                         <Box flexGrow={1} display="inline-block" overflow="hidden">
                             <Box display="inline-block" overflow="hidden">
-
                                 <Text fontSize="xl">
                                     For my second iteration, I made a different split in my mold to avoid having the silicone lock in the 3D print mold.
                                 </Text>
-
                                 <br />
-
                                 <Text fontSize="xl">
                                     I tried to split my mold in areas where I could pull the silicone out in one direction. Therefore, I ended up with a three part mold and made appropriate keys (hemispheres) to align my mold pieces together. I also modeled a mold box to keep my mold pieces together and avoid warping.
                                 </Text>
+
+                                <br />
+                                <br />
+                                <Center>
+                                    <Wrap spacing='40px' align="center">
+                                        <WrapItem>
+                                            <Meta>3MF File</Meta>
+                                            <Link href={tealight3MF} download="TealightHolder.3mf">
+                                                TealightHolder.3mf <DownloadIcon mx="2px" />
+                                            </Link>
+                                        </WrapItem>
+
+                                        <WrapItem>
+                                            <Meta>Fusion360 File</Meta>
+                                            <Link href={tealightF3D} download="TealightHolder.f3d">
+                                                TealightHolder.f3d <DownloadIcon mx="2px" />
+                                            </Link>
+                                        </WrapItem>
+                                    </Wrap>
+                                </Center>
                             </Box>
                         </Box>
 
-                        <Box w="125px" h="20px" display="inline=block" overflow="hidden"></Box>
+                        <Box w={{ base: '100%', lg: '125px' }} h="20px" display="inline-block" overflow="hidden"></Box>
 
                         <Section delay={0.4}>
-
-                            <Box
-                                flexShrink={0}
-                                textAlign="center">
+                            <Box flexShrink={0} textAlign="center">
                                 <Center>
                                     <Box
-                                        w="775px"
-                                        h="450px"
+                                        w={{ base: '100%', sm: '80%', md: '70%', lg: '500px' }}
+                                        h={{ base: 'auto', lg: '375px' }}
                                         display="inline-block"
                                         overflow="hidden"
                                     >
-                                        <ImageCarousel images={carousel_2} height="450px" />
-                                    </ Box>
+                                        <ImageCarousel images={carousel_2} aspectRatio="4/3" />
+                                    </Box>
                                 </Center>
                             </Box>
                         </Section>
                     </Box>
-
-
-                    <br />
-
-                    <Flex align="center">
-                        <Spacer />
-                        <Meta>3MF File</Meta>
-                        <Link href={tealight3MF} download="TealightHolder.3mf">
-                            TealightHolder.3mf <DownloadIcon mx="2px" />
-                        </Link>
-
-                        <Spacer />
-
-                        <Meta>Fusion360 File</Meta>
-                        <Link href={tealightF3D} download="TealightHolder.f3d">
-                            TealightHolder.f3d <DownloadIcon mx="2px" />
-                        </Link>
-                        <Spacer />
-                    </Flex>
 
                     <br />
 
@@ -265,40 +251,33 @@ const Work = () => {
 
                     <br />
 
-                    <Box display={{ lg: 'flex' }}>
+                    <Box display={{ base: 'block', lg: 'flex' }}>
                         <Box flexGrow={1} display="inline-block" overflow="hidden">
                             <Box display="inline-block" overflow="hidden">
                                 <br />
-
                                 <Text fontSize="xl">
                                     After putting together my mold, placing it in my mold box and keeping everything together with 2 elastics, I mixed together my plaster and hoped for the best.
                                 </Text>
-
                                 <br />
-
                                 <Text fontSize="xl">
-                                    When mixing together my plaster, I added a little more water have a thinner consistency since I wanted to make sure the plaster flowed into all the small details in the mold. I filled the characters (since I was filling in mold from the bottom) and tapped the mold on all sides to make sure the plaster flowed into all the details and to release any air bubbles in the plaster. However, looking back, I should have added sprues into the mold for all of the high points of the mold and areas where air bubbles could stay trapped (arms, legs and leaves).
+                                    When mixing together my plaster, I added a little more water to have a thinner consistency since I wanted to make sure the plaster flowed into all the small details in the mold. I filled the characters (since I was filling in mold from the bottom) and tapped the mold on all sides to make sure the plaster flowed into all the details and to release any air bubbles in the plaster. However, looking back, I should have added sprues into the mold for all of the high points of the mold and areas where air bubbles could stay trapped (arms, legs, and leaves).
                                 </Text>
-
                             </Box>
                         </Box>
 
-                        <Box w="125px" h="20px" display="inline=block" overflow="hidden"></Box>
+                        <Box w={{ base: '100%', lg: '125px' }} h="20px" display="inline-block" overflow="hidden"></Box>
 
                         <Section delay={0.4}>
-
-                            <Box
-                                flexShrink={0}
-                                textAlign="center">
+                            <Box flexShrink={0} textAlign="center">
                                 <Center>
                                     <Box
-                                        w="650px"
-                                        h="450px"
+                                        w={{ base: '100%', sm: '80%', md: '70%', lg: '620px' }}
+                                        h={{ base: 'auto', lg: '465px' }}
                                         display="inline-block"
                                         overflow="hidden"
                                     >
-                                        <ImageCarousel images={carousel_3} height="450px" />
-                                    </ Box>
+                                        <ImageCarousel images={carousel_3} aspectRatio="4/3" />
+                                    </Box>
                                 </Center>
                             </Box>
                         </Section>

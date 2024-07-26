@@ -153,45 +153,36 @@ const Work = () => {
                     <br />
                     <br />
 
-                    <Box display={{ lg: 'flex' }}>
-                        <Box
-                            flexShrink={0}
-                            textAlign="center">
+                    <Box display={{ base: 'block', lg: 'flex' }}>
+                        <Box flexShrink={0} textAlign="center">
                             <Center>
                                 <Box
-                                    w="650px"
-                                    h="375px"
+                                    w={{ base: '100%', sm: '80%', md: '70%', lg: '570px' }}
+                                    h={{ base: 'auto', lg: '380px' }}
                                     display="inline-block"
                                     overflow="hidden"
                                 >
-                                    <ImageCarousel images={carousel_1} height="375px" />
-                                </ Box>
+                                    <ImageCarousel images={carousel_1} aspectRatio="3/2" />
+                                </Box>
                             </Center>
                         </Box>
 
-                        <Box w="125px" h="20px" display="inline=block" overflow="hidden"></Box>
+                        <Box w={{ base: '100%', lg: '125px' }} h="20px" display="inline-block" overflow="hidden"></Box>
 
                         <Section delay={0.4}>
-
                             <Box flexGrow={1} display="inline-block" overflow="hidden">
                                 <Box display="inline-block" overflow="hidden">
-
                                     <Text fontSize="xl">
                                         The first thing I wanted to tackle was the chess pattern and box itself, since that was more straightforward compared to the individual chess pieces that would need some tweaking in Rhino.
                                     </Text>
-
                                     <br />
-
                                     <Text fontSize="xl">
-                                        I am anticipating making the tabs larger for a better fit with the box pieces, but that it a relatively simple edit with my Grasshopper definition where I can increase the tab widths.
+                                        I am anticipating making the tabs larger for a better fit with the box pieces, but that is a relatively simple edit with my Grasshopper definition where I can increase the tab widths.
                                     </Text>
-
                                     <br />
-
                                     <Text fontSize="xl">
-                                        I found that the <Code colorScheme='yellow'>RectangularArray</Code > component in Grasshopper to be extremely useful for creating grids and evenly spaced tabs!
+                                        I found that the <Code colorScheme='yellow'>RectangularArray</Code> component in Grasshopper to be extremely useful for creating grids and evenly spaced tabs!
                                     </Text>
-
                                 </Box>
                             </Box>
                         </Section>
@@ -200,43 +191,38 @@ const Work = () => {
                     <br />
                     <br />
 
-                    <Box display={{ lg: 'flex' }}>
+                    <Box display={{ base: 'block', lg: 'flex' }}>
                         <Box flexGrow={1} display="inline-block" overflow="hidden">
                             <Box display="inline-block" overflow="hidden">
                                 <br />
-
                                 <Text fontSize="xl">
                                     As I mentioned earlier, the chess pieces themselves needed to be further refined in Rhino. However, I did create some of the base elements like the <b>tab</b>, <b>stem</b>, and <b>divider</b> of each piece in Grasshopper so it was easier to make similar parts.
-                                </Text>
-
-                                <br />
-
-                                <Text fontSize="xl">
-                                    I adjusted the length of the <b>stem</b> for different chess pieces and refined the shape using <Code colorScheme='yellow'>Curve</ Code> and <Code colorScheme='yellow'>CurveBoolean</Code>
                                 </Text>
                             </Box>
                         </Box>
 
-                        <Box w="125px" h="20px" display="inline=block" overflow="hidden"></Box>
+                        <Box w={{ base: '100%', lg: '125px' }} h="20px" display="inline-block" overflow="hidden"></Box>
 
                         <Section delay={0.4}>
-
-                            <Box
-                                flexShrink={0}
-                                textAlign="center">
+                            <Box flexShrink={0} textAlign="center">
                                 <Center>
                                     <Box
-                                        w="775px"
-                                        h="375px"
+                                        w={{ base: '100%', sm: '80%', md: '70%', lg: '750px' }}
+                                        h={{ base: 'auto', lg: '300px' }}
                                         display="inline-block"
                                         overflow="hidden"
                                     >
-                                        <ImageCarousel images={carousel_2} height="375px" />
-                                    </ Box>
+                                        <ImageCarousel images={carousel_2} aspectRatio="20/8" />
+                                    </Box>
                                 </Center>
                             </Box>
                         </Section>
                     </Box>
+
+                    <br />
+                    <Text fontSize="xl">
+                        I adjusted the length of the <b>stem</b> for different chess pieces and refined the shape using <Code colorScheme='yellow'>Curve</Code> and <Code colorScheme='yellow'>CurveBoolean</Code>.
+                    </Text>
 
 
                     <br/>
@@ -331,46 +317,38 @@ const Work = () => {
 
                     <br />
 
-                    <Box display={{ lg: 'flex' }}>
+                    <Box display={{ base: 'block', lg: 'flex' }}>
                         <Box flexGrow={1} display="inline-block" overflow="hidden">
                             <Box display="inline-block" overflow="hidden">
                                 <br />
                                 <br />
-
                                 <Text fontSize="xl">
-                                    After making my Grasshopper adjustments, I cut out my final pieces and assembled the chess box itself. 
+                                    After making my Grasshopper adjustments, I cut out my final pieces and assembled the chess box itself.
                                 </Text>
-
                                 <br />
-
                                 <Text fontSize="xl">
                                     To be fair... the fit was not as seamless as I had hoped (most likely due to the varying cardboard types I used again). However, I was out of cardboard to make any additional pieces and decided to make this box work as best as I could.
                                 </Text>
-
                                 <br />
-
                                 <Text fontSize="xl">
-                                    I also added some finishing touches and colored half of the chess pieces with a grey marker. 
+                                    I also added some finishing touches and colored half of the chess pieces with a grey marker.
                                 </Text>
                             </Box>
                         </Box>
 
-                        <Box w="125px" h="20px" display="inline=block" overflow="hidden"></Box>
+                        <Box w={{ base: '100%', lg: '125px' }} h="20px" display="inline-block" overflow="hidden"></Box>
 
                         <Section delay={0.4}>
-
-                            <Box
-                                flexShrink={0}
-                                textAlign="center">
+                            <Box flexShrink={0} textAlign="center">
                                 <Center>
                                     <Box
-                                        w="600px"
-                                        h="400px"
+                                        w={{ base: '100%', sm: '80%', md: '70%', lg: '600px' }}
+                                        h={{ base: 'auto', lg: '400px' }}
                                         display="inline-block"
                                         overflow="hidden"
                                     >
-                                        <ImageCarousel images={carousel_3} height="400px" />
-                                    </ Box>
+                                        <ImageCarousel images={carousel_3} aspectRatio="3/2" />
+                                    </Box>
                                 </Center>
                             </Box>
                         </Section>

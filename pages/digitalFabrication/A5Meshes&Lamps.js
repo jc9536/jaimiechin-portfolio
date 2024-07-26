@@ -121,12 +121,12 @@ const Work = () => {
                         <Box flexShrink={0} textAlign="center">
                             <Center>
                                 <Box
-                                    w={{ base: '100%', sm: '80%', md: '70%', lg: '650px' }}
-                                    h={{ base: 'auto', lg: '650px' }}
+                                    w={{ base: '100%', sm: '80%', md: '70%', lg: '450px' }}
+                                    h={{ base: 'auto', lg: '360xpx' }}
                                     display="inline-block"
                                     overflow="hidden"
                                 >
-                                    <ImageCarousel images={carousel_1} aspectRatio="1:1" />
+                                    <ImageCarousel images={carousel_1} aspectRatio="5/4" />
                                 </Box>
                             </Center>
                         </Box>
@@ -209,12 +209,12 @@ const Work = () => {
                             <Box flexShrink={0} textAlign="center">
                                 <Center>
                                     <Box
-                                        w={{ base: '100%', sm: '80%', md: '70%', lg: '600px' }}
-                                        h={{ base: 'auto', lg: '400px' }}
+                                        w={{ base: '100%', sm: '80%', md: '70%', lg: '400px' }}
+                                        h={{ base: 'auto', lg: '300px' }}
                                         display="inline-block"
                                         overflow="hidden"
                                     >
-                                        <ImageCarousel images={carousel_2} aspectRatio="3/2" />
+                                        <ImageCarousel images={carousel_2} aspectRatio="4/3" />
                                     </Box>
                                 </Center>
                             </Box>

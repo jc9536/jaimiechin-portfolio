@@ -45,6 +45,8 @@ const StepsComponent = ({ steps, variant }) => {
 function HorizontalStepper({ steps, activeStep, colorModeValue, handleNextStep, handlePrevStep }) {
     const fontSize = useBreakpointValue({ base: 'sm', md: 'md', lg: 'lg' });
     const padding = useBreakpointValue({ base: 1, md: 2 });
+    const separatorColorActive = useColorModeValue('yellow.500', 'yellow.200');
+    const separatorColorNotActive = useColorModeValue('gray.200', '#464445');
 
     return (
         <>
@@ -76,7 +78,7 @@ function HorizontalStepper({ steps, activeStep, colorModeValue, handleNextStep, 
                                         transform: 'translateY(-50%)',
                                         width: '20px',
                                         height: '2px',
-                                        backgroundColor: index < activeStep ? 'yellow.500' : 'gray.200',
+                                        backgroundColor: index < activeStep ? separatorColorActive : separatorColorNotActive,
                                     }}
                                 />
                             )}
@@ -112,6 +114,8 @@ function HorizontalStepper({ steps, activeStep, colorModeValue, handleNextStep, 
 function VerticalStepper({ steps, activeStep, colorModeValue, handleNextStep, handlePrevStep }) {
     const fontSize = useBreakpointValue({ base: 'sm', md: 'md', lg: 'lg' });
     const padding = useBreakpointValue({ base: 2, md: 4 });
+    const separatorColorActive = useColorModeValue('yellow.500', 'yellow.200');
+    const separatorColorNotActive = useColorModeValue('gray.200', '#464445');
 
     return (
         <Flex alignItems="flex-start">
@@ -169,7 +173,7 @@ function VerticalStepper({ steps, activeStep, colorModeValue, handleNextStep, ha
                                     transform: 'translateX(-50%)',
                                     height: '16px',
                                     width: '2px',
-                                    backgroundColor: index < activeStep ? 'yellow.500' : 'gray.200',
+                                    backgroundColor: index < activeStep ? separatorColorActive : separatorColorNotActive,
                                 }}
                             />
                         )}

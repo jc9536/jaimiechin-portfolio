@@ -241,41 +241,33 @@ const Work = () => {
                     <br />
 
                     
-                    <Box display={{ lg: 'flex' }}>
-                        <Box
-                            flexShrink={0}
-                            textAlign="center">
+                    <Box display={{ base: 'block', lg: 'flex' }}>
+                        <Box flexShrink={0} textAlign="center">
                             <Center>
                                 <Box
-                                    w="550px"
-                                    h="375px"
+                                    w={{ base: '100%', sm: '80%', md: '70%', lg: '500px' }}
+                                    h={{ base: 'auto', lg: '375px' }}
                                     display="inline-block"
                                     overflow="hidden"
                                 >
-                                    <ImageCarousel images={carousel_1} height="375px"/>
-                                </ Box>
+                                    <ImageCarousel images={carousel_1} aspectRatio="4/3" />
+                                </Box>
                             </Center>
                         </Box>
 
-                        <Box w="125px" h="20px" display="inline=block" overflow="hidden"></Box>
+                        <Box w={{ base: '100%', lg: '125px' }} h="20px" display="inline-block" overflow="hidden"></Box>
 
                         <Section delay={0.4}>
-
                             <Box flexGrow={1} display="inline-block" overflow="hidden">
                                 <Box display="inline-block" overflow="hidden">
-
                                     <Text fontSize="xl">
                                         After prepping my material (old Amazon boxes and recycling boxes) and taking note of the sizes of my material, I went to <b>The Mill</b>!
                                     </Text>
-
                                     <br />
-
                                     <Text fontSize="xl">
                                         Since I was using different types of cardboard for recycling, it was important for me to print my test pieces and try different settings for each type of cardboard.
                                     </Text>
-
                                     <br />
-
                                     <Text fontSize="xl">
                                         I ended up using <u><b>25% speed</b>, <b>100% power</b>, and <b>50% frequency</b> for my Amazon boxes</u> and <u><b>20% speed</b>, <b>100% power</b>, and <b>75% frequency</b></u> for my other cardboard material since it was sturdier.
                                     </Text>
@@ -283,7 +275,6 @@ const Work = () => {
                             </Box>
                         </Section>
                     </Box>
-
                     <br />
                     <br />
 
@@ -390,52 +381,21 @@ const Work = () => {
                     <br />
                     <br />
 
+                    <Text fontSize="xl">
+                        Surprisingly, it <b>survived the shake test</b>!
+                    </Text>
 
-                    <Box display={{ lg: 'flex' }}>
-                        <Box
-                            flexShrink={0}
-                            textAlign="center">
-                            <Center>
-                                <Box
-                                    w="650px"
-                                    h="370px"
-                                    display="inline-block"
-                                    overflow="hidden"
-                                    borderRadius="3xl"
-                                >
-                                    <AspectRatio maxW="100%" minH="370" ratio={16 / 9}>
-                                        <iframe style={{ border: "1px" }} width="100%" src="/images/533_Assignment_1/shakeTest.mp4" allowFullScreen></iframe>
-                                    </AspectRatio>
-                                </ Box>
-                            </Center>
-                        </Box>
+                    <br />
 
-                        <Box w="125px" h="20px" display="inline=block" overflow="hidden"></Box>
+                    <Text fontSize="xl">
+                        However, I am sure that some of the panels are less secure and will fall out if I handle it carelessly.
+                    </Text>
 
-                        <Section delay={0.4}>
+                    <br />
 
-                            <Box flexGrow={1} display="inline-block" overflow="hidden">
-                                <Box display="inline-block" overflow="hidden">
-
-                                    <Text fontSize="xl">
-                                        Surprisingly, it <b>survived the shake test</b>!
-                                    </Text>
-
-                                    <br />
-
-                                    <Text fontSize="xl">
-                                        However, I am sure that some of the panels are less secure and will fall out if I handle it carelessly.
-                                    </Text>
-
-                                    <br />
-
-                                    <Text fontSize="xl">
-                                        Overall, I am happy with what I was able to accomplish! I was able to function the laser machine with no issues and learned a lot of the importance of measuring and planning projects for the future. The only problem I still have is the smell of singed cardboard unfortunately!
-                                    </Text>
-                                </Box>
-                            </Box>
-                        </Section>
-                    </Box>
+                    <Text fontSize="xl">
+                        Overall, I am happy with what I was able to accomplish! I was able to function the laser machine with no issues and learned a lot of the importance of measuring and planning projects for the future. The only problem I still have is the smell of singed cardboard unfortunately!
+                    </Text>
 
                     <br />
                     <br />

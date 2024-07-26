@@ -112,39 +112,32 @@ const Work = () => {
                     <br />
                     <br />
 
-                    <Box display={{ lg: 'flex' }}>
-                        <Box
-                            flexShrink={0}
-                            textAlign="center">
+                    <Box display={{ base: 'block', lg: 'flex' }}>
+                        <Box flexShrink={0} textAlign="center">
                             <Center>
                                 <Box
-                                    w="650px"
-                                    h="425px"
+                                    w={{ base: '100%', sm: '80%', md: '70%', lg: '656px' }}
+                                    h={{ base: 'auto', lg: '410px' }}
                                     display="inline-block"
                                     overflow="hidden"
                                 >
-                                    <ImageCarousel images={carousel_1} height="425px" />
-                                </ Box>
+                                    <ImageCarousel images={carousel_1} aspectRatio="16/10" />
+                                </Box>
                             </Center>
                         </Box>
 
-                        <Box w="125px" h="20px" display="inline=block" overflow="hidden"></Box>
+                        <Box w={{ base: '100%', lg: '125px' }} h="20px" display="inline-block" overflow="hidden"></Box>
 
                         <Section delay={0.4}>
-
                             <Box flexGrow={1} display="inline-block" overflow="hidden">
                                 <Box display="inline-block" overflow="hidden">
-
                                     <Text fontSize="xl">
                                         I decided to design and print out a tolerance test first. I planned on making my panel thickness <b>10mm</b> (I learned that the thinner the material, the less tolerance there is), and designed a simple test by increasing the gap by 0.05mm. I also planned on making a sliding top, so I knew I needed a larger gap for lid.
                                     </Text>
-
                                     <br />
-
                                     <Text fontSize="xl">
                                         From my tolerance test, I found that a tight fit for my panels would be <b>0.05mm - 0.10mm</b> tolerance. A looser, but snug fit for my sliding lid would be <b>0.10mm - 0.15mm</b>. I was also aware that my machine tends to print with a <b>-0.20mm error rate</b>, which I needed to account for in my design.
                                     </Text>
-
                                 </Box>
                             </Box>
                         </Section>
@@ -182,48 +175,43 @@ const Work = () => {
                     <br />
                     <br />
 
-                    <Box display={{ lg: 'flex' }}>
+                    <Box display={{ base: 'block', lg: 'flex' }}>
                         <Box flexGrow={1} display="inline-block" overflow="hidden">
                             <Box display="inline-block" overflow="hidden">
-
                                 <Text fontSize="xl">
-                                    As I mentioned earlier, I started by modelling the side panels and making the sides fit into one another first before working on the bottom panels. I must admit, I did cheat a little bit and used <b>Autodesk Fusion 360</b> instead of Rhino, just to try a different program an see if I liked it better <b>*spoiler*</b> I think Fusion 360 is superior (˵ ¬ᴗ¬˵)
+                                    As I mentioned earlier, I started by modelling the side panels and making the sides fit into one another first before working on the bottom panels. I must admit, I did cheat a little bit and used <b>Autodesk Fusion 360</b> instead of Rhino, just to try a different program and see if I liked it better <b>*spoiler*</b> I think Fusion 360 is superior (˵ ¬ᴗ¬˵)
                                 </Text>
-
                                 <br />
-
                                 <Text fontSize="xl">
                                     When modelling, I wrote down the sizes of my tabs and gaps (which is <b>SO</b> much easier to figure out in Fusion 360), so I could use/adjust them later for the lid and bottom panel.
+                                </Text>
+                                <br />
+                                <Text fontSize="xl">
+                                    I decided to print out one of each short panel and long panel to see if those pieces fit before moving on and designing the bottom panel and finally the lid. This way, I can also use my calipers to confirm the error rate of my tolerance tabs to make a better fit.
                                 </Text>
                             </Box>
                         </Box>
 
-                        <Box w="125px" h="20px" display="inline=block" overflow="hidden"></Box>
+                        <Box w={{ base: '100%', lg: '125px' }} h="20px" display="inline-block" overflow="hidden"></Box>
 
                         <Section delay={0.4}>
-
-                            <Box
-                                flexShrink={0}
-                                textAlign="center">
+                            <Box flexShrink={0} textAlign="center">
                                 <Center>
                                     <Box
-                                        w="775px"
-                                        h="450px"
+                                        w={{ base: '100%', sm: '80%', md: '70%', lg: '560px' }}
+                                        h={{ base: 'auto', lg: '420px' }}
                                         display="inline-block"
                                         overflow="hidden"
                                     >
-                                        <ImageCarousel images={carousel_2} height="450px" />
-                                    </ Box>
+                                        <ImageCarousel images={carousel_2} aspectRatio="4/3" />
+                                    </Box>
                                 </Center>
                             </Box>
                         </Section>
-                </Box>
+                    </Box>
 
 
-                <br />
-                <Text fontSize="xl">
-                    I decided to print out one of each short panel and long panel to see if those pieces fit before moving on and designing the bottom panel and finally the lid. This way, I can also use my calipers to confirm the error rate of my tolerance tabs to make a better fit.  
-                </Text>
+                
                 
                 <br />
                 

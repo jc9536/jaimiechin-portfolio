@@ -169,11 +169,9 @@ const Work = () => {
                     </Heading>
                     <br />
                     <br />
-                    <Box display={{ lg: 'flex' }}>
+                    <Box display={{ base: 'block', lg: 'flex' }}>
                         <Box flexGrow={1} display="inline-block" overflow="hidden">
                             <Box display="inline-block" overflow="hidden">
-                                <br />
-                                <br />
                                 <br />
                                 <Text fontSize="xl">
                                     <b>Concept&#58;</b> Wind chime set
@@ -184,24 +182,22 @@ const Work = () => {
                                 </Text>
                                 <br />
                                 <Text fontSize="xl">
-                                    <b>Context&#58;</b> Each components utilizes a different technique from the class
+                                    <b>Context&#58;</b> Each component utilizes a different technique from the class
                                 </Text>
                             </Box>
                         </Box>
-                        <Box w="125px" h="20px" display="inline=block" overflow="hidden"></Box>
+                        <Box w={{ base: '100%', lg: '125px' }} h="20px" display="inline-block" overflow="hidden"></Box>
                         <Section delay={0.4}>
-                            <Box
-                                flexShrink={0}
-                                textAlign="center">
+                            <Box flexShrink={0} textAlign="center">
                                 <Center>
                                     <Box
-                                        w="950px"
-                                        h="525px"
+                                        w={{ base: '100%', sm: '80%', md: '70%', lg: '888px' }}
+                                        h={{ base: 'auto', lg: '555px' }}
                                         display="inline-block"
                                         overflow="hidden"
                                     >
-                                        <ImageCarousel images={sketch} height="525px" />
-                                    </ Box>
+                                        <ImageCarousel images={sketch} aspectRatio="16/10" />
+                                    </Box>
                                 </Center>
                             </Box>
                         </Section>
