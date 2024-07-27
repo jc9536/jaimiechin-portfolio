@@ -25,20 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/digitalFabrication": [
+    "/digitalFabrication/A4SubtractiveManufacturing": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/digitalFabrication.js"
-    ],
-    "/digitalFabrication/A1ModellingLaserCutting": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/digitalFabrication/A1ModellingLaserCutting.js"
-    ],
-    "/digitalFabrication/A8FinalProject": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/digitalFabrication/A8FinalProject.js"
+      "static/chunks/pages/digitalFabrication/A4SubtractiveManufacturing.js"
     ]
   },
   "ampFirstPages": []

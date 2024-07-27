@@ -2,7 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/digitalFabrication": "pages/digitalFabrication.js",
-  "/digitalFabrication/A1ModellingLaserCutting": "pages/digitalFabrication/A1ModellingLaserCutting.js",
-  "/digitalFabrication/A8FinalProject": "pages/digitalFabrication/A8FinalProject.js"
+  "/digitalFabrication/A4SubtractiveManufacturing": "pages/digitalFabrication/A4SubtractiveManufacturing.js"
 }

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box, Image, Flex, IconButton } from '@chakra-ui/react';
+import { Box, Image, Flex, IconButton, useColorModeValue } from '@chakra-ui/react';
 import { TiArrowRightThick, TiArrowLeftThick } from "react-icons/ti";
 
 const ImageCarousel = ({ images, aspectRatio }) => {
@@ -32,7 +32,7 @@ const ImageCarousel = ({ images, aspectRatio }) => {
                 top="50%"
                 transform="translateY(-50%)"
                 aria-label="Previous"
-                colorScheme='gray'
+                colorScheme={useColorModeValue('yellow', 'orange')}
                 icon={<TiArrowLeftThick fontSize="1.75rem" />}
                 variant="ghost"
             />
@@ -43,7 +43,7 @@ const ImageCarousel = ({ images, aspectRatio }) => {
                 top="50%"
                 transform="translateY(-50%)"
                 aria-label="Next"
-                colorScheme='gray'
+                colorScheme={useColorModeValue('yellow', 'orange')}
                 icon={<TiArrowRightThick fontSize="1.75rem" />}
                 variant="ghost"
             />
