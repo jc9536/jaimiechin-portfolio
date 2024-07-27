@@ -152,6 +152,8 @@ const Work = () => {
                         </Section>
                     </Box>
 
+                    <br />
+
                     <Flex align="center">
                         <Spacer />
                         <Meta>OBJ File</Meta>

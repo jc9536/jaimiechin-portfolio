@@ -3,6 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/digitalFabrication": "pages/digitalFabrication.js",
-  "/digitalFabrication/A8FinalProject": "pages/digitalFabrication/A8FinalProject.js",
-  "/digitalFabrication/A7FinalProjectProposal": "pages/digitalFabrication/A7FinalProjectProposal.js"
+  "/digitalFabrication/A1ModellingLaserCutting": "pages/digitalFabrication/A1ModellingLaserCutting.js",
+  "/digitalFabrication/A8FinalProject": "pages/digitalFabrication/A8FinalProject.js"
 }

@@ -62,7 +62,7 @@ const Work = () => {
                     <br />
                     <br />
 
-                    <Box display={{ lg: 'flex' }}>
+                    <Box display={{ base: 'block', lg: 'flex' }}>
                         <Box flexGrow={1} display="inline-block" overflow="hidden">
                             <Box display="inline-block" overflow="hidden">
                                 <br />
@@ -70,32 +70,26 @@ const Work = () => {
                                 <Text fontSize="xl">
                                     From <Link href="https://www.jaimiechin.com/digitalFabrication/A7FinalProjectProposal" isExternal={true}>Assignment 7</Link>, I wanted to make a Wind Chime set. The idea behind this was to fabricate a set of components that can be assembled to form different variations of a wind chime.
                                 </Text>
-
                                 <br />
-
                                 <Text fontSize="xl">
                                     After some thinking, I decided to focus on fabricating the larger components (Lotus Flower and Fish), and source the smaller beads and tubes for the sake of time.
                                 </Text>
-
                             </Box>
                         </Box>
 
-                        <Box w="125px" h="20px" display="inline=block" overflow="hidden"></Box>
+                        <Box w={{ base: '100%', lg: '125px' }} h="20px" display="inline-block" overflow="hidden"></Box>
 
                         <Section delay={0.4}>
-
-                            <Box
-                                flexShrink={0}
-                                textAlign="center">
+                            <Box flexShrink={0} textAlign="center">
                                 <Center>
                                     <Box
-                                        w={{ base: '100%', md: '900px' }}
-                                        h={{ base: '250px', md: '500px' }}
+                                        w={{ base: '100%', sm: '80%', md: '70%', lg: '800px' }}
+                                        h={{ base: 'auto', lg: '500px' }}
                                         display="inline-block"
                                         overflow="hidden"
                                     >
-                                        <ImageCarousel images={sketch} height={{ base: '250px', md: '500px' }} />
-                                    </ Box>
+                                        <ImageCarousel images={sketch} aspectRatio="16/10" />
+                                    </Box>
                                 </Center>
                             </Box>
                         </Section>
@@ -109,45 +103,36 @@ const Work = () => {
                     <br />
                     <br />
 
-                    <Box display={{ lg: 'flex' }}>
-                        <Box
-                            flexShrink={0}
-                            textAlign="center">
+                    <Box display={{ base: 'block', lg: 'flex' }}>
+                        <Box flexShrink={0} textAlign="center">
                             <Center>
                                 <Box
-                                    w={{ base: '100%', md: '675px' }}
-                                    h={{ base: '300px', md: '425px' }}
+                                    w={{ base: '100%', sm: '80%', md: '70%', lg: '650px' }}
+                                    h={{ base: 'auto', lg: '440px' }}
                                     display="inline-block"
                                     overflow="hidden"
                                 >
-                                    <ImageCarousel images={carousel_1} height={{ base: '300px', md: '425px' }} />
-                                </ Box>
+                                    <ImageCarousel images={carousel_1} aspectRatio="3/2" />
+                                </Box>
                             </Center>
                         </Box>
 
-                        <Box w="125px" h="20px" display="inline=block" overflow="hidden"></Box>
+                        <Box w={{ base: '100%', lg: '125px' }} h="20px" display="inline-block" overflow="hidden"></Box>
 
                         <Section delay={0.4}>
-
                             <Box flexGrow={1} display="inline-block" overflow="hidden">
                                 <Box display="inline-block" overflow="hidden">
-
                                     <Text fontSize="xl">
-                                        I made a model of my fish sketch in Fusion360. This was relatively straight forward process and I knew that I needed to leave a hole at the top to thread through the component.
+                                        I made a model of my fish sketch in Fusion360. This was a relatively straightforward process and I knew that I needed to leave a hole at the top to thread through the component.
                                     </Text>
-
                                     <br />
-
                                     <Text fontSize="xl">
-                                        What was difficult for the fish component, was the creation of the mold (that I ended up not using) since the inside the the fish is hollow. So technically I made a half mold and an internal half mold. I ended up not using this mold just because it printed so well in different materials (Copper PLA).
+                                        What was difficult for the fish component was the creation of the mold (that I ended up not using) since the inside of the fish is hollow. So technically I made a half mold and an internal half mold. I ended up not using this mold just because it printed so well in different materials (Copper PLA).
                                     </Text>
-
                                     <br />
-
                                     <Text fontSize="xl">
                                         I ended up printing a smaller version of the mold and decided to make keychains out of the smaller casts.
                                     </Text>
-
                                 </Box>
                             </Box>
                         </Section>
@@ -208,13 +193,13 @@ const Work = () => {
                                 textAlign="center">
                                 <Center>
                                     <Box
-                                        w={{ base: '100%', md: '775px' }}
-                                        h={{ base: '300px', md: '450px' }}
+                                        w={{ base: '100%', sm: '80%', md: '70%', lg: '768px' }}
+                                        h={{ base: 'auto', lg: '432px' }}
                                         display="inline-block"
                                         overflow="hidden"
                                     >
-                                        <ImageCarousel images={carousel_2} height={{ base: '300px', md: '450px' }} />
-                                    </ Box>
+                                        <ImageCarousel images={carousel_2} aspectRatio="16/9" />
+                                    </Box>
                                 </Center>
                             </Box>
                         </Section>
@@ -281,13 +266,13 @@ const Work = () => {
                                 textAlign="center">
                                 <Center>
                                     <Box
-                                        w={{ base: '100%', md: '650px' }}
-                                        h={{ base: '300px', md: '450px' }}
+                                        w={{ base: '100%', sm: '80%', md: '70%', lg: '640px' }}
+                                        h={{ base: 'auto', lg: '480px' }}
                                         display="inline-block"
                                         overflow="hidden"
                                     >
-                                        <ImageCarousel images={carousel_3} height={{ base: '300px', md: '450px' }} />
-                                    </ Box>
+                                        <ImageCarousel images={carousel_3} aspectRatio="4/3" />
+                                    </Box>
                                 </Center>
                             </Box>
                         </Section>
@@ -314,13 +299,13 @@ const Work = () => {
                             textAlign="center">
                             <Center>
                                 <Box
-                                    w={{ base: '100%', md: '525px' }}
-                                    h={{ base: '300px', md: '600px' }}
+                                    w={{ base: '100%', sm: '80%', md: '70%', lg: '500px' }}
+                                    h={{ base: 'auto', lg: '400px' }}
                                     display="inline-block"
                                     overflow="hidden"
                                 >
-                                    <ImageCarousel images={carousel_4} height={{ base: '300px', md: '600px' }} />
-                                </ Box>
+                                    <ImageCarousel images={carousel_4} aspectRatio="5/4" />
+                                </Box>
                             </Center>
                         </Box>
 
@@ -388,13 +373,13 @@ const Work = () => {
                                 textAlign="center">
                                 <Center>
                                     <Box
-                                        w={{ base: '100%', md: '700px' }}
-                                        h={{ base: '300px', md: '450px' }}
+                                        w={{ base: '100%', sm: '80%', md: '70%', lg: '702px' }}
+                                        h={{ base: 'auto', lg: '468px' }}
                                         display="inline-block"
                                         overflow="hidden"
                                     >
-                                        <ImageCarousel images={carousel_5} height={{ base: '300px', md: '450px' }} />
-                                    </ Box>
+                                        <ImageCarousel images={carousel_5} aspectRatio="3/2" />
+                                    </Box>
                                 </Center>
                             </Box>
                         </Section>
@@ -439,13 +424,13 @@ const Work = () => {
                             textAlign="center">
                             <Center>
                                 <Box
-                                    w={{ base: '100%', md: '600px' }}
-                                    h={{ base: '400px', md: '800px' }}
+                                    w={{ base: '100%', sm: '80%', md: '70%', lg: '321px' }}
+                                    h={{ base: 'auto', lg: '428px' }}
                                     display="inline-block"
                                     overflow="hidden"
                                 >
-                                    <ImageCarousel images={final} height={{ base: '400px', md: '800px' }} />
-                                </ Box>
+                                    <ImageCarousel images={final} aspectRatio="3/4" />
+                                </Box>
                             </Center>
                         </Box>
 

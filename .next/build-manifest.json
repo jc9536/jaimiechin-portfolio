@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/digitalFabrication.js"
     ],
-    "/digitalFabrication/A7FinalProjectProposal": [
+    "/digitalFabrication/A1ModellingLaserCutting": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/digitalFabrication/A7FinalProjectProposal.js"
+      "static/chunks/pages/digitalFabrication/A1ModellingLaserCutting.js"
     ],
     "/digitalFabrication/A8FinalProject": [
       "static/chunks/webpack.js",
