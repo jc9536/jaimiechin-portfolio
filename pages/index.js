@@ -15,22 +15,18 @@ import NoSsr from '../components/no-ssr.js'
 import JaimieCharacter from '../components/jaimie-character'
 import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
-import { WorkGridItemUX } from '../components/ux-grid-item'
+import { WorkGridItemUX, WorkGridItemPaper, WorkGridItemDS } from '../components/gridItemComponent'
 import thumbEmoTune from '../public/images/EmoTune/thumbnail.jpg'
 import dubsThumb from '../public/images/DigiDubs/thumbnail.jpg'
-import { WorkGridItem } from '../components/ds-grid-item'
 import titanicThumb from '../public/images/accuracyFairnessProject/titanicThumbnail.jpg'
-import { WorkGridItemPaper } from '../components/paper-grid-item'
 import ictThumb from '../public/images/ICTPaper/ICTThumbnail.jpg'
 import siblingThumb from '../public/images/SiblingPaper/SiblingThumbnail.jpg'
 import coralThumb from '../public/images/coralPredict/coralThumbnail.jpg'
 
 
 const Page = () => {
-    
     return (
         <Layout>
-
             <Container maxW="container.xl" centerContent>
                 <br />
                 <br />
@@ -54,7 +50,6 @@ const Page = () => {
                 </Box>
 
                 <br />
-
 
                 <Box display={{ md: 'flex' }}>
                     <Box flexGrow={1}>
@@ -82,10 +77,8 @@ const Page = () => {
                     </Box>
                 </Box>
 
-
                 <Section delay={0.5}>
-
-                    <Box display={{ md: 'flex' }} maxW="3xl">
+                    <Box display={{ lg: 'flex' }} maxW="3xl">
                         <Box flexGrow={1}>
                             <Heading as="h3" variant="section-title">
                                 UX Work
@@ -95,23 +88,18 @@ const Page = () => {
                     </Box>
                     <br />
                     <SimpleGrid columns={[1, 1, 2]} gap={5}>
-
                         <Container maxW="lg">
-                            <WorkGridItemUX id="DigiDubs" title="Digi-Dubs" thumbnail={dubsThumb}>
+                            <WorkGridItemUX id="DigiDubs" title="Digi-Dubs" thumbnail={dubsThumb} innerShadowColor='rgba(167, 142, 215, 0.25)' dropShadowColor='rgba(167, 142, 215, 0.60)'>
                                 An app to foster a greater sense of community at the University of Washington
                             </WorkGridItemUX>
                         </Container>
-
                         <Container maxW="lg">
-                            <WorkGridItemUX id="EmoTune" title="EmoTune" thumbnail={thumbEmoTune}>
+                            <WorkGridItemUX id="EmoTune" title="EmoTune" thumbnail={thumbEmoTune} innerShadowColor='rgba(229, 182, 142, 0.25)' dropShadowColor='rgba(229, 182, 142, 0.60)'>
                                 A web product demo to teach children about AI bias with their voices
                             </WorkGridItemUX>
                         </Container>
-
                     </SimpleGrid>
-
                     <br />
-
                     <Box align="center" my={4}>
                         <NextLink href="/uxWorks">
                             <Button rightIcon={<ChevronRightIcon />} colorScheme="yellow">
@@ -120,10 +108,8 @@ const Page = () => {
                         </NextLink>
                     </Box>
                 </Section>
-
-                    <br />
-                    <br />
-
+                <br />
+                <br />
                 <Section delay={0.6}>
                     <Box display={{ md: 'flex' }} maxW="3xl">
                         <Box flexGrow={1}>
@@ -134,24 +120,19 @@ const Page = () => {
                         </Box>
                     </Box>
                     <br />
-                    <SimpleGrid columns={[1, 1, 2]} gap={5}>
-
+                    <SimpleGrid columns={[1, 1, 2]} gap={2}>
                         <Container maxW="lg">
-                            <WorkGridItem id="coralPredict" title="Machine Learning: Predicting Coral Reef Bleaching Events" thumbnail={coralThumb}>
+                            <WorkGridItemDS id="coralPredict" title="Machine Learning: Predicting Coral Reef Bleaching Events" thumbnail={coralThumb} innerShadowColor='rgba(204, 188, 167, 0.25)' dropShadowColor='rgba(204, 188, 167, 0.65)'>
                                 Training a Stacked Regressor (random forests, gradient boosting, neural networks) to improve coral bleaching prediction accuracy
-                            </WorkGridItem>
+                            </WorkGridItemDS>
                         </Container>
-
                         <Container maxW="lg">
-                            <WorkGridItem id="accFairness" title="Accuracy & Fairness Analysis of an Automated Decision System" thumbnail={titanicThumb}>
+                            <WorkGridItemDS id="accFairness" title="Accuracy & Fairness Analysis of an Automated Decision System" thumbnail={titanicThumb} innerShadowColor='rgba(204, 188, 167, 0.25)' dropShadowColor='rgba(204, 188, 167, 0.65)'>
                                 An analysis of the trade-off between accuracy and fairness in a machine learning classifier (automated decision system)
-                            </WorkGridItem>
+                            </WorkGridItemDS>
                         </Container>
-
                     </SimpleGrid>
-
                     <br />
-
                     <Box align="center" my={4}>
                         <NextLink href="/dataScienceWorks">
                             <Button rightIcon={<ChevronRightIcon />} colorScheme="yellow">
@@ -160,39 +141,31 @@ const Page = () => {
                         </NextLink>
                     </Box>
                 </Section>
-
                 <br />
                 <br />
-                    
                 <Section delay={0.7}>
-
                     <Box display={{ md: 'flex' }} maxW="3xl">
                         <Box flexGrow={1}>
                             <Heading as="h3" variant="section-title">
-                                Psychology Research Papers 
+                                Psychology Research Papers
                             </Heading>
                             <br />
                         </Box>
                     </Box>
                     <br />
                     <SimpleGrid columns={[1, 1, 2]} gap={5}>
-
                         <Container maxW="lg">
-                            <WorkGridItemPaper id="ICT" title="Student Experiences with ICT Learning Environments" thumbnail={ictThumb}>
+                            <WorkGridItemPaper id="ICT" title="Student Experiences with ICT Learning Environments" thumbnail={ictThumb} innerShadowColor='rgba(204, 188, 167, 0.25)' dropShadowColor='rgba(204, 188, 167, 0.65)'>
                                 A qualitative research paper exploring how adolescents experience information and communication technology (ICT) in post-pandemic classrooms
                             </WorkGridItemPaper>
                         </Container>
-
                         <Container maxW="lg">
-                            <WorkGridItemPaper id="Siblings" title="Perspective Analysis of Sibling Relationships" thumbnail={siblingThumb}>
+                            <WorkGridItemPaper id="Siblings" title="Perspective Analysis of Sibling Relationships" thumbnail={siblingThumb} innerShadowColor='rgba(204, 188, 167, 0.25)' dropShadowColor='rgba(204, 188, 167, 0.65)'>
                                 An analysis of a semi-structured interview featuring sibling relationships and its influence on how adolescents navigate cultural pressures and expectations
                             </WorkGridItemPaper>
                         </Container>
-
                     </SimpleGrid>
-
                     <br />
-
                     <Box align="center" my={4}>
                         <NextLink href="/PsychPapers">
                             <Button rightIcon={<ChevronRightIcon />} colorScheme="yellow">
@@ -202,7 +175,6 @@ const Page = () => {
                     </Box>
                 </Section>
                 <br />
-
             </Container>
         </Layout>
     )

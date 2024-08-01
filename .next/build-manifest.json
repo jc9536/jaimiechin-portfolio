@@ -34,11 +34,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/uxWorks.js"
-    ],
-    "/uxWorks/Leilo": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/uxWorks/Leilo.js"
     ]
   },
   "ampFirstPages": []

@@ -1,7 +1,7 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { WorkGridItem533 } from '../components/533-grid-item'
+import { WorkGridItem533 } from '../components/gridItemComponent'
 import assign_1 from '../public/images/533_Assignment_1/thumbnail.jpg'
 import assign_2 from '../public/images/533_Assignment_2/thumbnail.jpg'
 import assign_3 from '../public/images/533_Assignment_3/thumbnail.jpg'
