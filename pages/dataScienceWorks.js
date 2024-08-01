@@ -2,8 +2,8 @@ import { Container, Heading, SimpleGrid, } from '@chakra-ui/react'
 import Section from '../components/section'
 import Layout from '../components/layouts/article'
 import { WorkGridItem } from '../components/ds-grid-item'
-import titanicThumb from '../public/images/accuracyFairnessProject/titanicThumbnail.png'
-import coralThumb from '../public/images/coralPredict/coralThumbnail.png'
+import titanicThumb from '../public/images/accuracyFairnessProject/titanicThumbnail.jpg'
+import coralThumb from '../public/images/coralPredict/coralThumbnail.jpg'
 
 const Works = () => {
     return (

@@ -2,5 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/digitalFabrication/A4SubtractiveManufacturing": "pages/digitalFabrication/A4SubtractiveManufacturing.js"
+  "/uxWorks": "pages/uxWorks.js",
+  "/uxWorks/Leilo": "pages/uxWorks/Leilo.js",
+  "/": "pages/index.js"
 }

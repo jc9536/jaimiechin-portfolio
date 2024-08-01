@@ -5,10 +5,10 @@ import {Global} from '@emotion/react'
 
 export const GridItem = ({children, href, title, thumbnail}) => (
     <Box w="100%" align="center">
-        <LinkBox cursor="pointer">
+        <LinkBox cursor="pointer" className="grid-item-container">
             <Image src={thumbnail}
                 alt={title}
-                className="grid0item-thumbnail"
+                className="grid-item-thumbnail"
                 placeholder="blur"
                 loading="lazy" />
 
@@ -23,12 +23,12 @@ export const GridItem = ({children, href, title, thumbnail}) => (
 export const WorkGridItem533= ({children, id, title, thumbnail }) => (
     <Box w="100%" align="center">
         <NextLink href={`/digitalFabrication/${id}`}>
-            <LinkBox cursor="pointer">
-                <Image 
-                    src={thumbnail} 
+            <LinkBox cursor="pointer" className="grid-item-container">
+                <Image
+                    src={thumbnail}
                     alt={title}
                     className="grid-item-thumbnail"
-                    placeholder="blur"/>
+                    placeholder="blur" />
 
                     <Text as='b' mt={4} fontSize={32}>
 
@@ -47,12 +47,21 @@ export const WorkGridItem533= ({children, id, title, thumbnail }) => (
     </Box>
 )
 
-export const GridItemStyle =() => (
-    <Global
-        styles={`
-            .grid-item-thumbnail {
-                border-radius: 12px;
-            }  
-        `}
-    />
-)
+export const GridItemStyle = () => {
+    const { colorMode } = useColorMode()
+    const dropShadowColor = colorMode === 'light' ? '#CCBCA7' : '#190933'
+
+    return (
+        <Global
+            styles={`
+                .grid-item-thumbnail {
+                    border-radius: 48px;
+                }
+                .grid-item-container {
+                    border-radius: 48px;
+                    filter: drop-shadow(0 4px 8px ${dropShadowColor});
+                }
+            `}
+        />
+    )
+}

@@ -2,11 +2,11 @@ import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItemUX } from '../components/ux-grid-item'
 import Layout from '../components/layouts/article'
-import thumbSheepy from '../public/images/sheepyCaseStudy/sheepyThumbnail.png'
-import starbucksThumb from '../public/images/StarbucksRedesign/thumbnail.png'
-import dubsThumb from '../public/images/DigiDubs/thumbnail.png'
-import thumbEmoTune from '../public/images/EmoTune/thumbnail.png'
-import thumbLeilo from '../public/images/Leilo/thumbnail.png'
+import thumbSheepy from '../public/images/sheepyCaseStudy/sheepyThumbnail.jpg'
+import starbucksThumb from '../public/images/StarbucksRedesign/thumbnail.jpg'
+import dubsThumb from '../public/images/DigiDubs/thumbnail.jpg'
+import thumbEmoTune from '../public/images/EmoTune/thumbnail.jpg'
+import thumbLeilo from '../public/images/Leilo/thumbnail.jpg'
 const Works = () => {
     
     return (

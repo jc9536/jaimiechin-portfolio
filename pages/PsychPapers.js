@@ -2,8 +2,8 @@ import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItemPaper } from '../components/paper-grid-item'
 import Layout from '../components/layouts/article'
-import ictThumb from '../public/images/ICTPaper/ICTThumbnail.png'
-import siblingThumb from '../public/images/SiblingPaper/SiblingThumbnail.png'
+import ictThumb from '../public/images/ICTPaper/ICTThumbnail.jpg'
+import siblingThumb from '../public/images/SiblingPaper/SiblingThumbnail.jpg'
 const Works = () => {
     
     return (
